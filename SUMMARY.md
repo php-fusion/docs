@@ -10,15 +10,15 @@
 
 * [Untitled](addons-development/untitled.md)
 
-## PHP-Fusion Explained
+## PHP-Fusion Explained <a id="phpfusion-explained"></a>
 
-* [Untitled](php-fusion-explained/untitled.md)
+* [Untitled](phpfusion-explained/untitled.md)
 
-## PHP-Fusion 9 Documentation
+## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
-* [Untitled](php-fusion-9-documentation/untitled.md)
+* [Untitled](phpfusion-9-documentation/untitled.md)
 
-## PHP-Fusion 8 Documentation
+## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
 
-* [Untitled](php-fusion-8-documentation/untitled.md)
+* [Untitled](phpfusion-8-documentation/untitled.md)
 
