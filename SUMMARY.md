@@ -2,7 +2,23 @@
 
 * [Initial page](README.md)
 
-## Public Functions
+## PHPFusion Development
 
-* [Untitled](public-functions/untitled.md)
+* [Untitled](phpfusion-development/untitled.md)
+
+## Addons Development
+
+* [Untitled](addons-development/untitled.md)
+
+## PHP-Fusion Explained
+
+* [Untitled](php-fusion-explained/untitled.md)
+
+## PHP-Fusion 9 Documentation
+
+* [Untitled](php-fusion-9-documentation/untitled.md)
+
+## PHP-Fusion 8 Documentation
+
+* [Untitled](php-fusion-8-documentation/untitled.md)
 
