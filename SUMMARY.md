@@ -17,6 +17,7 @@
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
 * [addslash](phpfusion-9-documentation/untitled.md)
+* [hooks](phpfusion-9-documentation/hooks.md)
 
 ## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
 
