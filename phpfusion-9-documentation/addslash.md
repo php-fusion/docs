@@ -25,7 +25,6 @@ A use case of **addslashes\(\)** is escaping the aforementioned characters in a 
 <?php
 $str = "O'Reilly?";
 echo addslash($str); // O\'Reilly?
-
 ?>
 ```
 
