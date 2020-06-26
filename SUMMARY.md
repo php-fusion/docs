@@ -22,7 +22,9 @@
 * [Fusion Defender](phpfusion-9-documentation/security-and-sanitization/README.md)
   * [addslash](phpfusion-9-documentation/security-and-sanitization/addslash.md)
 * [Fusion Steam UI](phpfusion-9-documentation/fusion-steam-ui/README.md)
-  * [Boilerplates Framework](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework.md)
+  * [Boilerplates Framework](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/README.md)
+    * [Bootstrap 4](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/bootstrap-4.md)
+    * [Bootstrap 3](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/bootstrap-3.md)
   * [Twig](phpfusion-9-documentation/fusion-steam-ui/twig.md)
 * [hooks](phpfusion-9-documentation/hooks.md)
 
