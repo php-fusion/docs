@@ -19,7 +19,7 @@
 
 * [Fusion Dynamics](phpfusion-9-documentation/dynamics/README.md)
   * [form\_fileinput](phpfusion-9-documentation/dynamics/form_fileinput.md)
-* [Security and Sanitization](phpfusion-9-documentation/security-and-sanitization/README.md)
+* [Fusion Defender](phpfusion-9-documentation/security-and-sanitization/README.md)
   * [addslash](phpfusion-9-documentation/security-and-sanitization/addslash.md)
 * [hooks](phpfusion-9-documentation/hooks.md)
 
