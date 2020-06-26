@@ -17,6 +17,8 @@
 
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
+* [Fusion Dynamics](phpfusion-9-documentation/untitled/README.md)
+  * [form\_fileinput](phpfusion-9-documentation/untitled/form_fileinput.md)
 * [addslash](phpfusion-9-documentation/addslash.md)
 * [hooks](phpfusion-9-documentation/hooks.md)
 
@@ -25,7 +27,4 @@
 * [Untitled](phpfusion-8-documentation/untitled.md)
 
 ## Fusion Dynamics UI
-
-* [Untitled](fusion-dynamics-ui/untitled/README.md)
-  * [form\_fileinput](fusion-dynamics-ui/untitled/form_fileinput.md)
 
