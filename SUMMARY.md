@@ -26,5 +26,3 @@
 
 * [Untitled](phpfusion-8-documentation/untitled.md)
 
-## Fusion Dynamics UI
-
