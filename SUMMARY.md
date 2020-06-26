@@ -17,6 +17,7 @@
 
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
+* [form\_fileinput](phpfusion-9-documentation/form_fileinput.md)
 * [addslash](phpfusion-9-documentation/addslash.md)
 * [hooks](phpfusion-9-documentation/hooks.md)
 
