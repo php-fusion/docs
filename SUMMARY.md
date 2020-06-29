@@ -26,6 +26,7 @@
     * [Bootstrap 4](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/bootstrap-4.md)
     * [Bootstrap 3](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/bootstrap-3.md)
   * [Twig](phpfusion-9-documentation/fusion-steam-ui/twig.md)
+* [Localization \(I18N\)](phpfusion-9-documentation/localization-i18n.md)
 * [hooks](phpfusion-9-documentation/hooks.md)
 
 ## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
