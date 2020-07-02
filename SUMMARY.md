@@ -20,6 +20,7 @@
 * [Fusion Dynamics](phpfusion-9-documentation/dynamics/README.md)
   * [form\_fileinput](phpfusion-9-documentation/dynamics/form_fileinput.md)
 * [Fusion Defender](phpfusion-9-documentation/security-and-sanitization/README.md)
+  * [fusion\_stop](phpfusion-9-documentation/security-and-sanitization/fusion_stop.md)
   * [addslash](phpfusion-9-documentation/security-and-sanitization/addslash.md)
 * [Fusion Steam UI](phpfusion-9-documentation/fusion-steam-ui/README.md)
   * [Boilerplates Framework](phpfusion-9-documentation/fusion-steam-ui/boilerplates-framework/README.md)
