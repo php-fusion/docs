@@ -19,7 +19,12 @@
 
 * [Hooks](phpfusion-9-documentation/hooks.md)
 * [Codex](phpfusion-9-documentation/codex/README.md)
-  * [Systems](phpfusion-9-documentation/codex/systems.md)
+  * [Systems](phpfusion-9-documentation/codex/systems/README.md)
+    * [fusion\_get\_settings](phpfusion-9-documentation/codex/systems/fusion_get_settings.md)
+    * [fusion\_get\_userdata](phpfusion-9-documentation/codex/systems/fusion_get_userdata.md)
+    * [fusion\_get\_user](phpfusion-9-documentation/codex/systems/fusion_get_user.md)
+    * [fusion\_get\_username](phpfusion-9-documentation/codex/systems/fusion_get_username.md)
+    * [fusion\_get\_aidlink](phpfusion-9-documentation/codex/systems/fusion_get_aidlink.md)
   * [Localization \(I18N\)](phpfusion-9-documentation/codex/localization-i18n/README.md)
     * [fusion\_get\_locale](phpfusion-9-documentation/codex/localization-i18n/fusion_get_locale.md)
     * [format\_word](phpfusion-9-documentation/codex/localization-i18n/format_word.md)
