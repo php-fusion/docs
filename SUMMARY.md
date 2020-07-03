@@ -18,6 +18,9 @@
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
 * [Hooks](phpfusion-9-documentation/hooks.md)
+* [User Fields](phpfusion-9-documentation/user-fields.md)
+* [Infusions](phpfusion-9-documentation/infusions.md)
+* [Themes](phpfusion-9-documentation/themes.md)
 * [Codex](phpfusion-9-documentation/codex/README.md)
   * [Systems](phpfusion-9-documentation/codex/systems/README.md)
     * [fusion\_get\_settings](phpfusion-9-documentation/codex/systems/fusion_get_settings.md)
