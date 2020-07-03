@@ -2,17 +2,18 @@
 
 * [Documentation](README.md)
 
-## PHPFusion Development
-
-* [Coding Standards](phpfusion-development/coding-standards.md)
-* [Starting a static page](phpfusion-development/starting-a-static-page.md)
-* [Infusion SDK](phpfusion-development/infusion-sdk.md)
-
 ## Addons Development
 
 * [Untitled](addons-development/untitled.md)
 
 ## PHP-Fusion Explained <a id="phpfusion-explained"></a>
+
+## PHPFusion Development
+
+* [Coding Standards](phpfusion-development/coding-standards.md)
+* [Starting a static page](phpfusion-development/starting-a-static-page.md)
+* [Theme SDK](phpfusion-development/theme-sdk.md)
+* [Infusion SDK](phpfusion-development/infusion-sdk.md)
 
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
