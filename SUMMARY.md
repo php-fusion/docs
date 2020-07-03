@@ -19,6 +19,7 @@
 
 * [Hooks](phpfusion-9-documentation/hooks.md)
 * [Codex](phpfusion-9-documentation/codex/README.md)
+  * [Systems](phpfusion-9-documentation/codex/systems.md)
   * [Localization \(I18N\)](phpfusion-9-documentation/codex/localization-i18n/README.md)
     * [fusion\_get\_locale](phpfusion-9-documentation/codex/localization-i18n/fusion_get_locale.md)
     * [format\_word](phpfusion-9-documentation/codex/localization-i18n/format_word.md)
