@@ -6,6 +6,7 @@
 
 * [Coding Standards](phpfusion-development/coding-standards.md)
 * [Starting a static page](phpfusion-development/starting-a-static-page.md)
+* [Infusion SDK](phpfusion-development/infusion-sdk.md)
 
 ## Addons Development
 
