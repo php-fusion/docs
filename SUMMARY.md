@@ -19,9 +19,6 @@
 
 * [Hooks](phpfusion-9-documentation/hooks/README.md)
   * [Output Handling](phpfusion-9-documentation/hooks/output-handling.md)
-* [User Fields](phpfusion-9-documentation/user-fields.md)
-* [Infusions](phpfusion-9-documentation/infusions.md)
-* [Themes](phpfusion-9-documentation/themes.md)
 * [Database Connectors](phpfusion-9-documentation/database-connectors.md)
 * [Localization \(I18N\)](phpfusion-9-documentation/localization-i18n/README.md)
   * [Systems](phpfusion-9-documentation/localization-i18n/systems/README.md)
