@@ -43,6 +43,17 @@
   * [Plugins](phpfusion-9-documentation/dynamics/plugins/README.md)
     * [jQuery Mask Plugin](phpfusion-9-documentation/dynamics/plugins/jquery-mask-plugin-1.md)
   * [form\_fileinput](phpfusion-9-documentation/dynamics/form_fileinput.md)
+  * [form\_text](phpfusion-9-documentation/dynamics/form_text.md)
+  * [form\_select](phpfusion-9-documentation/dynamics/form_select.md)
+  * [form\_checkbox](phpfusion-9-documentation/dynamics/form_checkbox.md)
+  * [form\_user\_select](phpfusion-9-documentation/dynamics/form_user_select.md)
+  * [form\_datepicker](phpfusion-9-documentation/dynamics/form_datepicker.md)
+  * [form\_textarea](phpfusion-9-documentation/dynamics/form_textarea.md)
+  * [form\_button](phpfusion-9-documentation/dynamics/form_button.md)
+  * [form\_location](phpfusion-9-documentation/dynamics/form_location.md)
+  * [form\_hidden](phpfusion-9-documentation/dynamics/form_hidden.md)
+  * [form\_geo](phpfusion-9-documentation/dynamics/form_geo.md)
+  * [form\_colorpicker](phpfusion-9-documentation/dynamics/form_colorpicker.md)
 
 ## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
 
