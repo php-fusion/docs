@@ -23,6 +23,7 @@
 * [Themes](phpfusion-9-documentation/themes.md)
 * [Codex](phpfusion-9-documentation/codex/README.md)
   * [Database Connectors](phpfusion-9-documentation/codex/database-connectors.md)
+  * [Output Handling](phpfusion-9-documentation/codex/output-handling.md)
   * [Systems](phpfusion-9-documentation/codex/systems/README.md)
     * [fusion\_get\_settings](phpfusion-9-documentation/codex/systems/fusion_get_settings.md)
     * [fusion\_get\_userdata](phpfusion-9-documentation/codex/systems/fusion_get_userdata.md)
