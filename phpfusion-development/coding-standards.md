@@ -143,13 +143,14 @@ $inf_droptable[1] = DB_SHOUTBOX;
 Here, DB\_SHOUTBOX is the constant which holds the Table name in the Database, which is to be droped.  
 $inf\_droptable\[1\] represents that it is the 1st table you want to Drop. So, if you want to Drop  
 more tables, then you have to create more variables like:  
-$inf\_droptable\[2\] = some\_table\_name;  
-$inf\_droptable\[3\] = some\_table\_name;  
+  
+`$inf_droptable[2] = some_table_name;  
+$inf_droptable[3] = some_table_name;`  
+  
 and so on…
 
 **Inserting Rows in Tables**  
-
-
+  
 If you want to insert any Rows into some tables at the time Infusion is being infused, you can  
 do it easily. It can be specified as: \(Example\)  
 $inf\_insertdbrow\[1\] = DB\_TABLE." \(field1, field2, field3\) VALUES\('some value','some value', 'some value'\)";  
@@ -171,7 +172,6 @@ field1 is some value
 Adding Admin Page Link & Access Rights of Infusion
 ```
 
-  
 If you want to insert an Admin page link to the admin panel, you can do it as: \(Example\)  
 **Code**
 
@@ -263,46 +263,38 @@ These functions are provided in an include file which is includes/infusions\_inc
 
 Quote
 
-> filename\_exists\($dir, $file\)
+> **`filename_exists`**`($dir, $file)`
 
   
 This function returns a unique filename to be made in a directory. It returns a string of the name of the file.
 
 Quote
 
-> set\_setting\($setting\_name, $setting\_value, $setting\_inf\)
+> **`set_setting`**`($setting_name, $setting_value, $setting_inf)`
 
   
 This function allows you to easily set a value for a setting or insert a setting into the SETTINGS\_INF table used by your infusion. It returns BOOLEAN.  
-For example: set\_setting\("allow\_upload", "yes", "my\_infusion"\);
+For example: `set_setting("allow_upload", "yes", "my_infusion");`
 
-Quote
-
-> get\_settings\($setting\_inf\)
+**`get_settings`**`($setting_inf)`
 
   
 This function allows you to easily fetch settings of your infusion from the SETTINGS\_INF table in  
 form of an array. It returns the array of settings. For example: $inf\_settings = get\_settings\("my\_infusion"\);  
 echo $inf\_settings\[‘some\_setting\_name’\]; // It gives you the setting value
 
-Quote
-
-> send\_pm\($to, $from, $subject, $message, $smileys = "y"\)
+> **`send_pm`**`($to, $from, $subject, $message, $smileys = "y")`
 
   
 This function allows you to easily send PM to a User in the site. It returns int. If it returns 0, PM is successfully sent, otherwise failed.  
 For example: $msg = send\_pm\(5, 1, "Subject", "Message content", "y"\);
 
-Quote
-
-> upload\_file\( $source\_file, $target\_file = "", $target\_folder = DOWNLOADS, $valid\_ext =".zip,.rar,.tar,.bz2,.7z", $max\_size = "15000", $query = ""\)
+> **`upload_file`**`( $source_file, $target_file = "", $target_folder = DOWNLOADS, $valid_ext =".zip,.rar,.tar,.bz2,.7z", $max_size = "15000", $query = "")`
 
   
 This function allows you to easily upload a file into the site. It returns array of File information.
 
-Quote
-
-> upload\_image\($source\_image, $target\_name = "", $target\_folder = IMAGES, $target\_width ="1800", $target\_height = "1600",$max\_size = "150000", $delete\_original = false, $thumb1 =true, $thumb2 = true, $thumb1\_ratio = 0, $thumb1\_folder = IMAGES, $thumb1\_suffix ="\_t1", $thumb1\_width = "100", $thumb1\_height = "100",$thumb2\_ratio = 0, $thumb2\_folder= IMAGES, $thumb2\_suffix = "\_t2", thumb2\_width = "400", $thumb2\_height = "300",$query= ""\)
+> **`upload_image`**`($source_image, $target_name = "", $target_folder = IMAGES, $target_width ="1800", $target_height = "1600",$max_size = "150000", $delete_original = false, $thumb1 =true, $thumb2 = true, $thumb1_ratio = 0, $thumb1_folder = IMAGES, $thumb1_suffix ="_t1", $thumb1_width = "100", $thumb1_height = "100",$thumb2_ratio = 0, $thumb2_folder= IMAGES, $thumb2_suffix = "_t2", thumb2_width = "400", $thumb2_height = "300",$query= "")`
 
   
 This function allows you to easily upload an image file into the site. It returns array of image  
@@ -310,7 +302,7 @@ File information.
 
 Quote
 
-> download\_file\($file\)
+> **`download_file`**`($file)`
 
   
 This function allows you to start Downloading the file from the site, just like how it outputs Download, when a user downloads a file from the downloads section.
@@ -329,7 +321,7 @@ You must include the corresponding files & call the functions for the API to wor
 
 Quote
 
-> showcomments\($ctype, $cdb, $ccol, $cid, $clink\)
+> **`showcomments`**`($ctype, $cdb, $ccol, $cid, $clink)`
 
   
 · $ctype – Comment Type\(A Short code for your infusion, say SB for ShoutBox. Max. of 2 characters\)  
@@ -340,7 +332,7 @@ Quote
 
 Quote
 
-> showratings\($rating\_type, $rating\_item\_id, $rating\_link\)
+> **`showratings`**`($rating_type, $rating_item_id, $rating_link)`
 
   
 · $rating\_type – Rating Type\(A Short code for your infusion, say SB for ShoutBox. Max. of 1 character\)  
@@ -348,26 +340,20 @@ Quote
 · $rating\_link – The Link, to which it should redirect after rating is made.
 
 **Localization Conventions**  
-
-
+  
 The Localization should be done in the familiar manner of PHP-Fusion, which makes it easy for a Developer as well as a Translator, to edit and alter them when required.  
-
-
+  
 **Locales for Infusion related information**  
-
-
+  
 For the infusion related information like $inf\_title & $inf\_description, you may use locale familiar locales like $locale\[‘inf\_title’\] & $locale\[‘inf\_desc’\], where you will replace inf with familiar short code for your Infusion.  
 For Example: For ShoutBox infusion, we use the short code as SB. Thus the locales are: $locale\[‘SB\_title’\] & $locale\[‘SB\_desc’\]  
-
-
-**Naming of other Locales**  
-
+  
+**Naming of other Locales**
 
 The Locales should be named on basis of their usage. It makes them familiar and easy for use.  
 For Example: If we are using locales, one for user\_name & other for password field, then we  
 should use the locales like: $locale\[‘INF\_username’\] & $locale\[‘INF\_password’\]  
-Although, there is no harm in using numbered locales like $locale\[‘INF\_001’\] etc but it makes it more familiar.  
-
+Although, there is no harm in using numbered locales like $locale\[‘INF\_001’\] etc but it makes it more familiar.
 
 **Credits**  
 The first coding standards document for PHP-Fusion was originally created by PMM, Craig & Ankur in PDF format.
