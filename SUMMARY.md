@@ -5,14 +5,13 @@
 ## PHPFusion Development
 
 * [Coding Standards](phpfusion-development/coding-standards.md)
+* [Starting a static page](phpfusion-development/starting-a-static-page.md)
 
 ## Addons Development
 
 * [Untitled](addons-development/untitled.md)
 
 ## PHP-Fusion Explained <a id="phpfusion-explained"></a>
-
-* [Starting a static page](phpfusion-explained/starting-a-static-page.md)
 
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
