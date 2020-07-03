@@ -2,7 +2,7 @@
 description: Active hooks that is used in PHPFusion
 ---
 
-# hooks
+# Hooks
 
 `(Version 7)` `(Version 8)` `(Version 9)`
 
