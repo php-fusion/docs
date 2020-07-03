@@ -13,6 +13,7 @@
 
 ## PHP-Fusion Explained <a id="phpfusion-explained"></a>
 
+* [Starting a static page](phpfusion-explained/starting-a-static-page.md)
 * [Untitled](phpfusion-explained/untitled.md)
 
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
