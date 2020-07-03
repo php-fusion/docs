@@ -18,6 +18,7 @@
 ## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
 
 * [Fusion Dynamics](phpfusion-9-documentation/dynamics/README.md)
+  * [Plugins](phpfusion-9-documentation/dynamics/plugins.md)
   * [form\_fileinput](phpfusion-9-documentation/dynamics/form_fileinput.md)
 * [Fusion Defender](phpfusion-9-documentation/security-and-sanitization/README.md)
   * [fusion\_stop](phpfusion-9-documentation/security-and-sanitization/fusion_stop.md)
@@ -34,4 +35,8 @@
 ## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
 
 * [Untitled](phpfusion-8-documentation/untitled.md)
+
+---
+
+* [Untitled](untitled.md)
 
