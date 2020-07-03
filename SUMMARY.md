@@ -4,8 +4,7 @@
 
 ## PHPFusion Development
 
-* [PHPFusion Development](phpfusion-development/phpfusion-development/README.md)
-  * [Coding Standards](phpfusion-development/phpfusion-development/coding-standards.md)
+* [Coding Standards](phpfusion-development/coding-standards.md)
 
 ## Addons Development
 
