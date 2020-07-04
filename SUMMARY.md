@@ -10,13 +10,6 @@
   * [Coding Standards](phpfusion-development/getting-started/coding-standards.md)
   * [Local development](phpfusion-development/getting-started/local-development-guides/README.md)
     * [Self Signed SSL Certificate](phpfusion-development/getting-started/local-development-guides/self-signed-ssl-certificate.md)
-* [Starting a static page](phpfusion-development/starting-a-static-page.md)
-* [Theme SDK](phpfusion-development/theme-sdk.md)
-* [Infusion SDK](phpfusion-development/infusion-sdk.md)
-* [User Fields SDK](phpfusion-development/user-fields-sdk.md)
-* [BBCode SDK](phpfusion-development/bbcode-sdk.md)
-* [Hooks SDK](phpfusion-development/hooks/README.md)
-  * [Output Handling](phpfusion-development/hooks/output-handling.md)
 * [PHPFusion Codex](phpfusion-development/phpfusion-codex/README.md)
   * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
   * [Fusion Dynamics](phpfusion-development/phpfusion-codex/dynamics/README.md)
@@ -53,6 +46,13 @@
     * [fusion\_get\_locale](phpfusion-development/phpfusion-codex/localization-i18n/fusion_get_locale.md)
     * [format\_word](phpfusion-development/phpfusion-codex/localization-i18n/format_word.md)
     * [format\_sentence](phpfusion-development/phpfusion-codex/localization-i18n/format_sentence.md)
+* [Starting a static page](phpfusion-development/starting-a-static-page.md)
+* [Theme SDK](phpfusion-development/theme-sdk.md)
+* [Infusion SDK](phpfusion-development/infusion-sdk.md)
+* [User Fields SDK](phpfusion-development/user-fields-sdk.md)
+* [BBCode SDK](phpfusion-development/bbcode-sdk.md)
+* [Hooks SDK](phpfusion-development/hooks/README.md)
+  * [Output Handling](phpfusion-development/hooks/output-handling.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
