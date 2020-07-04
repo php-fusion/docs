@@ -18,6 +18,7 @@
 * [Hooks SDK](phpfusion-development/hooks/README.md)
   * [Output Handling](phpfusion-development/hooks/output-handling.md)
 * [PHPFusion Codex](phpfusion-development/phpfusion-codex/README.md)
+  * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
   * [Fusion Dynamics](phpfusion-development/phpfusion-codex/dynamics/README.md)
     * [Plugins](phpfusion-development/phpfusion-codex/dynamics/plugins/README.md)
       * [jQuery Mask Plugin](phpfusion-development/phpfusion-codex/dynamics/plugins/jquery-mask-plugin-1.md)
@@ -52,7 +53,6 @@
     * [fusion\_get\_locale](phpfusion-development/phpfusion-codex/localization-i18n/fusion_get_locale.md)
     * [format\_word](phpfusion-development/phpfusion-codex/localization-i18n/format_word.md)
     * [format\_sentence](phpfusion-development/phpfusion-codex/localization-i18n/format_sentence.md)
-  * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
