@@ -2,10 +2,6 @@
 
 * [Documentation](README.md)
 
-## Addons Development
-
-* [Untitled](addons-development/untitled.md)
-
 ## PHP-Fusion Explained <a id="phpfusion-explained"></a>
 
 ## PHPFusion Development
