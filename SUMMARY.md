@@ -58,9 +58,9 @@
     * [format\_sentence](phpfusion-development/phpfusion-codex/localization-i18n/format_sentence.md)
   * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
 
-## PHP-Fusion 9 Documentation <a id="phpfusion-9-documentation"></a>
+## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
-## PHP-Fusion 8 Documentation <a id="phpfusion-8-documentation"></a>
+## PHP-Fusion 8 Manual <a id="phpfusion-8-documentation"></a>
 
 * [Untitled](phpfusion-8-documentation/untitled.md)
 
