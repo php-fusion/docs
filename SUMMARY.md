@@ -17,6 +17,8 @@
 * [Starting a static page](phpfusion-development/starting-a-static-page.md)
 * [Theme SDK](phpfusion-development/theme-sdk.md)
 * [Infusion SDK](phpfusion-development/infusion-sdk.md)
+* [User Fields SDK](phpfusion-development/user-fields-sdk.md)
+* [BBCode SDK](phpfusion-development/bbcode-sdk.md)
 * [Hooks SDK](phpfusion-development/hooks/README.md)
   * [Output Handling](phpfusion-development/hooks/output-handling.md)
 * [PHPFusion Codex](phpfusion-development/phpfusion-codex/README.md)
