@@ -10,6 +10,8 @@
 
 ## PHPFusion Development
 
+* [Local development guides](phpfusion-development/local-development-guides/README.md)
+  * [Self Signed SSL Certificate](phpfusion-development/local-development-guides/self-signed-ssl-certificate.md)
 * [Coding Standards](phpfusion-development/coding-standards.md)
 * [Starting a static page](phpfusion-development/starting-a-static-page.md)
 * [Theme SDK](phpfusion-development/theme-sdk.md)
