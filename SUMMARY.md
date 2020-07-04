@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documentation](README.md)
+* [Welcome](README.md)
 
 ## PHP-Fusion Explained <a id="phpfusion-explained"></a>
 
