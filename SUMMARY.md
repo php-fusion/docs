@@ -10,7 +10,7 @@
   * [Coding Standards](phpfusion-development/getting-started/coding-standards.md)
   * [Local development](phpfusion-development/getting-started/local-development-guides/README.md)
     * [Self Signed SSL Certificate](phpfusion-development/getting-started/local-development-guides/self-signed-ssl-certificate.md)
-* [PHPFusion Codex](phpfusion-development/phpfusion-codex/README.md)
+* [Codex](phpfusion-development/phpfusion-codex/README.md)
   * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
   * [Fusion Dynamics](phpfusion-development/phpfusion-codex/dynamics/README.md)
     * [Plugins](phpfusion-development/phpfusion-codex/dynamics/plugins/README.md)
