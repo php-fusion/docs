@@ -48,6 +48,7 @@
     * [format\_sentence](phpfusion-development/phpfusion-codex/localization-i18n/format_sentence.md)
 * [Starting a static page](phpfusion-development/starting-a-static-page.md)
 * [Theme SDK](phpfusion-development/theme-sdk.md)
+* [Twig](phpfusion-development/twig.md)
 * [Infusion SDK](phpfusion-development/infusion-sdk.md)
 * [User Fields SDK](phpfusion-development/user-fields-sdk.md)
 * [BBCode SDK](phpfusion-development/bbcode-sdk.md)
