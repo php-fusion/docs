@@ -50,19 +50,13 @@
 * [Theme SDK](phpfusion-development/theme-sdk.md)
 * [Infusion SDK](phpfusion-development/infusion-sdk.md)
 * [User Fields SDK](phpfusion-development/user-fields-sdk.md)
-* [Jquery plugins](phpfusion-development/jquery-plugins/README.md)
-  * [Clipboard.js](phpfusion-development/jquery-plugins/clipboard.js.md)
 * [BBCode SDK](phpfusion-development/bbcode-sdk.md)
 * [Hooks SDK](phpfusion-development/hooks/README.md)
   * [Output Handling](phpfusion-development/hooks/output-handling.md)
+* [Jquery plugins](phpfusion-development/jquery-plugins/README.md)
+  * [Clipboard.js](phpfusion-development/jquery-plugins/clipboard.js.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
 ## PHP-Fusion 8 Manual <a id="phpfusion-8-documentation"></a>
-
-* [Untitled](phpfusion-8-documentation/untitled.md)
-
----
-
-* [Untitled](untitled.md)
 
