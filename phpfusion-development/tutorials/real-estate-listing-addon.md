@@ -25,10 +25,15 @@ First, we will need a name for our project. I'll have the liberty of naming this
 
 ```text
 /property/
-- /admin/index.php
-- /admin/listing.php
-- /locale/index.php
-- /locale/English.php
+- /admin/
+----- index.php
+----- listing.php
+- /locale/
+----- index.php
+----- English.php
+- /templates/
+----- index.php
+----- public.php
 - view.php
 - infusion.php
 - infusion_db.php
@@ -39,7 +44,8 @@ First, we will need a name for our project. I'll have the liberty of naming this
 By placing `index.php` files in every folder, you will be disabling anyone from viewing your files directly via the browser. This is a very important thing that you must remember to do every time you create a folder. Please make it a habit!
 {% endhint %}
 
-  
+### Database Structure
+
 Since the property listing will need to be stored somewhere, we will be using the primary MYSQL database as a medium for information data storage. Let's decide our table name and structure as following:
 
 {% tabs %}
@@ -70,4 +76,10 @@ Since the property listing will need to be stored somewhere, we will be using th
 {% hint style="info" %}
 You can click on the tab for the corresponding formats that can be used to build the table. I will not explain the SDK in general. Please read the [Infusion SDK](../infusion-sdk.md) for more information on the API.
 {% endhint %}
+
+### Administrative View
+
+
+
+### Guest and Member View
 
