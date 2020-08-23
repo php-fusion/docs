@@ -174,7 +174,7 @@ This file defines the **CONSTANTS** in the system and **set the system locale.**
 {% endtab %}
 
 {% tab title="Locale file" %}
-{% code title="English.php" %}
+{% code title="/locale/English.php" %}
 ```php
 $locale["PROP_0100"] = "Property Estate";
 $locale["PROP_0101"] = "Property Estate Listing Tutorial";
@@ -189,6 +189,7 @@ Now we will proceed to build the administrative interface. The following files a
 
 {% tabs %}
 {% tab title="/admin/listing.php" %}
+{% code title="/admin/listing.php" %}
 ```php
 <?php
 require_once __DIR__."/../maincore.php";
@@ -212,12 +213,16 @@ function property_form() {
 
 require_once THEMES."templates/footer.php";
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="/locale/English.php" %}
-```text
-
+{% code title="/locale/English.php" %}
+```php
+$locale["PROP_0100"] = "Property Estate";
+$locale["PROP_0101"] = "Property Estate Listing Tutorial";
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
