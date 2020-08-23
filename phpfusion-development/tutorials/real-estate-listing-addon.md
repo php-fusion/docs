@@ -153,17 +153,16 @@ set_property_locale();
 
 // Function to add property locale file into system cache
 function set_property_locale() {
-    // we begin with english
-    $locale = PROPERTY_LOCALE."English.php";
-    // find if current user language file is available.
-    if (file_exists(PROPERTY_LOCALE.LOCALESET.".php")) {
-        $locale = PROPETY_LOCALE.LOCALESET.".php";
-    }
-    // define a constant
-    if (!defined("PROPERTY_LOCALE")) {
-        define("PROPERTY_LOCALE", $locale);
-    } 
-    
+   if (!defined("PROPERTY_LOCALE")) {
+        // we begin with english
+        $locale = PROPERTY_LOCALE."English.php";
+        // find if current user language file is available.
+        if (file_exists(PROPERTY_LOCALE.LOCALESET.".php")) {
+           $locale = PROPETY_LOCALE.LOCALESET.".php";
+        }
+        // define a constant
+         define("PROPERTY_LOCALE", $locale);
+    }    
     // add all variables of the file into the system locale
     fusion_get_locale("", array(PROPERTY_LOCALE));   
 }
