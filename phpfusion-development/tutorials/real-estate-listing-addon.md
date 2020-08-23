@@ -114,6 +114,17 @@ $inf[DB_PROPERTY] = array(
     "property_access"      => array("type" => "SMALLINT", "length" => 10),
 );
 
+// Adds and remove administrative link
+$inf_adminpanel[] = array(
+    "title"  => $inf_title,
+    "image"  => $inf_image,
+    "panel"  => "admin/listing.php",
+    "rights" => $inf_rights
+);
+
+// Drop table when uninstalling
+$inf_droptable[] = DB_PROPERTY;
+
 ```
 {% endcode %}
 
@@ -174,7 +185,7 @@ $locale["PROP_0101"] = "Property Estate Listing Tutorial";
 
 ### Administrative View
 
-The following files are used to build the listing, and the form to manage the property listing.
+Now we will proceed to build the administrative interface. The following files are used to build the listing, and the form section for administrative users to manage the property listing in our addon package.
 
 {% tabs %}
 {% tab title="/admin/listing.php" %}
@@ -184,7 +195,7 @@ require_once __DIR__."/../maincore.php";
 require_once THEMES."templates/header.php";
 
 // List UI
-function listing() {
+function property_listing() {
     $locale = fusion_get_locale();
     
 }
@@ -194,7 +205,7 @@ function get_property_data($id = 0) {
 }
 
 // Form UI
-function form() {
+function property_form() {
     $locale = fusion_get_locale();
 }
 
