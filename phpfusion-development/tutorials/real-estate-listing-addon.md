@@ -77,13 +77,95 @@ Since the property listing will need to be stored somewhere, we will be using th
 You can click on the tab for the corresponding formats that can be used to build the table. I will not explain the SDK in general. Please read the [Infusion SDK](../infusion-sdk.md) for more information on the API.
 {% endhint %}
 
+### Adding Infusion Package
+
+{% tabs %}
+{% tab title="Installer API" %}
+{% code title="infusion.php" %}
+```php
+<?php
+(defined("IN_FUSION")||exit);
+
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Package Definitions" %}
+{% code title="infusion\_db.php" %}
+```php
+<?php
+(defined("IN_FUSION")||exit);
+
+// Define folder path constant
+const PROPERTY = INFUSIONS."property/";
+
+// Defines language folder path constant
+const PROPERTY_LOCALESET = PROPERTY."locale/";
+
+// Defines The MYSQL table name constant
+const DB_PROPERTY = DB_PREFIX."property";
+
+set_property_locale();
+
+// Function to add property locale file into system cache
+function set_property_locale() {
+    // we begin with english
+    $locale = PROPERTY_LOCALE."English.php";
+    // find if current user language file is available.
+    if (file_exists(PROPERTY_LOCALE.LOCALESET.".php")) {
+        $locale = PROPETY_LOCALE.LOCALESET.".php";
+    }
+    // define a constant
+    if (!defined("PROPERTY_LOCALE")) {
+        define("PROPERTY_LOCALE", $locale);
+    } 
+    
+    // add all variables of the file into the system locale
+    fusion_get_locale("", array(PROPERTY_LOCALE));   
+}
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
 ### Administrative View
 
-**Filename: /admin/listing.php**
+The following files are used to build the listing, and the form to manage the property listing.
 
+{% tabs %}
+{% tab title="/admin/listing.php" %}
+```php
+<?php
+require_once __DIR__."/../maincore.php";
+require_once THEMES."templates/header.php";
+
+// List UI
+function listing() {
+    $locale = fusion_get_locale();
+    
+}
+
+// Property data
+function get_property_data($id = 0) {
+}
+
+// Form UI
+function form() {
+    $locale = fusion_get_locale();
+}
+
+
+require_once THEMES."templates/footer.php";
+```
+{% endtab %}
+
+{% tab title="/locale/English.php" %}
 ```text
 
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Guest and Member View
 
