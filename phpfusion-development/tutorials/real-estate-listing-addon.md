@@ -77,7 +77,13 @@ Refer to the **Adding infusion package: Installer API** section below for the fi
 You can click on the tab for the corresponding formats that can be used to build the table. I will not explain the SDK in general. Please read the [Infusion SDK](../infusion-sdk.md) for more information on the API.
 {% endhint %}
 
-### Adding Infusion Package
+### Defining Infusion Package
+
+We'll begin by defining all the system variables and information defining the package that we will use in the rest of the addon project files in `infusion_db.php`
+
+{% hint style="warning" %}
+All `infusion_db.php` file in every folder within /infusions/ folder is automatically loaded by PHP Fusion. As such, there is no need to load this file in any file.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Installer API" %}
