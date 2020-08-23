@@ -65,7 +65,7 @@ Since the property listing will need to be stored somewhere, we will be using th
 {% endtab %}
 
 {% tab title="Infusion API" %}
-
+Refer to the **Adding infusion package: Installer API** section below for the file
 {% endtab %}
 
 {% tab title="SQL " %}
@@ -86,8 +86,34 @@ You can click on the tab for the corresponding formats that can be used to build
 <?php
 (defined("IN_FUSION")||exit);
 
+// Package information
+$inf_title = $locale["PROP_0100"];
+$inf_description = $locale["PROP_0101"];
+$inf_version = "1.0";
+$inf_developer = "Your Name";
+$inf_email = "your@email.com"; 
+$inf_weburl = "https://your-url.com";
+$inf_folder = "property";
+$inf_image = "icon.svg";
+
+// Define table structure
+$inf[DB_PROPERTY] = array(
+    "property_id"          => array("type" => "BIGINT", "length" => 20, "unsigned" => TRUE, "key" => 1, "auto_increment" => TRUE),
+    "property_name"        => array("type" => "VARCHAR", "length" => 100),
+    "property_description" => array("type" => "TEXT"),
+    "property_image"       => array("type" => "VARCHAR", "length" => 200),
+    "property_thumb"       => array("type" => "VARCHAR", "length" => 200),
+    "property_datestamp"   => array("type" => "INT", "length" => 10),
+    "property_status"      => array("type" => "TINYINT", "length" => 1),
+    "property_access"      => array("type" => "SMALLINT", "length" => 10),
+);
+
 ```
 {% endcode %}
+
+This file consists of package information in a standard variable required by the infusion installer system. 
+
+The `$inf` array defines table structure the data column structure for the installer to create table as defined. 
 {% endtab %}
 
 {% tab title="Package Definitions" %}
@@ -124,6 +150,17 @@ function set_property_locale() {
     fusion_get_locale("", array(PROPERTY_LOCALE));   
 }
 
+```
+{% endcode %}
+
+This file defines the **CONSTANTS** in the system and **set the system locale.**
+{% endtab %}
+
+{% tab title="Locale file" %}
+{% code title="English.php" %}
+```php
+$locale["PROP_0100"] = "Property Estate";
+$locale["PROP_0101"] = "Property Estate Listing Tutorial";
 ```
 {% endcode %}
 {% endtab %}
