@@ -79,7 +79,11 @@ You can click on the tab for the corresponding formats that can be used to build
 
 ### Administrative View
 
+**Filename: /admin/listing.php**
 
+```text
+
+```
 
 ### Guest and Member View
 
