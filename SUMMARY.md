@@ -56,6 +56,8 @@
   * [Output Handling](phpfusion-development/hooks/output-handling.md)
 * [Jquery plugins](phpfusion-development/jquery-plugins/README.md)
   * [Clipboard.js](phpfusion-development/jquery-plugins/clipboard.js.md)
+* [Tutorials](phpfusion-development/tutorials/README.md)
+  * [Real Estate Listing Addon](phpfusion-development/tutorials/real-estate-listing-addon.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
