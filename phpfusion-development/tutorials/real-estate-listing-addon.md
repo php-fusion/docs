@@ -103,16 +103,18 @@ $inf_folder = "property";
 $inf_image = "icon.svg";
 
 // Define table structure
-$inf[DB_PROPERTY] = array(
-    "property_id"          => array("type" => "BIGINT", "length" => 20, "unsigned" => TRUE, "key" => 1, "auto_increment" => TRUE),
-    "property_name"        => array("type" => "VARCHAR", "length" => 100),
-    "property_description" => array("type" => "TEXT"),
-    "property_image"       => array("type" => "VARCHAR", "length" => 200),
-    "property_thumb"       => array("type" => "VARCHAR", "length" => 200),
-    "property_datestamp"   => array("type" => "INT", "length" => 10),
-    "property_status"      => array("type" => "TINYINT", "length" => 1),
-    "property_access"      => array("type" => "SMALLINT", "length" => 10),
-);
+$inf_newtable[] = DB_PROPERTY." (
+    property_id bigint(20) unsigned not null auto_increment,
+	  property_name varchar(100) not null,
+		property_description text not null,
+		property_image varchar(200) not null,
+		property_thumb varchar(200) not null,
+		property_datestamp int(10) unsigned not null default '0',
+		property_status tinyint(1) unsigned not null default '0',
+		property_access smallint(10) not null default '0',		
+		PRIMARY KEY (property_id),
+		KEY (property_status)
+) ENGINE = MYISAM;";
 
 // Adds and remove administrative link
 $inf_adminpanel[] = array(
@@ -198,6 +200,7 @@ require_once THEMES."templates/header.php";
 // List UI
 function property_listing() {
     $locale = fusion_get_locale();
+    
     
 }
 
