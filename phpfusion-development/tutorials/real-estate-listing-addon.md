@@ -119,7 +119,8 @@ $inf_adminpanel[] = array(
     "title"  => $inf_title,
     "image"  => $inf_image,
     "panel"  => "admin/listing.php",
-    "rights" => $inf_rights
+    "rights" => $inf_rights,
+    "language" => LANGUAGE
 );
 
 // Drop table when uninstalling
