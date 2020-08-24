@@ -31,6 +31,8 @@ First, we will need a name for our project. I'll have the liberty of naming this
 - /locale/
 ----- index.php
 ----- English.php
+- /images/
+----- index.php
 - /templates/
 ----- index.php
 ----- public.php
