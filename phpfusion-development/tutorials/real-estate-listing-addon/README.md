@@ -4,7 +4,7 @@ description: >-
   estate listing that you can install into PHP-Fusion 9.
 ---
 
-# Real Estate Listing Addon
+# Real Estate Listing Addon Tutorial
 
 **Time to complete tutorial** - Less than 1 hour.
 
