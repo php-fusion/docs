@@ -55,7 +55,31 @@ function property_listing() {
 }
 ```
 
-For data source function `db_property_data()` to grab SQL records for display and store them into an array. If there are no records we shall return an empty array. Here, we also need to limit our SQL query with `$_GET['rowstart']` to avoid huge data query and long processing time, and let's put the limit of output to **20** for this tutorial purposes. However, since we are not doing top-down approach, we will need to do another function to set a static **cache** to indicate whether a pagination component is needed. This is done through `set_property_nav_status()` and `get_property_nav_status()` function. We will also need a function to get the total count of the entry for this purpose, so lets call it `get_property_total_count()`
+For data source function `db_property_data()` to grab SQL records for display and store them into an array. If there are no records we shall return an empty array. Here, we also need to limit our SQL query with `$_GET['rowstart']` to avoid huge data query and long processing time, and let's put the limit of output to **20** for this tutorial purposes.  
+
+However, since we are not doing top-down approach, we will need to do another function to set a static **cache** to indicate whether a pagination component is needed. This is done through `set_property_nav_status()` and `get_property_nav_status()` function.
+
+```php
+// get the total count for the current database
+function get_property_total_count() {
+    static $count_result = 0;
+    if (empty($count_result)) {
+        $count_result = (int)dbresult(dbquery("SELECT count(property_id) 'count' FROM ".DB_PROPERTY), 0);
+    }
+    return $count_result;
+}
+
+// Set the property navigation
+function set_property_nav_status() {
+    static $navigation_status = FALSE;
+    if (empty($navigation_status)) {
+        $navigation_status = TRUE;
+    }
+    return $navigation_status;
+}
+```
+
+We will also need a function to get the total count of the entry for this purpose, so lets call it `get_property_total_count()`
 
 ```php
 // get the total count for the current database
@@ -67,6 +91,8 @@ function get_property_total_count() {
     return $count_result;
 }
 ```
+
+So our data model can look like this
 
 ```php
 // Build the model - data source
