@@ -318,3 +318,23 @@ function get_current_id() {
 
 ### View controller
 
+Now we have all the parts coded, let's bind them together and put them into actions through the view controller in our file.
+
+```php
+<?php
+require_once __DIR__."/../../../maincore.php";
+require_once THEMES."templates/header.php";
+// protect this page from unauthorized access
+pageAccess("PTY");
+
+if (check_get("action")) {
+    property_form();
+} else {
+    property_listing();
+}
+
+require_once THEMES."templates/footer.php";
+```
+
+
+
