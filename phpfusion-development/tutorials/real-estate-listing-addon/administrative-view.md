@@ -208,7 +208,11 @@ function property_form() {
 
 ```
 
-The above form components is generated with **Fusion Dynamics libraries** which interacts with `sanitizer()`to process data validation. We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [Fusion Dynamics Libraries documentation](../../phpfusion-codex/dynamics/).
+The above form components is generated with [**Fusion Dynamics Libraries**](../../phpfusion-codex/dynamics/) ****which interacts with `sanitizer()`to process data validation. 
+
+{% hint style="info" %}
+We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [**Fusion Dynamics Libraries**](../../phpfusion-codex/dynamics/) ****documentation.
+{% endhint %}
 
 ```php
 // Private function - handle the form submission.   
