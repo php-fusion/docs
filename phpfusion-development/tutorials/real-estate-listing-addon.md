@@ -61,6 +61,7 @@ Since the property listing will need to be stored somewhere, we will be using th
 | property\_description | TEXT | NOT NULL |
 | property\_image | VARCHAR\(200\) | NOT NULL |
 | property\_thumb | VARCHAR\(200\) | NOT NULL |
+| property\_user | BIGINT\(20\) | UNSIGNED NOT NULL |
 | property\_datestamp | INT\(10\) | UNSIGNED NOT NULL |
 | property\_status | TINYINT\(1\) | UNSIGNED NOT NULL |
 | property\_access | SMALLINT\(10\) | NOT NULL |
@@ -112,6 +113,7 @@ $inf_newtable[] = DB_PROPERTY." (
 		property_image varchar(200) not null,
 		property_thumb varchar(200) not null,
 		property_datestamp int(10) unsigned not null default '0',
+		property_user bigint(20) unsigned not null default '0',
 		property_status tinyint(1) unsigned not null default '0',
 		property_access smallint(10) not null default '0',		
 		PRIMARY KEY (property_id),
@@ -150,6 +152,8 @@ const PROPERTY = INFUSIONS."property/";
 // Defines language folder path constant
 const PROPERTY_LOCALESET = PROPERTY."locale/";
 
+const PROPERTY_IMAGES = PROPERTY."images/";
+
 // Defines The MYSQL table name constant
 const DB_PROPERTY = DB_PREFIX."property";
 
@@ -157,18 +161,19 @@ set_property_locale();
 
 // Function to add property locale file into system cache
 function set_property_locale() {
-   if (!defined("PROPERTY_LOCALE")) {
-        // we begin with english
-        $locale = PROPERTY_LOCALE."English.php";
-        // find if current user language file is available.
-        if (file_exists(PROPERTY_LOCALE.LOCALESET.".php")) {
-           $locale = PROPETY_LOCALE.LOCALESET.".php";
-        }
-        // define a constant
-         define("PROPERTY_LOCALE", $locale);
-    }    
+    // we begin with english
+    $locale = PROPERTY_LOCALE."English.php";
+    // find if current user language file is available.
+    if (file_exists(PROPERTY_LOCALE.LOCALESET.".php")) {
+        $locale = PROPERTY_LOCALE.LOCALESET.".php";
+    }
+    // define a constant
+    if (!defined("PROPERTY_LOCALE")) {
+        define("PROPERTY_LOCALE", $locale);
+    }
+
     // add all variables of the file into the system locale
-    fusion_get_locale("", array(PROPERTY_LOCALE));   
+    fusion_get_locale("", array(PROPERTY_LOCALE));
 }
 
 ```
@@ -182,6 +187,21 @@ This file defines the **CONSTANTS** in the system and **set the system locale.**
 ```php
 $locale["PROP_0100"] = "Property Estate";
 $locale["PROP_0101"] = "Property Estate Listing Tutorial";
+
+$locale["PROP_0200"] = "Property name";
+$locale["PROP_0201"] = "Status";
+$locale["PROP_0202"] = "Date";
+$locale["PROP_0203"] = "Access";
+$locale["PROP_0204"] = "ID";
+$locale["PROP_0205"] = "Describe the property";
+$locale["PROP_0206"] = "Hide property listing";
+$locale["PROP_0207"] = "Show property listing";
+
+$locale["PROP_0300"] = "Property has been updated.";
+$locale["PROP_0301"] = "Property has been created.";
+
+$locale["PROP_0400"] = "No property listing found.";
+
 ```
 {% endcode %}
 {% endtab %}
