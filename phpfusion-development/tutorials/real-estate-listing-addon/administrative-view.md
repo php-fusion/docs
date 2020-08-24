@@ -139,6 +139,29 @@ function property_listing() {
 }
 ```
 
+As you can see, the above code has two more custom function, `listing_status()` and `listing_thumbnail()` to return the appropriate values.
+
+```php
+// Private function - return the listing status
+function listing_status($status) {
+    $locale = fusion_get_locale();
+    $choices = array($locale["PROP_0206"], $locale["PROP_0207"]);
+    if (isset($choices[$status])) {
+        return $choices[$status];
+    }
+    return 0;
+}
+
+// Private function - check for thumbs
+function listing_thumbnail($data) {
+    $thumbnail = get_image("imagenotfound");
+    if (file_exists(PROPERTY_IMAGES.$data["property_thumbnail"])) {
+        $thumbnail = "<img src='".PROPERTY_IMAGES.$data["property_thumbnail"]."' alt=''/>";
+    }
+    return $thumbnail;
+}
+```
+
 ### Input form to add, edit or delete entry
 
 
