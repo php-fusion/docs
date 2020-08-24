@@ -207,14 +207,15 @@ $locale["PROP_0400"] = "No property listing found.";
 {% endtab %}
 {% endtabs %}
 
-### [Administrative View](administrative-view.md)
+### Administrative View
 
 Now we will proceed to build the administrative interface. The following files are used to build the listing, and the form section for administrative users to manage the property listing in our addon package.   
   
-Generally we will require 2 components for an effective administrative view build for management of property estate listing:
+Generally we will require 2 components for an effective [administrative view build](administrative-view.md) for management of property estate listing:
 
 * [Listing of our property records](administrative-view.md#part-1-listing-of-all-records)
 * [Form for **creating**, **editing** and **deleting** records](administrative-view.md#part-2-input-form-to-add-edit-or-delete-entry)
+* [Combining both parts through a view controller](administrative-view.md#combining-part-1-and-2-with-a-view-controller)
 
 ### Guest and Member View
 
