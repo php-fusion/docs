@@ -100,6 +100,9 @@ function property_listing() {
     $locale = fusion_get_locale();
     $data = db_property_data();
     
+
+    echo "<a href='".clean_request("action=new", array("id"), FALSE)."'>".$locale["PROP_0208"]."</a>";
+    echo "<hr/>";
     echo "<div class='text-right'>";
     echo get_property_nav_status();
     echo "</div>";
@@ -139,6 +142,7 @@ function property_listing() {
         echo "<tr><td colspan='5'>".$locale["PROP_0400"]."</td></tr>";
     }
     echo "</tbody></table>";
+
 }
 ```
 
@@ -182,6 +186,8 @@ function property_form() {
         $data = handle_form_data();
     }
 
+    echo "<a href='".clean_request("", array("id", "action"), FALSE)."'>".$locale["cancel"]."</a>";
+    echo "<hr/>";
     echo "<div class='row'>";
     // Set column width for all device type
     echo "<div class='".grid_column_size(100, 100, 100, 50)."'>";
@@ -327,11 +333,13 @@ require_once THEMES."templates/header.php";
 // protect this page from unauthorized access
 pageAccess("PTY");
 
+opentable($locale["PROP_0100"]);
 if (check_get("action")) {
     property_form();
 } else {
     property_listing();
 }
+closetable();
 
 require_once THEMES."templates/footer.php";
 ```
