@@ -12,7 +12,7 @@
     * [Self Signed SSL Certificate](phpfusion-development/getting-started/local-development-guides/self-signed-ssl-certificate.md)
 * [Codex](phpfusion-development/phpfusion-codex/README.md)
   * [Database Connectors](phpfusion-development/phpfusion-codex/database-connectors.md)
-  * [Fusion Dynamics](phpfusion-development/phpfusion-codex/dynamics/README.md)
+  * [Fusion Dynamics Libraries](phpfusion-development/phpfusion-codex/dynamics/README.md)
     * [Plugins](phpfusion-development/phpfusion-codex/dynamics/plugins/README.md)
       * [jQuery Mask Plugin](phpfusion-development/phpfusion-codex/dynamics/plugins/jquery-mask-plugin-1.md)
     * [form\_fileinput](phpfusion-development/phpfusion-codex/dynamics/form_fileinput.md)

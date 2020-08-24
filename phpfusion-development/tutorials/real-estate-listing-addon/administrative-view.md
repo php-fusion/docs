@@ -51,9 +51,9 @@ function db_property_data($id = 0, $limit = 20) {
 
 ```
 
-There are a few custom functions in our db\_property\_data function. They are as the following:
+There are a few custom functions in our `db_property_data` function. They are as the following:
 
-**Getting the count of total entries** - `get_property_total_count()`
+**Getting the count of total entries function** - `get_property_total_count()`
 
 ```php
 // get the total count for the current database
@@ -164,7 +164,146 @@ function listing_thumbnail($data) {
 
 ### Input form to add, edit or delete entry
 
+We will need another function to host the form display when an administrator clicks the add new button or edit link in the property listing table. `property_listing()`
 
+```php
+// Form UI
+function property_form() {
+    // Get locale    
+    $locale = fusion_get_locale();
+
+    // Default data or Callback data
+    $data = get_default_form_data();
+    if (post("submit")) {
+        // Post submissions and return of data in case of error
+        $data = handle_form_data();
+    }
+
+    echo "<div class='row'>";
+    // Set column width for all device type
+    echo "<div class='".grid_column_size(100, 100, 100, 50)."'>";
+    // add form open tag and CSRF token.
+    echo openform("postform", "POST", FORM_REQUEST, array("enctype" => TRUE));
+    // add property name text field
+    echo form_text("property_name", $locale["PROP_0200"], $data["property_name"], array("required" => TRUE));
+    // adds tinymce textarea
+    echo form_textarea("property_description", "", $data["property_description"], array("required" => TRUE, "placeholder" => $locale["PROP_0205"], "tinymce" => TRUE, "form_id" => "postform"));
+    // add an image input
+    echo form_fileinput("property_image", "", $data["property_image"], array(
+        "upload_path" => PROPERTY_IMAGES,
+        "thumbnail"   => TRUE,
+        "thumbnail_w" => 500,
+        "thumbnail_h" => 500,
+        "croppie"     => FALSE,
+    ));
+    // add active selector
+    echo form_select("property_status", $locale["PROP_0201"], $data["property_status"], array("options" =>array($locale["PROP_0206"], $locale["PROP_0207"])));
+    // add submit button
+    echo form_button("property_submit", $locale["PROP_0208"], "submit", array("class"=>"btn-primary"));
+    // close form tag
+    echo closeform();
+    echo "</div>";
+
+}
+
+```
+
+The above form components is generated with **Fusion Dynamics libraries** which interacts with `sanitizer()`to process data validation. We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [Fusion Dynamics Libraries documentation](../../phpfusion-codex/dynamics/).
+
+```php
+// Private function - handle the form submission.   
+function handle_form_data() {
+    $userdata = fusion_get_userdata();
+    $locale = fusion_get_locale();
+    // Xdebug start
+    $data = array(
+        "property_id"          => sanitizer("property_id", 0, "property_id"),
+        "property_name"        => sanitizer("property_name", "", "property_name"),
+        "property_description" => sanitizer("property_description", "", "property_description"),
+        "property_datestamp"   => time(),
+        "property_image"       => "",
+        "property_thumb"       => "",
+        "property_status"      => sanitizer("property_status", "", "property_status"),
+        "property_user"        => $userdata["user_id"],
+        "property_access"      => sanitizer("property_access", "", "property_access"),
+    );
+    // If the above sanitization has no error, proceed
+    if (fusion_safe()) {
+        // start to sanitize the fileinputs
+        $upload = file_sanitizer("property_image", "", "property_image");
+        // when upload has no error, proceed
+        if (fusion_safe()) {
+            if (isset($upload["error"]) && !$upload["error"]) {
+                $data["property_image"] = $upload["image_name"];
+                $data["property_thumb"] = $upload["image_thumb"];
+            }
+        }
+        //print_p($data);
+        // Xdebug stop
+        // If upload has no problem, proceed to store data with $data values.
+        if (fusion_safe()) {
+            $mode = "save";
+            $message = $locale["PROP_0301"];
+            if ($data["property_id"]) {
+                // If ID exist, this means it's an update
+                $mode = "update";
+                $message = $locale["PROP_0300"];
+            }
+            // Insert or update a record, MYSQL syntax is automated.
+            // But on "save" mode, this function will return lastinsertid();
+            dbquery_insert(DB_PROPERTY, $data, $mode);
+            // display system message
+            add_notice("success", $message);
+            // At this point, we do not know the real URL address yet since the controller has not been coded yet.
+            // but there is one thing we do know - when $_GET['action'] and $_GET['id'] is present, the form is shown
+            // Using clean request, we are sure to strip these 2 $_GET keys from current page return url, therefore, exiting the form view.
+            $exit_link = clean_request("", array("action", "id"), FALSE);
+            redirect($exit_link);
+        }
+    }
+
+    return (array)$data;
+}    
+```
+
+```php
+// Private function - get default callback data.
+function get_default_form_data() {
+    // default data
+    $data = array(
+        "property_id"          => 0,
+        "property_name"        => "",
+        "property_description" => "",
+        "property_datestamp"   => time(),
+        "property_image"       => "",
+        "property_thumb"       => "",
+        "property_status"      => 0,
+        "property_user"        => fusion_get_userdata("user_id"), // Your own user id
+        "property_access"      => USER_LEVEL_PUBLIC,
+    );
+
+    $id = get_current_id();
+    if (isnum($id) && $id > 0) {
+        if ($data = db_property_data($id)) {
+            redirect(clean_request("", array("action", "id"), FALSE));
+        }
+    }
+
+    return (array)$data;
+}
+```
+
+```php
+// Private function get ID.
+function get_current_id() {
+    $id = 0;
+    // if current action is edit or delete
+    if (in_array(get("action"), array("edit", "del"))) {
+        $id = (int)get("id", FILTER_VALIDATE_INT);
+    }
+    return (int)$id;
+}
+```
 
 ### View controller
 
