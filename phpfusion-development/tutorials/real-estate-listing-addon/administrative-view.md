@@ -344,5 +344,19 @@ closetable();
 require_once THEMES."templates/footer.php";
 ```
 
-Finally, we can copy all the functions above and paste everything into a file or below the controller file.
+Finally, we can copy all the functions above and paste everything into a file or below the controller file after line 15, or make a new file and include it into the view controller, or compile the functions into a class library for ease of use. The below is examples of all possible combinations mentioned.
+
+{% tabs %}
+{% tab title="Inline Functions" %}
+
+{% endtab %}
+
+{% tab title="Server Side" %}
+
+{% endtab %}
+
+{% tab title="Class" %}
+
+{% endtab %}
+{% endtabs %}
 
