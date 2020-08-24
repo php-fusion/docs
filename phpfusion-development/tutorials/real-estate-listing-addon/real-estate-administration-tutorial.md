@@ -2,6 +2,7 @@
 description: >-
   In this section, we should take a look into how the administration should work
   and carefully plan it too ensure there are no user experience interferences.
+  There will be 3 parts to this tutorial.
 ---
 
 # Real Estate Administration
