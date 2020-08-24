@@ -336,5 +336,5 @@ if (check_get("action")) {
 require_once THEMES."templates/footer.php";
 ```
 
-
+Finally, we can copy all the functions above and paste everything into a file or below the controller file.
 
