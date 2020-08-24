@@ -4,9 +4,9 @@ description: >-
   and carefully plan it too ensure there are no user experience interferences.
 ---
 
-# Administrative view
+# Real Estate Administration
 
-### Listing of all property records
+## Listing of all property records \(Part 1\)
 
 For this part, we will start with a php function `property_listing()` which will return the HTML table data of all the real estate property records. 
 
@@ -169,7 +169,7 @@ function listing_thumbnail($data) {
 }
 ```
 
-### Input form to add, edit or delete entry
+## Input form to add, edit or delete entry \(Part II\)
 
 We will need another function to host the form display when an administrator clicks the add new button or edit link in the property listing table. `property_listing()`
 
@@ -322,7 +322,7 @@ function get_current_id() {
 }
 ```
 
-### View controller
+## View controller \(Part III\)
 
 Now we have all the parts coded, let's bind them together and put them into actions through the view controller in our file.
 

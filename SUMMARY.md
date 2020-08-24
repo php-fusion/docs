@@ -58,7 +58,7 @@
   * [Clipboard.js](phpfusion-development/jquery-plugins/clipboard.js.md)
 * [Tutorials](phpfusion-development/tutorials/README.md)
   * [Real Estate Listing Addon](phpfusion-development/tutorials/real-estate-listing-addon/README.md)
-    * [Administrative view](phpfusion-development/tutorials/real-estate-listing-addon/administrative-view.md)
+    * [Real Estate Administration](phpfusion-development/tutorials/real-estate-listing-addon/real-estate-administration-tutorial.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
