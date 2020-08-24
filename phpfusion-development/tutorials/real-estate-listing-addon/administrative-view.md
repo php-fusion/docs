@@ -60,13 +60,17 @@ For data source function `db_property_data()` to grab SQL records for display an
 However, since we are not doing top-down approach, we will need to do another function to set a static **cache** to indicate whether a pagination component is needed. This is done through `set_property_nav_status()` and `get_property_nav_status()` function.
 
 ```php
-// get the total count for the current database
-function get_property_total_count() {
-    static $count_result = 0;
-    if (empty($count_result)) {
-        $count_result = (int)dbresult(dbquery("SELECT count(property_id) 'count' FROM ".DB_PROPERTY), 0);
+// Since the data model function ran before hand, the set_property_nav_status should be true if rows are more.
+function get_property_nav_status($limit = 20) {
+    // Let's begin
+    if (set_property_nav_status() === TRUE) {
+        $total_rows = get_property_total_count();
+        $rowstart = get_rowstart("rows", $limit);
+        if ($total_rows > $rowstart) {
+            return makepagenav($rowstart, $limit, $total_rows, 3, FORM_REQUEST."&rowstart=", "rows");
+        }
     }
-    return $count_result;
+    return "";
 }
 
 // Set the property navigation
