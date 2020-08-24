@@ -219,8 +219,6 @@ We've eliminated the complexity of sanitization, and standardized it with the sa
 
 To handle the form POST submission event, there will be 2 possible outcome. If every input is proper and passes all check conditions and will result in a redirect back to the listing table. Should there be any error during sanitizer validation,  `fusion_safe()` condition will **fail**, and we will return all the latest $data state back to the form fields for user revalidation.
 
-
-
 ```php
 // Private function - handle the form submission.   
 function handle_form_data() {
