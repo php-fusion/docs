@@ -19,7 +19,7 @@ $theme \(string\) \(Required\) The theme folder you want to check
 ### **Example**
 
 ```php
-if (theme_exists('Magazine') {
+if (theme_exists('Magazine')) {
     //
 }
 ```

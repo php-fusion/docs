@@ -16,3 +16,9 @@ $theme \(string\) \(Required\) The theme folder you want to set
 
 \(true\)
 
+### **Example**
+
+```php
+set_theme('Magazine');
+```
+
