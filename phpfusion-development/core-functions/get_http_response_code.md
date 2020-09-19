@@ -14,7 +14,7 @@ $url \(string\) \(Required\) URL
 
 ### Return <a id="return"></a>
 
-\(bool\)
+\(false\|string\)
 
 ### **Example**
 
