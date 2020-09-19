@@ -213,6 +213,46 @@ Now we will proceed to build the administrative interface. The following files a
   
 Generally we will require 2 components for an effective [administrative view build](real-estate-administration-tutorial.md) for management of property estate listing:
 
+{% tabs %}
+{% tab title="/admin/listing.php" %}
+{% code title="/admin/listing.php" %}
+```php
+<?php
+require_once __DIR__."/../maincore.php";
+require_once THEMES."templates/header.php";
+
+// List UI
+function property_listing() {
+    $locale = fusion_get_locale();
+    
+    
+}
+
+// Property data
+function get_property_data($id = 0) {
+}
+
+// Form UI
+function property_form() {
+    $locale = fusion_get_locale();
+}
+
+
+require_once THEMES."templates/footer.php";
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="/locale/English.php" %}
+{% code title="/locale/English.php" %}
+```php
+$locale["PROP_0100"] = "Property Estate";
+$locale["PROP_0101"] = "Property Estate Listing Tutorial";
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
 * [Listing of our property records](real-estate-administration-tutorial.md#part-1-listing-of-all-records)
 * [Form for **creating**, **editing** and **deleting** records](real-estate-administration-tutorial.md#part-2-input-form-to-add-edit-or-delete-entry)
 * [Combining both parts through a view controller](real-estate-administration-tutorial.md#combining-part-1-and-2-with-a-view-controller)
