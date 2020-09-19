@@ -62,6 +62,7 @@
     * [Real Estate Administration](phpfusion-development/tutorials/real-estate-listing-addon/real-estate-administration-tutorial.md)
 * [Core functions](phpfusion-development/core-functions/README.md)
   * [fusion\_get\_currency\(\)](phpfusion-development/core-functions/fusion_get_currency.md)
+  * [theme\_exists\(\)](phpfusion-development/core-functions/theme_exists.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
