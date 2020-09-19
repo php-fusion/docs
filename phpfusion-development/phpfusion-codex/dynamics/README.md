@@ -1,2 +1,0 @@
-# Fusion Dynamics Libraries
-
