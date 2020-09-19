@@ -60,6 +60,8 @@
   * [Real Estate Listing Addon Tutorial](phpfusion-development/tutorials/real-estate-listing-addon/README.md)
     * [Real Estate Member View](phpfusion-development/tutorials/real-estate-listing-addon/real-estate-member-view.md)
     * [Real Estate Administration](phpfusion-development/tutorials/real-estate-listing-addon/real-estate-administration-tutorial.md)
+* [Core functions](phpfusion-development/core-functions/README.md)
+  * [fusion\_get\_currency\(\)](phpfusion-development/core-functions/fusion_get_currency.md)
 
 ## PHP-Fusion 9 Manual <a id="phpfusion-9-documentation"></a>
 
