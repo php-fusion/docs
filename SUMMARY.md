@@ -8,6 +8,7 @@
 * [Core functions](phpfusion-development/core-functions/README.md)
   * [fusion\_get\_currency\(\)](phpfusion-development/core-functions/fusion_get_currency.md)
   * [theme\_exists\(\)](phpfusion-development/core-functions/theme_exists.md)
+  * [set\_theme\(\)](phpfusion-development/core-functions/set_theme.md)
 * [Database functions](phpfusion-development/database-functions.md)
 * [Theme functions](phpfusion-development/theme-functions.md)
 * [Codex](phpfusion-development/phpfusion-codex/README.md)
