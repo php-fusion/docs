@@ -218,10 +218,10 @@ function property_form() {
 
 ```
 
-The above form components is generated with [**Fusion Dynamics Libraries**](../../phpfusion-codex/dynamics/) ****which interacts with `sanitizer()`to process data validation. 
+The above form components is generated with [**Fusion Dynamics Libraries**](../../phpfusion-codex/fusion-dynamics/) ****which interacts with `sanitizer()`to process data validation. 
 
 {% hint style="info" %}
-We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [**Fusion Dynamics Libraries**](../../phpfusion-codex/dynamics/) ****documentation.
+We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [**Fusion Dynamics Libraries**](../../phpfusion-codex/fusion-dynamics/) ****documentation.
 {% endhint %}
 
 To handle the form POST submission event, there will be 2 possible outcome. If every input is proper and passes all check conditions and will result in a redirect back to the listing table. Should there be any error during sanitizer validation,  `fusion_safe()` condition will **fail**, and we will return all the latest $data state back to the form fields for user revalidation.

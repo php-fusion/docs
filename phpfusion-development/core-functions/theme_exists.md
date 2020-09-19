@@ -4,6 +4,8 @@ description: Check if a given theme exists and is valid
 
 # theme\_exists\(\)
 
+Versions: `9`
+
 theme\_exists\(string $theme\)
 
 ### Parameters <a id="parameters"></a>
