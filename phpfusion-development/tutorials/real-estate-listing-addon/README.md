@@ -8,15 +8,15 @@ description: >-
 
 **Time to complete tutorial** - Less than 1 hour.
 
-### **In this tutorial, we will be discovering** 
+### **In this tutorial, we will be discovering**
 
-  
-****1. The basic of form handling in version 9  
-2. The basic of SQL query in version 9  
-3. Using PHP-Fusion utility functions such as theme and infusion components to assist you with development of this web application.   
-4. Basic concepts of MVCT.   
-5. The basics of locale in version 9  
-6. The basic SDK to follow to make your work into a custom infusion application package.  
+
+****1. The basic of form handling in version 9
+2. The basic of SQL query in version 9
+3. Using PHP-Fusion utility functions such as theme and infusion components to assist you with development of this web application.
+4. Basic concepts of MVCT.
+5. The basics of locale in version 9
+6. The basic SDK to follow to make your work into a custom infusion application package.
 7. Coding it clean with proper coding standard
 
 ## **Lets get started.**
@@ -100,7 +100,7 @@ $inf_title = $locale["PROP_0100"];
 $inf_description = $locale["PROP_0101"];
 $inf_version = "1.0";
 $inf_developer = "Your Name";
-$inf_email = "your@email.com"; 
+$inf_email = "your@email.com";
 $inf_weburl = "https://your-url.com";
 $inf_folder = "property";
 $inf_image = "icon.svg";
@@ -115,7 +115,7 @@ $inf_newtable[] = DB_PROPERTY." (
 		property_datestamp int(10) unsigned not null default '0',
 		property_user bigint(20) unsigned not null default '0',
 		property_status tinyint(1) unsigned not null default '0',
-		property_access smallint(10) not null default '0',		
+		property_access smallint(10) not null default '0',
 		PRIMARY KEY (property_id),
 		KEY (property_status)
 ) ENGINE = MYISAM;";
@@ -135,9 +135,9 @@ $inf_droptable[] = DB_PROPERTY;
 ```
 {% endcode %}
 
-This file consists of package information in a standard variable required by the infusion installer system. 
+This file consists of package information in a standard variable required by the infusion installer system.
 
-The `$inf` array defines table structure the data column structure for the installer to create table as defined. 
+The `$inf` array defines table structure the data column structure for the installer to create table as defined.
 {% endtab %}
 
 {% tab title="Package Definitions" %}
@@ -209,8 +209,8 @@ $locale["PROP_0400"] = "No property listing found.";
 
 ### Administrative View
 
-Now we will proceed to build the administrative interface. The following files are used to build the listing, and the form section for administrative users to manage the property listing in our addon package.   
-  
+Now we will proceed to build the administrative interface. The following files are used to build the listing, and the form section for administrative users to manage the property listing in our addon package.
+
 Generally we will require 2 components for an effective [administrative view build](real-estate-administration-tutorial.md) for management of property estate listing:
 
 {% tabs %}
@@ -224,8 +224,8 @@ require_once THEMES."templates/header.php";
 // List UI
 function property_listing() {
     $locale = fusion_get_locale();
-    
-    
+
+
 }
 
 // Property data

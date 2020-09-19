@@ -1,7 +1,5 @@
 ---
-description: >-
-  fusion_stop - declares FUSION_NULL constants to safeguard sensitive code
-  execution.
+description: fusion_stop - declares FUSION_NULL constants to safeguard sensitive code execution.
 ---
 
 # fusion\_stop
@@ -27,7 +25,7 @@ An example implementation is to use `fusion_stop` to halt the system, and safegu
 <?php
 $number = "Some bad input";
 if (!isnum($number)) {
-    fusion_stop("The \$number string must be a number."); 
+    fusion_stop("The \$number string must be a number.");
 }
 if (fusion_safe()) {
     // ... do something data sensitive like storage or callback
@@ -42,4 +40,3 @@ $value The notification value. If present, will show a notice of the message on 
 ### Return Values
 
 `FUSION_NULL`
-

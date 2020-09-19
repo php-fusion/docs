@@ -10,7 +10,7 @@ description: format_word - returns a grammatical number word
 
 > format\_word \( int`$number` , string`$nouns` \[, array `$options` \] \) : string
 
-**format\_word\(\)** returns a grammatical number word string from the $noun used as arguments for the callback. 
+**format\_word\(\)** returns a grammatical number word string from the $noun used as arguments for the callback.
 
 #### **Parameters**
 
@@ -24,7 +24,7 @@ A string consisting of singular and plural delimited by a **`|`** symbol.
 
 #### Return Values
 
-Return a string of words with a correct grammatical word.  
+Return a string of words with a correct grammatical word.
 
 #### $options - Parameters
 

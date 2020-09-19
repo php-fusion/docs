@@ -6,7 +6,7 @@ description: Learn how to code and work with PHPFusion CMS
 
 ## Preface
 
-PHPFusion CMS is a barebone CMS at a first glance that provides you with a CMS like functionality surrounding your work. When working on a custom project, you basically start at scratch. When you start with a new file, that file is also your current browser URI. 
+PHPFusion CMS is a barebone CMS at a first glance that provides you with a CMS like functionality surrounding your work. When working on a custom project, you basically start at scratch. When you start with a new file, that file is also your current browser URI.
 
 As you go along developing on your project and as you start to add files, there are a huge library available to assist you to achieve what you intend to do, and this documentation intends to describe them for you.
 

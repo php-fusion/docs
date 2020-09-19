@@ -14,8 +14,8 @@ format\_sentence
 
 This function translates basic quantitative sentence, putting a comma before _and_ in a list. The sentence structure derives from a **series of commas** or **Oxford commas.** Basically, this means the formatter will provide a comma to each independent clauses before the word **and** before completing the sentence.
 
-**Let us examine these examples and the code to achieve it.**  
-  
+**Let us examine these examples and the code to achieve it.**
+
 **On Monday we’ll see the Eiffel Tower** and **on Tuesday we’ll visit the Louvre**.
 
 ```php
