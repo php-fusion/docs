@@ -5,5 +5,5 @@ description: >-
   expanding international community.
 ---
 
-# Localization \(I18N\)
+# Localization \(i18n\)
 
