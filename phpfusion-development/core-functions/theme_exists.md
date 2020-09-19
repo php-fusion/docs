@@ -24,3 +24,5 @@ if (theme_exists('Magazine') {
 }
 ```
 
+
+

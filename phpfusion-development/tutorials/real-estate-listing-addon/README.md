@@ -77,7 +77,7 @@ Refer to the **Adding infusion package: Installer API** section below for the fi
 {% endtabs %}
 
 {% hint style="info" %}
-You can click on the tab for the corresponding formats that can be used to build the table. I will not explain the SDK in general. Please read the [Infusion SDK](../../infusion-sdk.md) for more information on the API.
+You can click on the tab for the corresponding formats that can be used to build the table. I will not explain the SDK in general. Please read the [Infusion SDK](../../sdk/infusion-sdk.md) for more information on the API.
 {% endhint %}
 
 ### Defining Infusion Package
