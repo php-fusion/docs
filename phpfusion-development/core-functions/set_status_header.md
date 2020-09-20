@@ -1,12 +1,12 @@
 ---
-description: Set HTTP status header
+description: Set HTTP status header.
 ---
 
 # set\_status\_header\(\)
 
 Versions: `9`
 
-set\_status\_header\(int $code = 200\)
+set\_status\_header\( int $code \)
 
 ### Parameters <a id="parameters"></a>
 

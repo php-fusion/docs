@@ -1,12 +1,12 @@
 ---
-description: Redirect to internal or external URL
+description: Redirect to internal or external URL.
 ---
 
 # redirect\(\)
 
-Versions: `9`
+Versions: `7`, `8`, `9`
 
-redirect\(string $location, bool $delay = FALSE, bool $script = FALSE, int $code = 200\)
+redirect\( string $location \[, bool $delay, bool $script, int $code \] \)
 
 ### Parameters <a id="parameters"></a>
 
@@ -20,7 +20,7 @@ $code \(int\) \(Optional\) HTTP status code to send
 
 ### Return <a id="return"></a>
 
-
+No value is returned
 
 ### **Example**
 

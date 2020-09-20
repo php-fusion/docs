@@ -24,7 +24,6 @@ require_once THEMES."templates/header.php";
 echo "My first line of code";
 
 require_once THEMES."templates/footer.php";
-
 ```
 
 {% hint style="info" %}

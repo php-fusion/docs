@@ -6,7 +6,7 @@ description: Get currency symbol by using a 3-letter ISO 4217 currency code.
 
 Versions: `9`
 
-fusion\_get\_currency\(string $iso = NULL, bool $description = TRUE\)
+fusion\_get\_currency\( string $iso \[, bool $description \] \)
 
 ### Parameters <a id="parameters"></a>
 
@@ -21,6 +21,19 @@ $description \(bool\) \(Optional\) set to false for just symbol
 ### **Example**
 
 ```php
-echo fusion_get_currency('EUR'); // Euro (€)
+echo fusion_get_currency();
+/*
+Array
+(
+    [AED] => Emirati Dirham (د.إ)
+    [AFN] => Afghanistan Afghani (Af)
+    [ALL] => Albanian Lek (Lek)
+    [AMD] => Armenian Dram (AMD)
+    .....
+)
+*/
+
+echo fusion_get_currency('AED');
+// Emirati Dirham (د.إ)
 ```
 

@@ -12,7 +12,7 @@ description: format_word - returns a grammatical number word
 
 **format\_word\(\)** returns a grammatical number word string from the $noun used as arguments for the callback.
 
-#### **Parameters**
+### **Parameters**
 
 `number`
 
@@ -22,11 +22,11 @@ A number
 
 A string consisting of singular and plural delimited by a **`|`** symbol.
 
-#### Return Values
+### Return Values
 
 Return a string of words with a correct grammatical word.
 
-#### $options - Parameters
+### $options - Parameters
 
 <table>
   <thead>
@@ -70,7 +70,7 @@ Return a string of words with a correct grammatical word.
   </tbody>
 </table>
 
-#### Examples \#1 - counting a noun
+### Examples \#1 - counting a noun
 
 ```php
 $array = array(
@@ -80,7 +80,7 @@ $count = count($array);
 echo format_word($count, "fruit|fruits"); // Returns "2 fruits"
 ```
 
-#### Example \#2 - generate a sentence dynamically
+### Example \#2 - generate a sentence dynamically
 
 ```php
 $array = array(

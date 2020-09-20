@@ -1,5 +1,7 @@
 ---
-description: fusion_stop - declares FUSION_NULL constants to safeguard sensitive code execution.
+description: >-
+  fusion_stop - declares FUSION_NULL constants to safeguard sensitive code
+  execution.
 ---
 
 # fusion\_stop
@@ -40,3 +42,4 @@ $value The notification value. If present, will show a notice of the message on 
 ### Return Values
 
 `FUSION_NULL`
+

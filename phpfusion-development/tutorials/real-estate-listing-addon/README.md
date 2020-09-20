@@ -10,14 +10,7 @@ description: >-
 
 ### **In this tutorial, we will be discovering**
 
-
-****1. The basic of form handling in version 9
-2. The basic of SQL query in version 9
-3. Using PHP-Fusion utility functions such as theme and infusion components to assist you with development of this web application.
-4. Basic concepts of MVCT.
-5. The basics of locale in version 9
-6. The basic SDK to follow to make your work into a custom infusion application package.
-7. Coding it clean with proper coding standard
+_\*\*_1. The basic of form handling in version 9 2. The basic of SQL query in version 9 3. Using PHP-Fusion utility functions such as theme and infusion components to assist you with development of this web application. 4. Basic concepts of MVCT. 5. The basics of locale in version 9 6. The basic SDK to follow to make your work into a custom infusion application package. 7. Coding it clean with proper coding standard
 
 ## **Lets get started.**
 
@@ -108,16 +101,16 @@ $inf_image = "icon.svg";
 // Define table structure
 $inf_newtable[] = DB_PROPERTY." (
     property_id bigint(20) unsigned not null auto_increment,
-	  property_name varchar(100) not null,
-		property_description text not null,
-		property_image varchar(200) not null,
-		property_thumb varchar(200) not null,
-		property_datestamp int(10) unsigned not null default '0',
-		property_user bigint(20) unsigned not null default '0',
-		property_status tinyint(1) unsigned not null default '0',
-		property_access smallint(10) not null default '0',
-		PRIMARY KEY (property_id),
-		KEY (property_status)
+      property_name varchar(100) not null,
+        property_description text not null,
+        property_image varchar(200) not null,
+        property_thumb varchar(200) not null,
+        property_datestamp int(10) unsigned not null default '0',
+        property_user bigint(20) unsigned not null default '0',
+        property_status tinyint(1) unsigned not null default '0',
+        property_access smallint(10) not null default '0',
+        PRIMARY KEY (property_id),
+        KEY (property_status)
 ) ENGINE = MYISAM;";
 
 // Adds and remove administrative link
@@ -131,7 +124,6 @@ $inf_adminpanel[] = array(
 
 // Drop table when uninstalling
 $inf_droptable[] = DB_PROPERTY;
-
 ```
 {% endcode %}
 
@@ -175,7 +167,6 @@ function set_property_locale() {
     // add all variables of the file into the system locale
     fusion_get_locale("", array(PROPERTY_LOCALE));
 }
-
 ```
 {% endcode %}
 
@@ -201,7 +192,6 @@ $locale["PROP_0300"] = "Property has been updated.";
 $locale["PROP_0301"] = "Property has been created.";
 
 $locale["PROP_0400"] = "No property listing found.";
-
 ```
 {% endcode %}
 {% endtab %}

@@ -1,12 +1,12 @@
 ---
-description: Get HTTP response code
+description: Get HTTP response code.
 ---
 
 # get\_http\_response\_code\(\)
 
 Versions: `9`
 
-get\_http\_response\_code\(string $url\)
+get\_http\_response\_code\( string $url \)
 
 ### Parameters <a id="parameters"></a>
 

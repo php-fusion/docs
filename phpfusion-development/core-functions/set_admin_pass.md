@@ -1,12 +1,14 @@
 ---
-description: Set password of the currently logged in administrator
+description: Set password of the currently logged in administrator.
 ---
 
 # set\_admin\_pass\(\)
 
-Versions: `9`
+Versions: `7`, `8`, `9`
 
-set\_admin\_pass\(string $password\)
+set\_admin\_pass\( string $password \)
+
+The function will set the `$_COOKIE[COOKIE_PREFIX.'admin']` if the submitted admin password matches the users admin password in `$userdata['user_admin_password']`.
 
 ### Parameters <a id="parameters"></a>
 

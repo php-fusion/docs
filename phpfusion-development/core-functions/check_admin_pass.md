@@ -1,12 +1,12 @@
 ---
-description: Check if admin password matches userdata
+description: Check if admin password matches userdata.
 ---
 
 # check\_admin\_pass\(\)
 
-Versions: `9`
+Versions: `7`, `8`, `9`
 
-check\_admin\_pass\(string $password\)
+check\_admin\_pass\( string $password \)
 
 ### Parameters <a id="parameters"></a>
 
@@ -14,7 +14,7 @@ $password \(string\) \(Required\) Password
 
 ### Return <a id="return"></a>
 
-\(bool\)
+\(bool\) This function will return true if the if the $password matches the user's admin password or if the Administrator's cookie or session is set and is valid
 
 ### **Example**
 

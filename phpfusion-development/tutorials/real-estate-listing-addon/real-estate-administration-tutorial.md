@@ -11,7 +11,7 @@ description: >-
 
 For this part, we will start with a php function `property_listing()` which will return the HTML table data of all the real estate property records.
 
-#### Model for getting data entries
+### Model for getting data entries
 
 For data source, we will use a function, lets call it `db_property_data()` to grab SQL records for display and store them into an array. If there are no records we shall return an empty array. Here, we also need to limit our SQL query with `$_GET['rowstart']` to avoid huge data query and long processing time, and let's put the limit of output to **20** for this tutorial purposes.
 
@@ -49,7 +49,6 @@ function db_property_data($id = 0, $limit = 20) {
 
     return (array)$data;
 }
-
 ```
 
 There are a few custom functions in our `db_property_data` function. They are as the following:
@@ -93,7 +92,7 @@ function set_property_nav_status() {
 }
 ```
 
-#### View function to display the HTML
+### View function to display the HTML
 
 ```php
 function property_listing() {
@@ -215,16 +214,15 @@ function property_form() {
     echo "</div>";
 
 }
-
 ```
 
-The above form components is generated with [**Fusion Dynamics Libraries**](../../fusion-dynamics/) ****which interacts with `sanitizer()`to process data validation.
+The above form components is generated with [**Fusion Dynamics Libraries**](../../fusion-dynamics/) _\*\*_which interacts with `sanitizer()`to process data validation.
 
 {% hint style="info" %}
-We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [**Fusion Dynamics Libraries**](../../fusion-dynamics/) ****documentation.
+We've eliminated the complexity of sanitization, and standardized it with the same function for all kinds of value types - email, URI, texts, numbers, image and file upload, and more. For more information on this topic, please read the [**Fusion Dynamics Libraries**](../../fusion-dynamics/) _\*\*_documentation.
 {% endhint %}
 
-To handle the form POST submission event, there will be 2 possible outcome. If every input is proper and passes all check conditions and will result in a redirect back to the listing table. Should there be any error during sanitizer validation,  `fusion_safe()` condition will **fail**, and we will return all the latest $data state back to the form fields for user revalidation.
+To handle the form POST submission event, there will be 2 possible outcome. If every input is proper and passes all check conditions and will result in a redirect back to the listing table. Should there be any error during sanitizer validation, `fusion_safe()` condition will **fail**, and we will return all the latest $data state back to the form fields for user revalidation.
 
 ```php
 // Private function - handle the form submission.
@@ -626,6 +624,5 @@ function get_current_id() {
     }
     return (int)$id;
 }
-
 ```
 
