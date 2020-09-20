@@ -4,7 +4,7 @@ description: Strips a given filename from any unwanted characters and symbols.
 
 # stripfilename\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 stripfilename\( string $filename \)
 

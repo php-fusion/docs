@@ -4,7 +4,7 @@ description: Custom preg_match function.
 
 # preg\_check\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 preg\_check\( string $expression, mixed $value \)
 
@@ -16,7 +16,7 @@ $value \(mixed\) \(Required\) The input string
 
 ### Return <a id="return"></a>
 
-\(bool\) False when $value is an array
+\(bool\) False when value is an array
 
 ### **Example**
 

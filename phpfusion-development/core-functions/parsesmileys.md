@@ -4,7 +4,7 @@ description: Parse the smileys in string and display smiley codes as smiley imag
 
 # parsesmileys\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 parsesmileys\( string $message \)
 
@@ -14,7 +14,7 @@ $message  \(string\) \(Required\) A string that should have parsed smileys
 
 ### Return <a id="return"></a>
 
-\(string\) String with parsed smiley codes as smiley images ready for display.
+\(string\) String with parsed smiley codes as smiley images ready for display
 
 ### **Example**
 

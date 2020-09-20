@@ -4,7 +4,7 @@ description: Converts all applicable characters to HTML entities.
 
 # phpentities\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 phpentities\( string $text \)
 

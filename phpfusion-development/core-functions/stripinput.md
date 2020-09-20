@@ -4,7 +4,7 @@ description: 'Strip Input, prevents HTML in unwanted places.'
 
 # stripinput\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 stripinput\( mixed $text \)
 

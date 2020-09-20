@@ -4,7 +4,7 @@ description: Check if a given theme exists and is valid.
 
 # theme\_exists\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 theme\_exists\( string $theme \)
 

@@ -4,13 +4,13 @@ description: Cache of all smileys from the database.
 
 # cache\_smileys\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 cache\_smileys\(\)
 
 ### Parameters <a id="parameters"></a>
 
-No parameters.
+No parameters
 
 ### Return <a id="return"></a>
 

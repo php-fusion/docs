@@ -4,7 +4,7 @@ description: Clean URL will clean the URL and prevents entities in server global
 
 # cleanurl\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 cleanurl\( string $url \)
 

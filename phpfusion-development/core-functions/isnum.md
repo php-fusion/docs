@@ -4,7 +4,7 @@ description: Validate numeric input.
 
 # isnum\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 isnum\( mixed $value \[, bool $decimal, bool $negative \] \)
 

@@ -4,7 +4,7 @@ description: Prevent strings from growing to long and breaking the layout.
 
 # trimlink\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 trimlink\( string $text, int $length \)
 

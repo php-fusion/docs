@@ -4,7 +4,7 @@ description: Prevent any possible XSS attacks via $_GET.
 
 # stripget\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 stripget\( string $check\_url \)
 
@@ -24,7 +24,7 @@ if (stripget($_GET)) {
 }
 ```
 
-### Notes
-
+{% hint style="info" %}
 This function is used in maincore.php so basically there is no need to call this function manually.
+{% endhint %}
 

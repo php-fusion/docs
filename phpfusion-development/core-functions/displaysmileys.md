@@ -6,7 +6,7 @@ description: >-
 
 # displaysmileys\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 displaysmileys\( string $textarea \[, string $form \] \)
 
@@ -18,7 +18,7 @@ $form \(string\) \(Optional\) The form id in which the textarea is located
 
 ### Return <a id="return"></a>
 
-\(string\) This function will return the option for users to insert smiley's in a post by displaying the smiley's BBCode button.
+\(string\) Option for users to insert smileys in a post by displaying the smiley's button
 
 ### **Example**
 

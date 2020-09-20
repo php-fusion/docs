@@ -4,7 +4,7 @@ description: Add correct number of slashes depending on QUOTES_GPC.
 
 # addslash\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 stripslash\( string $text \)
 

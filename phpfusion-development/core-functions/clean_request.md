@@ -26,7 +26,9 @@ $keep\_filtered \(bool\) \(Optional\) True to keep filter, false to remove filte
 // Original URI http://example.com/test.php?test=123
 echo clean_request();
 // /test.php
+```
 
+```php
 // Original URI http://example.com/test.php?test=aaaa&this=123
 echo clean_request('', ['test'], FALSE);
 // /test.php?this=123

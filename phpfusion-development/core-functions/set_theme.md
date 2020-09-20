@@ -4,7 +4,7 @@ description: Set a valid theme.
 
 # set\_theme\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 set\_theme\( string $theme \)
 
@@ -14,7 +14,7 @@ $theme \(string\) \(Required\) The theme folder you want to set
 
 ### Return <a id="return"></a>
 
-\(bool\)
+No value is returned
 
 ### **Example**
 
@@ -22,7 +22,9 @@ $theme \(string\) \(Required\) The theme folder you want to set
 set_theme('my_theme');
 ```
 
-### Notes
-
+{% hint style="info" %}
 This function can only be called once, in the maincore.php, as it sets CONSTANTS which can not be set again!
+{% endhint %}
+
+
 

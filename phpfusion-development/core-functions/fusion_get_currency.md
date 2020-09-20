@@ -32,7 +32,9 @@ Array
     .....
 )
 */
+```
 
+```php
 $iso = 'AED';
 echo fusion_get_currency($iso);
 // Emirati Dirham (د.إ)

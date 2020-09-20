@@ -4,7 +4,7 @@ description: Redirect to internal or external URL.
 
 # redirect\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 redirect\( string $location \[, bool $delay, bool $script, int $code \] \)
 

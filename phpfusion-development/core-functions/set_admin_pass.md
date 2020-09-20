@@ -4,7 +4,7 @@ description: Set password of the currently logged in administrator.
 
 # set\_admin\_pass\(\)
 
-Versions: `7`, `8`, `9`
+Versions: `9`
 
 set\_admin\_pass\( string $password \)
 
@@ -16,7 +16,7 @@ $password \(string\) \(Required\) Any password
 
 ### Return <a id="return"></a>
 
-\(bool\)
+\(bool\) True if a password is set
 
 ### **Example**
 
