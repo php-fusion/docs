@@ -10,11 +10,11 @@ stripget\( string $check\_url \)
 
 ### Parameters <a id="parameters"></a>
 
-$check\_url \(string\) \(Required\) string or array to be stripped
+$check\_url \(string\) \(Required\) String or array to be stripped
 
 ### Return <a id="return"></a>
 
-\(bool\) TRUE if the URL is not secure
+\(bool\) True if the URL is not secure
 
 ### **Example**
 

@@ -14,12 +14,12 @@ $theme \(string\) \(Required\) The theme folder you want to set
 
 ### Return <a id="return"></a>
 
-\(true\)
+\(bool\)
 
 ### **Example**
 
 ```php
-set_theme('Magazine');
+set_theme('my_theme');
 ```
 
 ### Notes

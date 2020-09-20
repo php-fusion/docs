@@ -14,7 +14,7 @@ $theme \(string\) \(Required\) The theme folder you want to check
 
 ### Return <a id="return"></a>
 
-\(bool\) False if the theme does not exist and true if it does.
+\(bool\) False if the theme does not exist and true if it does
 
 ### **Example**
 

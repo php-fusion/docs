@@ -12,7 +12,7 @@ fusion\_get\_currency\( string $iso \[, bool $description \] \)
 
 $iso \(string\) \(Optional\) 3-letter ISO 4217
 
-$description \(bool\) \(Optional\) set to false for just symbol
+$description \(bool\) \(Optional\) Set to false for just symbol
 
 ### Return <a id="return"></a>
 
@@ -33,7 +33,8 @@ Array
 )
 */
 
-echo fusion_get_currency('AED');
+$iso = 'AED';
+echo fusion_get_currency($iso);
 // Emirati Dirham (د.إ)
 ```
 

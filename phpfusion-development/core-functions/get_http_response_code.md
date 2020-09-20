@@ -14,12 +14,13 @@ $url \(string\) \(Required\) URL
 
 ### Return <a id="return"></a>
 
-\(false\|string\)
+\(bool\|string\)
 
 ### **Example**
 
 ```php
-if (get_http_response_code('https://www.google.com/') == 200) {
+$url = 'https://www.google.com/';
+if (get_http_response_code($url) == 200) {
     //
 }
 ```

@@ -19,7 +19,8 @@ $url \(string\) \(Required\) URL
 ### **Example**
 
 ```php
-echo cleanurl('http://www.test.com?this=that&that=this<&tagg>');
+$url = 'http://www.test.com?this=that&that=this<&tagg>';
+echo cleanurl($url);
 // http://www.test.com?this=that&that=this&tagg
 ```
 
