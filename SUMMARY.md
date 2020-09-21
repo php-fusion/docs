@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 
-## PHPFusion Development
+## PHP-Fusion Development <a id="phpfusion-development"></a>
 
 * [Core functions](phpfusion-development/core-functions/README.md)
   * [fusion\_get\_currency\(\)](phpfusion-development/core-functions/fusion_get_currency.md)
@@ -34,6 +34,8 @@
   * [cache\_bbcode\(\)](phpfusion-development/core-functions/cache_bbcode.md)
   * [parse\_imageDir\(\)](phpfusion-development/core-functions/parse_imagedir.md)
   * [parse\_textarea\(\)](phpfusion-development/core-functions/parse_textarea.md)
+  * [parseubb\(\)](phpfusion-development/core-functions/parseubb.md)
+  * [hide\_email\(\)](phpfusion-development/core-functions/hide_email.md)
 * [Database functions](phpfusion-development/database-functions/README.md)
   * [dbquery\(\)](phpfusion-development/database-functions/dbquery.md)
 * [Theme functions](phpfusion-development/theme-functions/README.md)

@@ -1,5 +1,5 @@
 ---
-description: 'Text with BBCodes, smileys and any special characters parsed to HTML.'
+description: 'Parse BBCodes, smileys and any special characters to HTML string.'
 ---
 
 # parse\_textarea\(\)
