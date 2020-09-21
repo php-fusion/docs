@@ -1,0 +1,35 @@
+---
+description: >-
+  Check if user is assigned to the specified user group and has the required
+  user level.
+---
+
+# checkusergroup\(\)
+
+Versions: `9`
+
+checkusergroup\( int $group, int $user\_level, string $user\_groups \)
+
+### Parameters <a id="parameters"></a>
+
+$group \(int\) \(Required\) The group number you want to check for the user
+
+$user\_level \(int\) \(Required\) User level
+
+$user\_groups \(string\) \(Required\) Assigned groups to the user
+
+### Return <a id="return"></a>
+
+\(bool\) True if the user has access
+
+### **Example**
+
+```php
+$page_access = USER_LEVEL_MEMBER;
+$userdata = fusion_get_userdata();
+if (checkusergroup($page_access, $userdata['user_level'], $userdata['user_groups'])) {
+    echo 'You have access to this section.';
+}
+// You have access to this section.
+```
+
