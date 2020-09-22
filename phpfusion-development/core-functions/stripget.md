@@ -10,13 +10,13 @@ stripget\( string $check\_url \)
 
 ### Parameters <a id="parameters"></a>
 
-$check\_url \(string\) \(Required\) String or array to be stripped
+$check\_url \(string\) \(Required\) String or array to be stripped.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the URL is not secure
+\(bool\) True if the URL is not secure.
 
-### **Example**
+### **Examples**
 
 ```php
 if (stripget($_GET)) {

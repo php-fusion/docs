@@ -10,13 +10,13 @@ fusion\_get\_groups\(\)
 
 ### Parameters <a id="parameters"></a>
 
-No parameters
+No parameters.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(array\) Array of all access levels and user groups
+\(array\) Array of all access levels and user groups.
 
-### **Example**
+### **Examples**
 
 ```php
 foreach (fusion_get_groups() as $key => $group_name) {

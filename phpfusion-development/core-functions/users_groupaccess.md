@@ -10,13 +10,13 @@ users\_groupaccess\( int $group\_id\)
 
 ### Parameters <a id="parameters"></a>
 
-$group\_id \(int\) \(Required\) The ID of the group
+$group\_id \(int\) \(Required\) The ID of the group.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the user has access
+\(bool\) True if the user has access.
 
-### **Example**
+### **Examples**
 
 ```php
 $id = 1;

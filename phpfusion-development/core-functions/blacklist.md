@@ -12,13 +12,13 @@ blacklist\( string $field \)
 
 ### Parameters <a id="parameters"></a>
 
-$field \(string\) \(Required\) User ID field
+$field \(string\) \(Required\) User ID field.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) It can return an empty condition if the user\_blacklist field is not installed
+\(string\) It can return an empty condition if the user\_blacklist field is not installed.
 
-### **Example**
+### **Examples**
 
 ```php
 $result = dbquery("SELECT user_id, user_name

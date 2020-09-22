@@ -10,13 +10,13 @@ stripslash\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) The input string
+$text \(string\) \(Required\) The input string.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) String with backslashes stripped off \(\' becomes ' and so on\), double backslashes \(\\\) are made into a single backslash \(\\)
+\(string\) String with backslashes stripped off \(\' becomes ' and so on\), double backslashes \(\\\) are made into a single backslash \(\\).
 
-### **Example**
+### **Examples**
 
 ```php
 $text = 'Is your name O\'reilly?';

@@ -10,25 +10,25 @@ parse\_textarea\( string $value \[, bool $parse\_smileys, bool $parse\_bbcode, b
 
 ### Parameters <a id="parameters"></a>
 
-$value \(string\) \(Required\) String with unparsed text
+$value \(string\) \(Required\) String with unparsed text.
 
-$parse\_smileys \(bool\) \(Optional\) Smiley parsing
+$parse\_smileys \(bool\) \(Optional\) Smiley parsing. Default value: true
 
-$parse\_bbcode \(bool\) \(Optional\) BBCode parsing
+$parse\_bbcode \(bool\) \(Optional\) BBCode parsing. Default value: true
 
-$decode \(bool\) \(Optional\) Decode HTML entities
+$decode \(bool\) \(Optional\) Decode HTML entities. Default value: true
 
-$default\_image\_folder \(string\) \(Optional\) Image folder for parse\_imageDir\(\)
+$default\_image\_folder \(string\) \(Optional\) Image folder for parse\_imageDir\(\). Default value: IMAGES
 
-$add\_line\_breaks \(bool\) \(Optional\) Allows nl2br\(\)
+$add\_line\_breaks \(bool\) \(Optional\) Allows nl2br\(\). Default value: false
 
-$descript \(bool\) \(Optional\) Sanitize text
+$descript \(bool\) \(Optional\) Sanitize text. Default value: true
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Parsed string
+\(string\) Parsed string.
 
-### **Example**
+### **Examples**
 
 ```php
 $value = 'Text :D [url]http://example.com/[/url]';

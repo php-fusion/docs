@@ -10,15 +10,15 @@ preg\_check\( string $expression, mixed $value \)
 
 ### Parameters <a id="parameters"></a>
 
-$expression \(string\) \(Required\) The expression to search for
+$expression \(string\) \(Required\) The expression to search for.
 
-$value \(mixed\) \(Required\) The input string
+$value \(mixed\) \(Required\) The input string.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) False when value is an array
+\(bool\) False when value is an array.
 
-### **Example**
+### **Examples**
 
 ```php
 $value = 'abc123';

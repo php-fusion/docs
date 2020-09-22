@@ -10,15 +10,15 @@ trim\_text\( string $text \[, int $length \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) String to trim
+$text \(string\) \(Required\) String to trim.
 
-$length \(int\) \(Optional\) The number of characters
+$length \(int\) \(Optional\) The number of characters. Default value: 300
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Trimmed text
+\(string\) Trimmed text.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

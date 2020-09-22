@@ -10,13 +10,13 @@ user\_blacklisted\( int $user\_id \)
 
 ### Parameters <a id="parameters"></a>
 
-$user\_id \(id\) \(Required\) User ID
+$user\_id \(id\) \(Required\) User ID.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the user is blacklisted
+\(bool\) True if the user is blacklisted.
 
-### **Example**
+### **Examples**
 
 ```php
 $user_id = 3;

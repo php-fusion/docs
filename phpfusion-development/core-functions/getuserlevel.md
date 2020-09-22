@@ -10,13 +10,13 @@ getuserlevel\( int $userlevel \)
 
 ### Parameters <a id="parameters"></a>
 
-$userlevel \(int\) \(Required\) Level code
+$userlevel \(int\) \(Required\) Level code.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\|null\) The name of the given user level, null if does not exist
+\(string\|null\) The name of the given user level, null if does not exist.
 
-### **Example**
+### **Examples**
 
 ```php
 echo getuserlevel(-102);

@@ -10,17 +10,17 @@ isnum\( mixed $value \[, bool $decimal, bool $negative \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$value \(mixed\) \(Required\) The value to be checked
+$value \(mixed\) \(Required\) The value to be checked.
 
-$decimal \(bool\) \(Optional\) Decimals
+$decimal \(bool\) \(Optional\) Decimals. Default value: false
 
-$negative \(bool\) \(Optional\) Negative numbers
+$negative \(bool\) \(Optional\) Negative numbers. Default value: false
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the value is a number
+\(bool\) True if the value is a number.
 
-### **Example**
+### **Examples**
 
 ```php
 $value = 'abc123';

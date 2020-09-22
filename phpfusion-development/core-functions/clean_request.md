@@ -10,17 +10,17 @@ clean\_request\( \[ mixed $request\_addition, array $filter\_array, bool $keep\_
 
 ### Parameters <a id="parameters"></a>
 
-$request\_addition \(mixed\) \(Optional\) 'page=1&ref=2' or array\('page' =&gt; 1, 'ref' =&gt; 2\)
+$request\_addition \(mixed\) \(Optional\) 'page=1&ref=2' or array\('page' =&gt; 1, 'ref' =&gt; 2\). Default value: ''
 
-$filter\_array \(array\) \(Optional\) array\('aid', 'page', 'ref'\)
+$filter\_array \(array\) \(Optional\) array\('aid', 'page', 'ref'\). Default value: \[\]
 
-$keep\_filtered \(bool\) \(Optional\) True to keep filter, false to remove filter from FUSION\_REQUEST
+$keep\_filtered \(bool\) \(Optional\) True to keep filter, false to remove filter from FUSION\_REQUEST. Default value: true
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Request URI
+\(string\) Request URI.
 
-### **Example**
+### **Examples**
 
 ```php
 // Original URI http://example.com/test.php?test=123

@@ -10,21 +10,21 @@ makefilelist\( string $folder \[, string $filter, bool $sort, string $type, stri
 
 ### Parameters <a id="parameters"></a>
 
-$folder \(string\) \(Required\) Path to folder
+$folder \(string\) \(Required\) Path to folder.
 
-$filter \(string\) \(Optional\) The names of the filtered folders and files separated by "\|", false to use default filter
+$filter \(string\) \(Optional\) The names of the filtered folders and files separated by "\|", false to use default filter. Default value: ''
 
-$sort \(bool\) \(Optional\) False if you don't want to sort the result
+$sort \(bool\) \(Optional\) False if you don't want to sort the result. Default value: true
 
-$type \(string\) \(Optional\) Possible values: 'files' to list files, 'folders' to list folders
+$type \(string\) \(Optional\) Possible values: 'files' to list files, 'folders' to list folders. Default value: files
 
-$ext\_filter \(string\) \(Optional\) File extensions separated by "\|", only when $type is 'files'
+$ext\_filter \(string\) \(Optional\) File extensions separated by "\|", only when $type is 'files'. Default value: '''
 
-### Return <a id="return"></a>
+### Return Values
 
-\(array\) Array of all items
+\(array\) Array of all items.
 
-### **Example**
+### **Examples**
 
 ```php
 $infusions = makefilelist(INFUSIONS, FALSE, TRUE, 'folders');

@@ -10,15 +10,15 @@ highlight\_words\( array $words, string $subject \)
 
 ### Parameters <a id="parameters"></a>
 
-$words \(array\) \(Required\) The words to highlight
+$words \(array\) \(Required\) The words to highlight.
 
-$subject \(string\) \(Required\) Text that contains a word \(s\) that should be highlighted
+$subject \(string\) \(Required\) Text that contains a word \(s\) that should be highlighted.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Words highlighted in the string
+\(string\) Words highlighted in the string.
 
-### **Example**
+### **Examples**
 
 ```php
 $words = ['lemon', 'banana'];

@@ -13,13 +13,13 @@ censorwords\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) Text that should be censored
+$text \(string\) \(Required\) Text that should be censored.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) Censored text
+\(bool\) Censored text.
 
-### **Example**
+### **Examples**
 
 ```php
 // In this example we have added words apple and orange as offensive words and set replacement as ****

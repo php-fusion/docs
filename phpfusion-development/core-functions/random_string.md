@@ -10,13 +10,13 @@ random\_string\( \[ int $length \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$length \(int\) \(Optional\) The length of the string
+$length \(int\) \(Optional\) The length of the string. Default value: 6
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Generated string
+\(string\) Generated string.
 
-### **Example**
+### **Examples**
 
 ```php
 echo random_string(10);

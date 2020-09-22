@@ -10,13 +10,13 @@ checkgroup\( int $group \)
 
 ### Parameters <a id="parameters"></a>
 
-$group \(int\) \(Required\) The group number you want to check for the user
+$group \(int\) \(Required\) The group number you want to check for the user.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the user is in the group
+\(bool\) True if the user is in the group.
 
-### **Example**
+### **Examples**
 
 ```php
 $group = -101;

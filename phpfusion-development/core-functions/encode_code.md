@@ -10,13 +10,13 @@ encode\_code\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) String with code
+$text \(string\) \(Required\) String with code.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Encoded and formatted code
+\(string\) Encoded and formatted code.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = '<code><!DOCTYPE html>

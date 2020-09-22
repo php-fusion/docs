@@ -10,13 +10,13 @@ groupaccess\( string $field \)
 
 ### Parameters <a id="parameters"></a>
 
-$field \(string\) \(Required\) MySQL field from which you want to check access
+$field \(string\) \(Required\) MySQL field from which you want to check access.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) The part of WHERE clause, always returns a condition
+\(string\) The part of WHERE clause, always returns a condition.
 
-### **Example**
+### **Examples**
 
 ```php
 $result = dbquery("SELECT item, access

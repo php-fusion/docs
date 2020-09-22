@@ -10,13 +10,13 @@ cache\_groups\(\)
 
 ### Parameters <a id="parameters"></a>
 
-No parameters
+No parameters.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(array\) Array of all user groups
+\(array\) Array of all user groups.
 
-### **Example**
+### **Examples**
 
 ```php
 foreach (cache_groups() as $group) {

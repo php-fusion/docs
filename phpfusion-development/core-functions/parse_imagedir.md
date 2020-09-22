@@ -10,15 +10,15 @@ parse\_imageDir\( string $data \[, string $prefix\_ \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$data \(string\) \(Required\) String to parse
+$data \(string\) \(Required\) String to parse.
 
-$prefix\_ \(string\) \(Optional\) Image folder, default is IMAGES
+$prefix\_ \(string\) \(Optional\) Image folder. Default value: IMAGES
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Parsed string
+\(string\) Parsed string.
 
-### **Example**
+### **Examples**
 
 ```php
 $data = 'Text <img src="images/img.png" alt="img">';

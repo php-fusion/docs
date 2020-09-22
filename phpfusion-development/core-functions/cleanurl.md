@@ -10,13 +10,13 @@ cleanurl\( string $url \)
 
 ### Parameters <a id="parameters"></a>
 
-$url \(string\) \(Required\) URL
+$url \(string\) \(Required\) URL.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) $url clean and ready for use XHTML strict and without any dangerous code
+\(string\) $url clean and ready for use XHTML strict and without any dangerous code.
 
-### **Example**
+### **Examples**
 
 ```php
 $url = 'http://example.com/?this=that&that=this<&tagg>';

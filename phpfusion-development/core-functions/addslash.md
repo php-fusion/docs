@@ -10,13 +10,13 @@ stripslash\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) Text to which slashes should be added
+$text \(string\) \(Required\) Text to which slashes should be added.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) String with the correct number of slashes
+\(string\) String with the correct number of slashes.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = "Is your name O'reilly?";

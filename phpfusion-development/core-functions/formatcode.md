@@ -10,13 +10,13 @@ formatcode\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) The text you want to format
+$text \(string\) \(Required\) The text you want to format.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Formatted code
+\(string\) Formatted code.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = '   Indent goes here.';

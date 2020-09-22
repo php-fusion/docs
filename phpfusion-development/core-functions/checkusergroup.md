@@ -12,17 +12,17 @@ checkusergroup\( int $group, int $user\_level, string $user\_groups \)
 
 ### Parameters <a id="parameters"></a>
 
-$group \(int\) \(Required\) The group number you want to check for the user
+$group \(int\) \(Required\) The group number you want to check for the user.
 
-$user\_level \(int\) \(Required\) User level
+$user\_level \(int\) \(Required\) User level.
 
-$user\_groups \(string\) \(Required\) Assigned groups to the user
+$user\_groups \(string\) \(Required\) Assigned groups to the user.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if the user has access
+\(bool\) True if the user has access.
 
-### **Example**
+### **Examples**
 
 ```php
 $page_access = USER_LEVEL_MEMBER;

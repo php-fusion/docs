@@ -10,13 +10,13 @@ set\_status\_header\( int $code \)
 
 ### Parameters <a id="parameters"></a>
 
-$code \(int\) \(Required\) Status header code
+$code \(int\) \(Required\) Status header code.
 
-### Return <a id="return"></a>
+### Return Values
 
 \(bool\)
 
-### **Example**
+### **Examples**
 
 ```php
 set_status_header(200);

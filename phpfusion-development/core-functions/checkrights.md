@@ -6,13 +6,13 @@ checkrights\( string $rights \)
 
 ### Parameters <a id="parameters"></a>
 
-$rights \(string\) \(Required\) Rights you want to check for the administrator
+$rights \(string\) \(Required\) Rights you want to check for the administrator.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True, if the user is administrator with rights defined in $rights
+\(bool\) True if the user is administrator with rights defined in $rights.
 
-### **Example**
+### **Examples**
 
 ```php
 if (checkrights('M')) {

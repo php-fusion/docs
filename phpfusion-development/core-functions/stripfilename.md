@@ -12,11 +12,11 @@ stripfilename\( string $filename \)
 
 $filename \(string\) \(Required\) Filename you want to strip. Remember to remove the file extension before parsing it through this function.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) The filename stripped and ready for use
+\(string\) The filename stripped and ready for use.
 
-### **Example**
+### **Examples**
 
 ```php
 $filename = 'I am-Ã… test file!!!??.jpg';

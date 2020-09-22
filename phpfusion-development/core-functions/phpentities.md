@@ -10,13 +10,13 @@ phpentities\( string $text \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) The input string
+$text \(string\) \(Required\) The input string.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Encoded string
+\(string\) Encoded string.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = "A 'quote' is <b>bold</b>";

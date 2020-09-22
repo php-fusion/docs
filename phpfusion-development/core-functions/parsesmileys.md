@@ -10,13 +10,13 @@ parsesmileys\( string $message \)
 
 ### Parameters <a id="parameters"></a>
 
-$message  \(string\) \(Required\) A string that should have parsed smileys
+$message  \(string\) \(Required\) A string that should have parsed smileys.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) String with parsed smiley codes as smiley images ready for display
+\(string\) String with parsed smiley codes as smiley images ready for display.
 
-### **Example**
+### **Examples**
 
 ```php
 $message = "Here is a text :) with some smiley's in it :D.";

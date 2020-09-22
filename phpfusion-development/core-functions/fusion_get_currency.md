@@ -10,28 +10,20 @@ fusion\_get\_currency\( string $iso \[, bool $description \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$iso \(string\) \(Optional\) 3-letter ISO 4217
+$iso \(string\) \(Optional\) 3-letter ISO 4217. Default value: null
 
-$description \(bool\) \(Optional\) Set to false for just symbol
+$description \(bool\) \(Optional\) Set to false for just symbol. Default value: true
 
-### Return <a id="return"></a>
+### Return Values
 
-\(array\|string\) Array of currencies or string with one currency
+\(array\|string\) Array of currencies or string with one currency.
 
-### **Example**
+### **Examples**
 
 ```php
-echo fusion_get_currency();
-/*
-Array
-(
-    [AED] => Emirati Dirham (د.إ)
-    [AFN] => Afghanistan Afghani (Af)
-    [ALL] => Albanian Lek (Lek)
-    [AMD] => Armenian Dram (AMD)
-    .....
-)
-*/
+foreach (fusion_get_currency() as $iso => $name) {
+    //
+}
 ```
 
 ```php

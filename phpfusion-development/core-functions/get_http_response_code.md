@@ -10,13 +10,13 @@ get\_http\_response\_code\( string $url \)
 
 ### Parameters <a id="parameters"></a>
 
-$url \(string\) \(Required\) URL
+$url \(string\) \(Required\) URL.
 
-### Return <a id="return"></a>
+### Return Values
 
 \(bool\|string\)
 
-### **Example**
+### **Examples**
 
 ```php
 $url = 'https://www.google.com/';

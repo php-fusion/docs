@@ -10,17 +10,17 @@ descript\( string $text \[, bool $strip\_tags, bool $strip\_scripts \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) String to be descripted
+$text \(string\) \(Required\) String to be descripted.
 
-$strip\_tags \(bool\) \(Optional\) Removes potentially dangerous HTML tags
+$strip\_tags \(bool\) \(Optional\) Removes potentially dangerous HTML tags. Default value: true
 
-$strip\_scripts \(bool\) \(Optional\) Removes &lt;script&gt; tags
+$strip\_scripts \(bool\) \(Optional\) Removes &lt;script&gt; tags. Default value: true
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) Sanitized and safe string
+\(string\) Sanitized and safe string.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = 'Text <a href="javascript:function()">click</a> <i onload=xss></i> <script>javascript code</script>';

@@ -12,13 +12,13 @@ The function will set the `$_COOKIE[COOKIE_PREFIX.'admin']` if the submitted adm
 
 ### Parameters <a id="parameters"></a>
 
-$password \(string\) \(Required\) Any password
+$password \(string\) \(Required\) Any password.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(bool\) True if a password is set
+\(bool\) True if a password is set.
 
-### **Example**
+### **Examples**
 
 ```php
 set_admin_pass('SECRET_PASSWORD');

@@ -12,19 +12,23 @@ redirect\( string $location \[, bool $delay, bool $script, int $code \] \)
 
 $location \(string\) \(Required\) Destination URL
 
-$delay \(bool\) \(Optional\) Meta refresh delay
+$delay \(bool\) \(Optional\) Meta refresh delay. Default value: false
 
-$script \(bool\) \(Optional\) Set true if you want to redirect via javascript
+$script \(bool\) \(Optional\) Set true if you want to redirect via javascript. Default value: false
 
-$code \(int\) \(Optional\) HTTP status code to send
+$code \(int\) \(Optional\) HTTP status code to send. Default value: 200
 
-### Return <a id="return"></a>
+### Return Values
 
-No value is returned
+No value is returned.
 
-### **Example**
+### **Examples**
 
 ```php
 redirect(BASEDIR.'page.php');
+```
+
+```php
+redirect('http://example.com/');
 ```
 

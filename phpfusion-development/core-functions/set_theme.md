@@ -10,13 +10,13 @@ set\_theme\( string $theme \)
 
 ### Parameters <a id="parameters"></a>
 
-$theme \(string\) \(Required\) The theme folder you want to set
+$theme \(string\) \(Required\) The theme folder you want to set.
 
-### Return <a id="return"></a>
+### Return Values
 
 No value is returned
 
-### **Example**
+### **Examples**
 
 ```php
 set_theme('my_theme');

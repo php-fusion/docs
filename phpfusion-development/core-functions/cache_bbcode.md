@@ -10,13 +10,13 @@ cache\_bbcode\(\)
 
 ### Parameters <a id="parameters"></a>
 
-No parameters
+No parameters.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(array\) Array of all BBCodes
+\(array\) Array of all BBCodes.
 
-### **Example**
+### **Examples**
 
 ```php
 foreach (cache_bbcode() as $bbcode) {

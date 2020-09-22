@@ -10,15 +10,15 @@ trimlink\( string $text, int $length \)
 
 ### Parameters <a id="parameters"></a>
 
-$text \(string\) \(Required\) String to trim
+$text \(string\) \(Required\) String to trim.
 
-$length \(int\) \(Required\) Max length of the string
+$length \(int\) \(Required\) Max length of the string.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\) String trimmed to the given length
+\(string\) String trimmed to the given length.
 
-### **Example**
+### **Examples**
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

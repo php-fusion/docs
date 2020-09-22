@@ -10,13 +10,13 @@ getuserstatus\( int $userstatus \)
 
 ### Parameters <a id="parameters"></a>
 
-$userstatus \(int\) \(Required\) Status code 0 - 8
+$userstatus \(int\) \(Required\) Status code 0 - 8.
 
-### Return <a id="return"></a>
+### Return Values
 
-\(string\|null\) The name of the given user status, null if does not exist
+\(string\|null\) The name of the given user status, null if does not exist.
 
-### **Example**
+### **Examples**
 
 ```php
 echo getuserstatus(5);

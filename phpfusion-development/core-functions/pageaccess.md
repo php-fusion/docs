@@ -12,15 +12,15 @@ pageAccess\( string $rights \[, bool $debug \] \)
 
 ### Parameters <a id="parameters"></a>
 
-$rights \(string\) \(Required\) Rights you want to check for the administrator
+$rights \(string\) \(Required\) Rights you want to check for the administrator.
 
-$debug \(bool\) \(Optional\) For debugging purposes
+$debug \(bool\) \(Optional\) For debugging purposes. Default value: false
 
-### Return <a id="return"></a>
+### Return Values
 
-No value is returned
+No value is returned.
 
-### **Example**
+### **Examples**
 
 ```php
 // Paste the code after maincore.php

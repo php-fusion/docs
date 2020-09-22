@@ -58,6 +58,8 @@
   * [user\_blacklisted\(\)](phpfusion-development/core-functions/user_blacklisted.md)
   * [makefilelist\(\)](phpfusion-development/core-functions/makefilelist.md)
   * [makefileopts\(\)](phpfusion-development/core-functions/makefileopts.md)
+  * [makepagenav\(\)](phpfusion-development/core-functions/makepagenav.md)
+  * [infinite\_scroll\(\)](phpfusion-development/core-functions/infinite_scroll.md)
 * [Database functions](phpfusion-development/database-functions/README.md)
   * [dbquery\(\)](phpfusion-development/database-functions/dbquery.md)
 * [Theme functions](phpfusion-development/theme-functions/README.md)
