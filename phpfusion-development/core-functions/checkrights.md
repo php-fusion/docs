@@ -18,6 +18,5 @@ $rights \(string\) \(Required\) Rights you want to check for the administrator.
 if (checkrights('M')) {
     echo 'User has access to member management.';
 }
-// User has access to member management.
 ```
 

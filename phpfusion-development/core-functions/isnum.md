@@ -29,6 +29,5 @@ if (isnum($value)) {
 } else {
     echo 'This is not a number.';
 }
-// This is not a number.
 ```
 

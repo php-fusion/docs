@@ -23,6 +23,5 @@ $user_id = 3;
 if (user_blacklisted($user_id)) {
     echo 'User is blacklisted.';
 }
-// User is blacklisted.
 ```
 

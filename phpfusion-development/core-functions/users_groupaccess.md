@@ -23,6 +23,5 @@ $id = 1;
 if (users_groupaccess($id)) {
     echo 'User has access to '.getgroupname($id);
 }
-// User has access to Group Name
 ```
 

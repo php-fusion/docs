@@ -14,7 +14,7 @@ $theme \(string\) \(Required\) The theme folder you want to set.
 
 ### Return Values
 
-No value is returned
+No value is returned.
 
 ### **Examples**
 

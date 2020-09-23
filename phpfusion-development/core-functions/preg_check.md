@@ -23,8 +23,7 @@ $value \(mixed\) \(Required\) The input string.
 ```php
 $value = 'abc123';
 if (preg_check("/^[0-9A-Za-z]+$/", $value)) {
-    echo 'String';
+    //
 }
-// String
 ```
 

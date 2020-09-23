@@ -23,6 +23,5 @@ $group = -101;
 if (checkgroup($group)) {
     echo 'You are a member of the '.getgroupname($group).' group.';
 }
-// You are a member of the Member group.
 ```
 

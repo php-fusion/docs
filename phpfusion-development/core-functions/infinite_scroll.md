@@ -22,7 +22,7 @@ $http\_query \(string\) \(Optional\) Additional http query. Default value: ''
 
 ### Return Values
 
-\(stringl\) Infinite scroll.
+\(string\) Infinite scroll.
 
 ### **Examples**
 

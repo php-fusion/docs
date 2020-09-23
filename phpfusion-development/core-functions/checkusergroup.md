@@ -30,6 +30,5 @@ $userdata = fusion_get_userdata();
 if (checkusergroup($page_access, $userdata['user_level'], $userdata['user_groups'])) {
     echo 'You have access to this section.';
 }
-// You have access to this section.
 ```
 
