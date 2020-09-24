@@ -93,6 +93,7 @@
 * [Theme functions](phpfusion-development/theme-functions/README.md)
   * [openside\(\)](phpfusion-development/theme-functions/openside.md)
 * [Fusion Dynamics](phpfusion-development/fusion-dynamics/README.md)
+  * [openform\(\)](phpfusion-development/fusion-dynamics/openform.md)
   * [form\_button](phpfusion-development/fusion-dynamics/form_button.md)
   * [form\_colorpicker](phpfusion-development/fusion-dynamics/form_colorpicker.md)
   * [form\_datepicker](phpfusion-development/fusion-dynamics/form_datepicker.md)
