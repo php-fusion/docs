@@ -2,6 +2,10 @@
 
 The function should be able used to replace conventional &lt;form&gt; tags to provide an enhanced feature to your application.
 
+#### $options
+
+{% tabs %}
+{% tab title="Version 9" %}
 | Parameter | Description |
 | :--- | :--- |
 | form\_id | default to $form\_name |
@@ -12,9 +16,9 @@ The function should be able used to replace conventional &lt;form&gt; tags to pr
 | on\_submit | Adds javascript function on form submit. |
 | honeypot | Default TRUE. Enables honeypots to counter botting. |
 |  |  |
+{% endtab %}
 
-### Version 10 \(append\)
-
+{% tab title="Version 10" %}
 In Version 10, this function is further extended to allow more enhanced features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
 
 {% hint style="warning" %}
@@ -35,6 +39,10 @@ Support feature is currently under development.
 | post\_mapping | Specify which table and column relationships in an array format. |
 | post\_function | Specify custom post functions. Can have multiple functions declared using array. |
 | post\_debug | Default FALSE. Set true for debug mode. |
+{% endtab %}
+{% endtabs %}
+
+
 
 
 
