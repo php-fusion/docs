@@ -6,7 +6,7 @@ description: Get currency symbol by using a 3-letter ISO 4217 currency code.
 
 Versions: `9`
 
-fusion\_get\_currency\( \[ string $iso, bool $description \] \)
+fusion\_get\_currency\( \[ string $iso, bool $description \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

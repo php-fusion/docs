@@ -6,7 +6,7 @@ description: 'Stripslash function, only strip slashes if magic_quotes_gpc is on.
 
 Versions: `9`
 
-stripslash\( string $text \)
+stripslash\( string $text \) : string
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Get a user status by the numeric code of status.
 
 Versions: `9`
 
-getuserstatus\( int $userstatus \)
+getuserstatus\( int $userstatus \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

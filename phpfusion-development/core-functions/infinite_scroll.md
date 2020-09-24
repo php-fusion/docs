@@ -6,7 +6,7 @@ description: Infinite scroll pagination.
 
 Versions: `9`
 
-infinite\_scroll\( string $scroll\_url, int $rowstart, int $count \[, string $getname, string $http\_query \] \)
+infinite\_scroll\( string $scroll\_url, int $rowstart, int $count \[, string $getname, string $http\_query \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

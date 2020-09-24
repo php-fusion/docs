@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-hide\_email\( string $email \[, string $title, string $subject \] \)
+hide\_email\( string $email \[, string $title, string $subject \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

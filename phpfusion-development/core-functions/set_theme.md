@@ -6,7 +6,7 @@ description: Set a valid theme.
 
 Versions: `9`
 
-set\_theme\( string $theme \)
+set\_theme\( string $theme \) : void
 
 ### Parameters <a id="parameters"></a>
 

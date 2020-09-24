@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-fusion\_parse\_user\( string $user\_name \[, string $tooltip \] \)
+fusion\_parse\_user\( string $user\_name \[, string $tooltip \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

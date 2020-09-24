@@ -6,7 +6,7 @@ description: Clean URL will clean the URL and prevents entities in server global
 
 Versions: `9`
 
-cleanurl\( string $url \)
+cleanurl\( string $url \) : string
 
 ### Parameters <a id="parameters"></a>
 

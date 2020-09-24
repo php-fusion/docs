@@ -6,7 +6,7 @@ description: Scan image files for malicious code.
 
 Versions: `9`
 
-verify\_image\( string $file \)
+verify\_image\( string $file \) : bool
 
 ### Parameters <a id="parameters"></a>
 

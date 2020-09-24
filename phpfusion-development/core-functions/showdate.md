@@ -6,7 +6,7 @@ description: Format the date and time according to the site and user offset.
 
 Versions: `9`
 
-showdate\( string $format, int $val \[, array $options \] \)
+showdate\( string $format, int $val \[, array $options \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

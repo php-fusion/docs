@@ -6,7 +6,7 @@ description: Prints human-readable information about a variable.
 
 Versions: `9`
 
-print\_p\( mixed $data \[, bool $modal, bool $print \] \)
+print\_p\( mixed $data \[, bool $modal, bool $print \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

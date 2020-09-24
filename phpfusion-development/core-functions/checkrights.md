@@ -2,7 +2,7 @@
 
 Versions: `9`
 
-checkrights\( string $rights \)
+checkrights\( string $rights \) : bool
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Fetch user PM settings.
 
 Versions: `9`
 
-user\_pm\_settings\( int $user\_id \[, string $key \] \)
+user\_pm\_settings\( int $user\_id \[, string $key \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

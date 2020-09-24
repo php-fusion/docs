@@ -6,7 +6,7 @@ description: Cache of all smileys from the database.
 
 Versions: `9`
 
-cache\_smileys\(\)
+cache\_smileys\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

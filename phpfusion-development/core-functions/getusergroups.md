@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-getusergroups\(\)
+getusergroups\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

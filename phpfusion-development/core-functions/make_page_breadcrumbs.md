@@ -6,7 +6,7 @@ description: 'Hierarchy Page Breadcrumbs, generates breadcrumbs on all your cate
 
 Versions: `9`
 
-make\_page\_breadcrumbs\( array $tree\_index, array $tree\_full, string $id\_col, string $title\_col \[, string $getname, string $key \] \)
+make\_page\_breadcrumbs\( array $tree\_index, array $tree\_full, string $id\_col, string $title\_col \[, string $getname, string $key \] \) : void
 
 ### Parameters <a id="parameters"></a>
 

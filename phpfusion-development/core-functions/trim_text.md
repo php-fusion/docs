@@ -6,7 +6,7 @@ description: Pure trim function.
 
 Versions: `9`
 
-trim\_text\( string $text \[, int $length \] \)
+trim\_text\( string $text \[, int $length \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Recursively remove folder and all files/subdirectories.
 
 Versions: `9`
 
-rrmdir\( string $dir \)
+rrmdir\( string $dir \) : void
 
 ### Parameters <a id="parameters"></a>
 

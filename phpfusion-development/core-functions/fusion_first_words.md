@@ -6,7 +6,7 @@ description: Trim a text to a number of words.
 
 Versions: `9`
 
-fusion\_first\_words\( string $text, int $limit \[, string $suffix \] \)
+fusion\_first\_words\( string $text, int $limit \[, string $suffix \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Check if a given language is valid or if exists.
 
 Versions: `9`
 
-valid\_language\( string $lang \[, bool $file\_check \] \)
+valid\_language\( string $lang \[, bool $file\_check \] \) : bool
 
 ### Parameters <a id="parameters"></a>
 

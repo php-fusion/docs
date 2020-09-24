@@ -6,7 +6,7 @@ description: Prevent any possible XSS attacks via $_GET.
 
 Versions: `9`
 
-stripget\( string $check\_url \)
+stripget\( string $check\_url \) : bool
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Parse BBCodes in the given string.
 
 Versions: `9`
 
-parseubb\( string $text \[, string $selected, bool $descript \] \)
+parseubb\( string $text \[, string $selected, bool $descript \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

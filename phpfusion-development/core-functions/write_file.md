@@ -6,7 +6,7 @@ description: A wrapper function for file_put_contents with cache invalidation.
 
 Versions: `9`
 
-write\_file\( string $file, mixed $data \[, int $flags \] \)
+write\_file\( string $file, mixed $data \[, int $flags \] \) : int
 
 ### Parameters <a id="parameters"></a>
 

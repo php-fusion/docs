@@ -6,7 +6,7 @@ description: Create <option></option> from the entries in a given array.
 
 Versions: `9`
 
-makefileopts\( array $options \[, string $selected \] \)
+makefileopts\( array $options \[, string $selected \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

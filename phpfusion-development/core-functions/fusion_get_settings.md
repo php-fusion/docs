@@ -6,7 +6,7 @@ description: Fetch the settings from DB_SETTINGS.
 
 Versions: `9`
 
-fusion\_get\_settings\( \[ string $key \] \)
+fusion\_get\_settings\( \[ string $key \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

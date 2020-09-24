@@ -6,7 +6,7 @@ description: 'Parse BBCodes, smileys and any special characters to HTML string.'
 
 Versions: `9`
 
-parse\_textarea\( string $value \[, bool $parse\_smileys, bool $parse\_bbcode, bool $decode, string $default\_image\_folder, bool $add\_line\_breaks, bool $descript \] \)
+parse\_textarea\( string $value \[, bool $parse\_smileys, bool $parse\_bbcode, bool $decode, string $default\_image\_folder, bool $add\_line\_breaks, bool $descript \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

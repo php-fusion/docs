@@ -6,7 +6,7 @@ description: Get form tokens.
 
 Versions: `9`
 
-fusion\_get\_token\( string $form\_id \[, int $max\_tokens \] \)
+fusion\_get\_token\( string $form\_id \[, int $max\_tokens \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

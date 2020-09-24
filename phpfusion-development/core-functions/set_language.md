@@ -6,7 +6,7 @@ description: Set the requested language.
 
 Versions: `9`
 
-set\_language\( string $lang\)
+set\_language\( string $lang\) : void
 
 ### Parameters <a id="parameters"></a>
 

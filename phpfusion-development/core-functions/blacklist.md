@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-blacklist\( string $field \)
+blacklist\( string $field \) : string
 
 ### Parameters <a id="parameters"></a>
 

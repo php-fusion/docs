@@ -90,6 +90,7 @@
   * [write\_file\(\)](phpfusion-development/core-functions/write_file.md)
 * [Database functions](phpfusion-development/database-functions/README.md)
   * [dbquery\(\)](phpfusion-development/database-functions/dbquery.md)
+  * [dbcount\(\)](phpfusion-development/database-functions/dbcount.md)
 * [Theme functions](phpfusion-development/theme-functions/README.md)
   * [openside\(\)](phpfusion-development/theme-functions/openside.md)
 * [Fusion Dynamics](phpfusion-development/fusion-dynamics/README.md)

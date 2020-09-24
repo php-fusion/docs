@@ -6,7 +6,7 @@ description: Parse and force image/ to own directory.
 
 Versions: `9`
 
-parse\_imageDir\( string $data \[, string $prefix\_ \] \)
+parse\_imageDir\( string $data \[, string $prefix\_ \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

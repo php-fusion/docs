@@ -6,7 +6,7 @@ description: Get a user level's name by the numeric code of level.
 
 Versions: `9`
 
-getuserlevel\( int $userlevel \)
+getuserlevel\( int $userlevel \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

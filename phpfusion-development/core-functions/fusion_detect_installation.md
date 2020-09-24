@@ -6,7 +6,7 @@ description: Detect whether the system is installed.
 
 Versions: `9`
 
-fusion\_detect\_installation\(\)
+fusion\_detect\_installation\( void \) : string
 
 ### Parameters <a id="parameters"></a>
 

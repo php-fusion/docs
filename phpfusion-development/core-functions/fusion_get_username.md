@@ -6,7 +6,7 @@ description: Fetch username by id.
 
 Versions: `9`
 
-fusion\_get\_username\( int $user\_id \)
+fusion\_get\_username\( int $user\_id \) : string
 
 ### Parameters <a id="parameters"></a>
 

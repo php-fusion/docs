@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-displaysmileys\( string $textarea \[, string $form \] \)
+displaysmileys\( string $textarea \[, string $form \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Strips a given filename from any unwanted characters and symbols.
 
 Versions: `9`
 
-stripfilename\( string $filename \)
+stripfilename\( string $filename \) : string
 
 ### Parameters <a id="parameters"></a>
 

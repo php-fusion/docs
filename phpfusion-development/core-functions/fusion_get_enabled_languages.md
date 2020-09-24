@@ -6,7 +6,7 @@ description: Get the array of enabled languages.
 
 Versions: `9`
 
-fusion\_get\_enabled\_languages\(\)
+fusion\_get\_enabled\_languages\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

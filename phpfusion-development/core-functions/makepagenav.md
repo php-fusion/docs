@@ -6,7 +6,7 @@ description: Creates a full page navigation used.
 
 Versions: `9`
 
-makepagenav\( int $rowstart, int $count, int $total \[, int $range, string $link, string $getname, bool $button \] \)
+makepagenav\( int $rowstart, int $count, int $total \[, int $range, string $link, string $getname, bool $button \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

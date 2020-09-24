@@ -6,7 +6,7 @@ description: Check if admin password matches userdata.
 
 Versions: `9`
 
-check\_admin\_pass\( string $password \)
+check\_admin\_pass\( string $password \) : bool
 
 ### Parameters <a id="parameters"></a>
 

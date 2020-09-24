@@ -6,7 +6,7 @@ description: Create a list of files or folders and store them in an array.
 
 Versions: `9`
 
-makefilelist\( string $folder \[, string $filter, bool $sort, string $type, string $ext\_filter \] \)
+makefilelist\( string $folder \[, string $filter, bool $sort, string $type, string $ext\_filter \] \) : array
 
 ### Parameters <a id="parameters"></a>
 

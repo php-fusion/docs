@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-pageAccess\( string $rights \[, bool $debug \] \)
+pageAccess\( string $rights \[, bool $debug \] \) : void
 
 ### Parameters <a id="parameters"></a>
 

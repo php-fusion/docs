@@ -6,7 +6,7 @@ description: Check if user is assigned to the specified user group.
 
 Versions: `9`
 
-checkgroup\( int $group \)
+checkgroup\( int $group \) : bool
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Custom preg_match function.
 
 Versions: `9`
 
-preg\_check\( string $expression, mixed $value \)
+preg\_check\( string $expression, mixed $value \) : bool
 
 ### Parameters <a id="parameters"></a>
 

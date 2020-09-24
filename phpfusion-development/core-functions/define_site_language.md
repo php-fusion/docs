@@ -6,7 +6,7 @@ description: Define constants for defined site language.
 
 Versions: `9`
 
-define\_site\_language\( string $lang\)
+define\_site\_language\( string $lang \) : void
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Parse the smileys in string and display smiley codes as smiley imag
 
 Versions: `9`
 
-parsesmileys\( string $message \)
+parsesmileys\( string $message \) : string
 
 ### Parameters <a id="parameters"></a>
 

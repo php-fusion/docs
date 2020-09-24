@@ -6,7 +6,7 @@ description: Generate a clean request URI.
 
 Versions: `9`
 
-clean\_request\( \[ mixed $request\_addition, array $filter\_array, bool $keep\_filtered \] \)
+clean\_request\( \[ mixed $request\_addition, array $filter\_array, bool $keep\_filtered \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

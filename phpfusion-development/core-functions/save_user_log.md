@@ -6,7 +6,7 @@ description: Log user actions.
 
 Versions: `9`
 
-save\_user\_log\( int $user\_id, string $column\_name, string $new\_value, string $old\_value \)
+save\_user\_log\( int $user\_id, string $column\_name, string $new\_value, string $old\_value \) : void
 
 ### Parameters <a id="parameters"></a>
 

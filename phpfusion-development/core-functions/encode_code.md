@@ -6,7 +6,7 @@ description: Encode and format code inside <code> tag.
 
 Versions: `9`
 
-encode\_code\( string $text \)
+encode\_code\( string $text \) : string
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Sanitize text and remove potentially dangerous HTML and JavaScript.
 
 Versions: `9`
 
-descript\( string $text \[, bool $strip\_tags, bool $strip\_scripts \] \)
+descript\( string $text \[, bool $strip\_tags, bool $strip\_scripts \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

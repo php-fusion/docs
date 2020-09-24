@@ -6,7 +6,7 @@ description: Redirect to internal or external URL.
 
 Versions: `9`
 
-redirect\( string $location \[, bool $delay, bool $script, int $code \] \)
+redirect\( string $location \[, bool $delay, bool $script, int $code \] \) : void
 
 ### Parameters <a id="parameters"></a>
 

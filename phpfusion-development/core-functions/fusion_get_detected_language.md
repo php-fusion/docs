@@ -6,7 +6,7 @@ description: Get the array of detected languages.
 
 Versions: `9`
 
-fusion\_get\_detected\_language\(\)
+fusion\_get\_detected\_language\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Get the data of any user by ID.
 
 Versions: `9`
 
-fusion\_get\_user\( int $user\_id \[, string $key \] \)
+fusion\_get\_user\( int $user\_id \[, string $key \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

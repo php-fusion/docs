@@ -6,7 +6,7 @@ description: Minify JS code.
 
 Versions: `9`
 
-jsminify\( string $code \)
+jsminify\( string $code \) : string
 
 ### Parameters <a id="parameters"></a>
 

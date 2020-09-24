@@ -6,7 +6,7 @@ description: Add correct amount of spaces and tabs inside code.
 
 Versions: `9`
 
-formatcode\( string $text \)
+formatcode\( string $text \) : string
 
 ### Parameters <a id="parameters"></a>
 

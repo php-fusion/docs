@@ -6,7 +6,7 @@ description: Converts all applicable characters to HTML entities.
 
 Versions: `9`
 
-phpentities\( string $text \)
+phpentities\( string $text \) : string
 
 ### Parameters <a id="parameters"></a>
 

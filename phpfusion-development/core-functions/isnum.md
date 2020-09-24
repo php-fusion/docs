@@ -6,7 +6,7 @@ description: Validate numeric input.
 
 Versions: `9`
 
-isnum\( mixed $value \[, bool $decimal, bool $negative \] \)
+isnum\( mixed $value \[, bool $decimal, bool $negative \] \) : bool
 
 ### Parameters <a id="parameters"></a>
 

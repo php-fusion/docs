@@ -6,7 +6,7 @@ description: Get Aidlink.
 
 Versions: `9`
 
-fusion\_get\_aidlink\(\)
+fusion\_get\_aidlink\( void \) : string
 
 ### Parameters <a id="parameters"></a>
 

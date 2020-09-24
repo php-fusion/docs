@@ -6,7 +6,7 @@ description: Fetch user data of the currently logged in user from DB_USERS.
 
 Versions: `9`
 
-fusion\_get\_userdata\( \[ string $key \] \)
+fusion\_get\_userdata\( \[ string $key \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

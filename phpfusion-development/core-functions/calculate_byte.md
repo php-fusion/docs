@@ -6,7 +6,7 @@ description: Returns nearest data unit.
 
 Versions: `9`
 
-calculate\_byte\( int $total\_bit \)
+calculate\_byte\( int $total\_bit \) : int
 
 ### Parameters <a id="parameters"></a>
 

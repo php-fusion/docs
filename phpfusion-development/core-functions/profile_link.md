@@ -6,7 +6,7 @@ description: User profile link.
 
 Versions: `9`
 
-profile\_link\($user\_id, $user\_name, $user\_status \[, string $class, bool $display\_link \] \)
+profile\_link\($user\_id, $user\_name, $user\_status \[, string $class, bool $display\_link \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

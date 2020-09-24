@@ -6,7 +6,7 @@ description: Cache of all user groups from the database.
 
 Versions: `9`
 
-cache\_groups\(\)
+cache\_groups\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

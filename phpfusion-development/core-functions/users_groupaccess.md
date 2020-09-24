@@ -6,7 +6,7 @@ description: Check if user has access to the group.
 
 Versions: `9`
 
-users\_groupaccess\( int $group\_id\)
+users\_groupaccess\( int $group\_id \) : bool
 
 ### Parameters <a id="parameters"></a>
 

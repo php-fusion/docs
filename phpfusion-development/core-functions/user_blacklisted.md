@@ -6,7 +6,7 @@ description: Check if user was blacklisted by a member.
 
 Versions: `9`
 
-user\_blacklisted\( int $user\_id \)
+user\_blacklisted\( int $user\_id \) : bool
 
 ### Parameters <a id="parameters"></a>
 

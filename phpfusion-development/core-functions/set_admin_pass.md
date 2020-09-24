@@ -6,7 +6,7 @@ description: Set password of the currently logged in administrator.
 
 Versions: `9`
 
-set\_admin\_pass\( string $password \)
+set\_admin\_pass\( string $password \) : bool
 
 The function will set the `$_COOKIE[COOKIE_PREFIX.'admin']` if the submitted admin password matches the users admin password in `$userdata['user_admin_password']`.
 

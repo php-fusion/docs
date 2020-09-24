@@ -6,7 +6,7 @@ description: Highlights given words in string.
 
 Versions: `9`
 
-highlight\_words\( array $words, string $subject \)
+highlight\_words\( array $words, string $subject \) : string
 
 ### Parameters <a id="parameters"></a>
 

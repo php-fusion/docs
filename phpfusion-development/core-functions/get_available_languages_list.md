@@ -6,7 +6,7 @@ description: Create a selection list of possible languages in list.
 
 Versions: `9`
 
-get\_available\_languages\_list\( \[ string $selected\_language \]\)
+get\_available\_languages\_list\( \[ string $selected\_language \]\) : string
 
 ### Parameters <a id="parameters"></a>
 

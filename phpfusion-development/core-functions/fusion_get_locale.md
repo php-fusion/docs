@@ -6,7 +6,7 @@ description: Fetch a locales.
 
 Versions: `9`
 
-fusion\_get\_locale\( \[ string $key, mixed $include\_file \] \)
+fusion\_get\_locale\( \[ string $key, mixed $include\_file \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

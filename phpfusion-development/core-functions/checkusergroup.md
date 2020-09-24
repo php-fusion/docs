@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-checkusergroup\( int $group, int $user\_level, string $user\_groups \)
+checkusergroup\( int $group, int $user\_level, string $user\_groups \) : bool
 
 ### Parameters <a id="parameters"></a>
 

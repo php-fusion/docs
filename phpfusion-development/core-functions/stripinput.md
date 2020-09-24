@@ -6,7 +6,7 @@ description: 'Strip Input, prevents HTML in unwanted places.'
 
 Versions: `9`
 
-stripinput\( mixed $text \)
+stripinput\( mixed $text \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

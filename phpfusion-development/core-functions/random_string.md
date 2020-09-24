@@ -6,7 +6,7 @@ description: Generate random string.
 
 Versions: `9`
 
-random\_string\( \[ int $length \] \)
+random\_string\( \[ int $length \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

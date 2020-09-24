@@ -6,7 +6,7 @@ description: Cache of all installed BBCodes from the database.
 
 Versions: `9`
 
-cache\_bbcode\(\)
+cache\_bbcode\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

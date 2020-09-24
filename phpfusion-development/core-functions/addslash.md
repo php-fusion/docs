@@ -6,7 +6,7 @@ description: Add correct number of slashes depending on QUOTES_GPC.
 
 Versions: `9`
 
-stripslash\( string $text \)
+stripslash\( string $text \) : string
 
 ### Parameters <a id="parameters"></a>
 

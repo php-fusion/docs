@@ -6,7 +6,7 @@ description: Getting the access levels used when asking the database for data.
 
 Versions: `9`
 
-groupaccess\( string $field \)
+groupaccess\( string $field \) : string
 
 ### Parameters <a id="parameters"></a>
 

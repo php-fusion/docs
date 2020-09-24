@@ -6,7 +6,7 @@ description: 'Translate bytes into kB, MB, GB or TB.'
 
 Versions: `9`
 
-parsebytesize\( int $size, int $decimals \[, bool $dir \] \)
+parsebytesize\( int $size, int $decimals \[, bool $dir \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

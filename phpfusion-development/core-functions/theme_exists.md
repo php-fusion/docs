@@ -6,7 +6,7 @@ description: Check if a given theme exists and is valid.
 
 Versions: `9`
 
-theme\_exists\( string $theme \)
+theme\_exists\( string $theme \) : bool
 
 ### Parameters <a id="parameters"></a>
 

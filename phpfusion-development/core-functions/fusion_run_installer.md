@@ -6,7 +6,7 @@ description: Run the installer or halt the script.
 
 Versions: `9`
 
-fusion\_run\_installer\(\)
+fusion\_run\_installer\( void \) : void
 
 ### Parameters <a id="parameters"></a>
 

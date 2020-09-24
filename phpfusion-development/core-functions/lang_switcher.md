@@ -6,7 +6,7 @@ description: Language switcher function.
 
 Versions: `9`
 
-lang\_switcher\( \[ bool $icon \] \)
+lang\_switcher\( \[ bool $icon \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

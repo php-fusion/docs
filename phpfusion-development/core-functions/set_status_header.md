@@ -6,7 +6,7 @@ description: Set HTTP status header.
 
 Versions: `9`
 
-set\_status\_header\( int $code \)
+set\_status\_header\( int $code \) : bool
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Get HTTP response code.
 
 Versions: `9`
 
-get\_http\_response\_code\( string $url \)
+get\_http\_response\_code\( string $url \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

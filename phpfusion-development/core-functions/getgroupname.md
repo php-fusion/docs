@@ -1,8 +1,12 @@
+---
+description: Get the name of the access level or user group.
+---
+
 # getgroupname\(\)
 
 Versions: `9`
 
-getgroupname\( int $group\_id \[, bool $return\_desc, bool $return\_icon \] \)
+getgroupname\( int $group\_id \[, bool $return\_desc, bool $return\_icon \] \) : mixed
 
 ### Parameters <a id="parameters"></a>
 

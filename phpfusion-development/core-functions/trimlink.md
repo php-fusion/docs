@@ -6,7 +6,7 @@ description: Prevent strings from growing to long and breaking the layout.
 
 Versions: `9`
 
-trimlink\( string $text, int $length \)
+trimlink\( string $text, int $length \) : string
 
 ### Parameters <a id="parameters"></a>
 

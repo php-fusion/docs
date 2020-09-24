@@ -9,7 +9,7 @@ description: >-
 
 Versions: `9`
 
-censorwords\( string $text \)
+censorwords\( string $text \) : bool
 
 ### Parameters <a id="parameters"></a>
 

@@ -6,7 +6,7 @@ description: Get language switch arrays.
 
 Versions: `9`
 
-fusion\_get\_language\_switch\(\)
+fusion\_get\_language\_switch\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 
