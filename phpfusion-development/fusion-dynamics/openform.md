@@ -19,7 +19,7 @@ The function should be able used to replace conventional &lt;form&gt; tags to pr
 {% endtab %}
 
 {% tab title="Version 10" %}
-In Version 10, this function is further extended to allow more enhanced features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
+In Version 10, the function is further extended to allow more enhanced $options features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
 
 {% hint style="warning" %}
 Support feature is currently under development. 
