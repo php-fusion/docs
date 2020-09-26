@@ -1,7 +1,5 @@
 ---
-description: >-
-  UF blacklist for SQL - the same as groupaccess() but $field is the user_id
-  column.
+description: UF blacklist for SQL.
 ---
 
 # blacklist\(\)
