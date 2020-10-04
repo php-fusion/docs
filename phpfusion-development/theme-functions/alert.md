@@ -14,10 +14,10 @@ $title \(string\) \(Required\) Text inside the alert.
 
 $options \(array\) \(Optional\) Default value: \[\]
 
-| Name | Description | Default |
-| :--- | :--- | :--- |
-| class | CSS class. | alert-danger |
-| dismiss | Enable dismissal of an alert. | false |
+| Name | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| class | string | alert-danger | CSS class. |
+| dismiss | bool | false | Enable dismissal of an alert. |
 
 ### Return Values
 

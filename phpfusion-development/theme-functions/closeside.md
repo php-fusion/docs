@@ -21,6 +21,13 @@ No parameters.
 ### **Examples**
 
 ```php
+function closeside() {
+    echo '</div>'; // .panel-body
+    echo '</div>'; // .panel
+}
+```
+
+```php
 openside('Title');
 // Content goes here
 closeside();
