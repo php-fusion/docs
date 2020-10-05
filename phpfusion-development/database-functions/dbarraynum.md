@@ -27,3 +27,9 @@ if (dbrows($result) > 0) {
 }
 ```
 
+{% hint style="info" %}
+See also [dbquery\(\)](dbquery.md).
+
+See also [dbrows\(\)](dbrows.md).
+{% endhint %}
+

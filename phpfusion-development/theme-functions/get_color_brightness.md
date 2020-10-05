@@ -27,3 +27,7 @@ echo '<span style="background: #'.$hex.'; color: #'.$color.';">'.$text.'</span>'
 // <span style="background: #a33297; color: #fff;">String</span>
 ```
 
+{% hint style="info" %}
+See also [string\_to\_color\_code\(\)](string_to_color_code.md).
+{% endhint %}
+

@@ -42,3 +42,7 @@ openside('Title');
 closeside();
 ```
 
+{% hint style="info" %}
+See also [closeside\(\)](closeside.md).
+{% endhint %}
+

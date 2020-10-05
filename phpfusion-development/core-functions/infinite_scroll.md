@@ -52,3 +52,11 @@ while ($data = dbarray($result)) {
 }
 ```
 
+{% hint style="info" %}
+See also [dbcount\(\)](../database-functions/dbcount.md).
+
+See also [dbquery\(\)](../database-functions/dbquery.md).
+
+See also [isnum\(\)](isnum.md).
+{% endhint %}
+

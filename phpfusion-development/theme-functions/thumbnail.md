@@ -16,7 +16,7 @@ $size \(string\) \(Required\) Image size.
 
 $url \(bool\) \(Optional\) Make image clickable. Default value: false
 
-$colorbox \(bool\) \(Optional\) Allow colorbox. Default value: false
+$colorbox \(bool\) \(Optional\) Allow [colorbox\(\)](colorbox.md). Default value: false
 
 $responsive \(bool\) \(Optional\) Add img-responsive class. Default value: true
 

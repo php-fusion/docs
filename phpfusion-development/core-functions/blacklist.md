@@ -25,3 +25,7 @@ $result = dbquery("SELECT user_id, user_name
 ");
 ```
 
+{% hint style="info" %}
+See also [dbquery\(\)](../database-functions/dbquery.md).
+{% endhint %}
+

@@ -32,3 +32,7 @@ if (checkusergroup($page_access, $userdata['user_level'], $userdata['user_groups
 }
 ```
 
+{% hint style="info" %}
+See also [fusion\_get\_userdata\(\)](fusion_get_userdata.md).
+{% endhint %}
+

@@ -34,3 +34,9 @@ $tree_full = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');
 make_page_breadcrumbs($tree_index, $tree_full, 'news_cat_id', 'news_cat_name');
 ```
 
+{% hint style="info" %}
+See also [tree\_index\(\)](../database-functions/tree_index.md).
+
+See also [dbquery\_tree\_full\(\)](../database-functions/dbquery_tree_full.md).
+{% endhint %}
+

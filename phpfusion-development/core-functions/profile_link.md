@@ -32,3 +32,7 @@ echo profile_link($userdata['user_id'], $userdata['user_name'], $userdata['user_
 // <a href='profile.php?lookup=1' class='profile-link'>admin</a>
 ```
 
+{% hint style="info" %}
+See also [fusion\_get\_userdata\(\)](fusion_get_userdata.md).
+{% endhint %}
+

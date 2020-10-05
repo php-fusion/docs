@@ -33,3 +33,7 @@ $userdata = fusion_get_userdata();
 echo display_avatar($userdata, '40px');
 ```
 
+{% hint style="info" %}
+See also [fusion\_get\_userdata\(\)](../core-functions/fusion_get_userdata.md).
+{% endhint %}
+

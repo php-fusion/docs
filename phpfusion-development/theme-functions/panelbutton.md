@@ -50,3 +50,11 @@ echo 'Content goes here';
 closeside();
 ```
 
+{% hint style="info" %}
+See also [openside\(\)](openside.md).
+
+See also [closeside\(\)](closeside.md).
+
+See also[ panelstate\(\)](panelstate.md).
+{% endhint %}
+
