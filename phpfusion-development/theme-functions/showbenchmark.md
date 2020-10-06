@@ -6,7 +6,7 @@ description: Show benchmark and database performance.
 
 Versions: `9`
 
-showBenchmark\(\[ bool $show\_sql\_performance, string $performance\_threshold \] \) : string
+showBenchmark\( \[ bool $show\_sql\_performance, string $performance\_threshold \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

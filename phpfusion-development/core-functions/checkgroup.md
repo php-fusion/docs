@@ -25,7 +25,3 @@ if (checkgroup($group)) {
 }
 ```
 
-{% hint style="info" %}
-See also [getgroupname\(\)](getgroupname.md).
-{% endhint %}
-

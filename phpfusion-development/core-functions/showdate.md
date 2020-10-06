@@ -10,7 +10,7 @@ showdate\( string $format, int $val \[, array $options \] \) : string
 
 ### Parameters <a id="parameters"></a>
 
-$format \(string\) \(Required\) Possible values: shortdate, longdate, forumdate, newsdate or date pattern for the strftime.
+$format \(string\) \(Required\) Possible value: shortdate, longdate, forumdate, newsdate or date pattern for the strftime.
 
 $val \(int\) \(Required\) Unix timestamp.
 

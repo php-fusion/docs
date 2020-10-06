@@ -33,11 +33,3 @@ echo closecollapsebody();
 echo closecollapse();
 ```
 
-{% hint style="info" %}
-See also [opencollapse\(\)](opencollapse.md).
-
-See also [opencollapsebody\(\)](opencollapsebody.md).
-
-See also [closecollapse\(\)](closecollapse.md).
-{% endhint %}
-

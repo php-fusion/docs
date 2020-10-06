@@ -25,7 +25,3 @@ if (users_groupaccess($id)) {
 }
 ```
 
-{% hint style="info" %}
-See also [getgroupname\(\)](getgroupname.md).
-{% endhint %}
-

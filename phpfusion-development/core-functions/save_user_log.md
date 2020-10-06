@@ -29,7 +29,3 @@ $userdata = fusion_get_userdata();
 save_user_log($userdata['user_id'], 'user_name', 'NewName', $userdata['user_name']);
 ```
 
-{% hint style="info" %}
-See also [fusion\_get\_userdata\(\)](fusion_get_userdata.md).
-{% endhint %}
-

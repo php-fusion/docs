@@ -46,13 +46,3 @@ echo closetabbody();
 echo closetab();
 ```
 
-{% hint style="info" %}
-See also [opentab\(\)](opentab.md).
-
-See also [opentabbody\(\)](opentabbody.md).
-
-See also [closetabbody\(\)](closetabbody.md).
-
-See also [closetab\(](closetab.md)\).
-{% endhint %}
-

@@ -6,7 +6,7 @@ description: Show PHP-Fusion Performance.
 
 Versions: `9`
 
-showrendertime\( \[ bool $queries \) : string
+showrendertime\( \[ bool $queries \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

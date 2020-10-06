@@ -16,7 +16,7 @@ $filter \(string\) \(Optional\) The names of the filtered folders and files sepa
 
 $sort \(bool\) \(Optional\) False if you don't want to sort the result. Default value: true
 
-$type \(string\) \(Optional\) Possible values: 'files' to list files, 'folders' to list folders. Default value: files
+$type \(string\) \(Optional\) Possible value: files, folders. Default value: files
 
 $ext\_filter \(string\) \(Optional\) File extensions separated by "\|", only when $type is 'files'. Default value: '''
 

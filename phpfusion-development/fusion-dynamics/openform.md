@@ -1,48 +1,69 @@
+---
+description: >-
+  The function should be able used to replace conventional <form> tags to
+  provide an enhanced feature to your application.
+---
+
 # openform\(\)
 
-The function should be able used to replace conventional &lt;form&gt; tags to provide an enhanced feature to your application.
+Versions: `9`
 
-#### $options
+openform\( string $form\_name, string $method \[, string $action\_url, array $options \] \) : string
+
+### Parameters <a id="parameters"></a>
+
+$form\_name \(string\) \(Required\) Form ID.
+
+$method \(string\) \(Required\) Possible value: post, get.
+
+$action\_url \(string\) \(Optional\) Form current uri. Default value: FORM\_REQUEST
+
+$options \(array\) \(Optional\) Default value: \[\]
 
 {% tabs %}
 {% tab title="Version 9" %}
-| Parameter | Description |
-| :--- | :--- |
-| form\_id | default to $form\_name |
-| class | CSS class properties. |
-| enctype | Default FALSE. Set TRUE for allowing multipart. |
-| max\_tokens | Default system settings form tokens.  |
-| inline | Default FALSE. Set TRUE for making form field inline. |
-| on\_submit | Adds javascript function on form submit. |
-| honeypot | Default TRUE. Enables honeypots to counter botting. |
-|  |  |
+| Name | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| form\_id | string | $form\_name |  |
+| class | string | '' | CSS class properties. |
+| enctype | bool | false | Set true for allowing multipart. |
+| max\_tokens | int | $settings\['form\_tokens'\] |   |
+| inline | bool | false | Set true for making form inline. |
+| on\_submit | string | '' | Adds javascript function on form submit. |
+| honeypot | bool | true | Enables honeypots to counter botting. |
 {% endtab %}
 
 {% tab title="Version 10" %}
-In Version 10, the function is further extended to allow more enhanced $options features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
+In Version 10, the function is further extended to allow more enhanced options features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
 
 {% hint style="warning" %}
 Support feature is currently under development. 
 {% endhint %}
 
-| Parameter | Description |
-| :--- | :--- |
-| post\_db | Set table to target |
-| post\_id\_col | Primary key column |
-| post\_id\_value | Primary value for primary key column |
-| post\_button | Post button name. Array or string supported. |
-| post\_mode | Default "save". Form action. Save, Update, Auto |
-| post\_success\_message | Set a system message for successful post. |
-| post\_redirect\_url | Default FORM\_REQUEST. Redirect url for post |
-| post\_data | Callback data in the event. |
-| no\_unique | Default FALSE. Set TRUE if current table have no Primary column |
-| post\_mapping | Specify which table and column relationships in an array format. |
-| post\_function | Specify custom post functions. Can have multiple functions declared using array. |
-| post\_debug | Default FALSE. Set true for debug mode. |
+| Name | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| post\_db | string |  | Set table to target. |
+| post\_id\_col | string |  | Primary key column. |
+| post\_id\_value | string |  | Primary value for primary key column. |
+| post\_button | string |  | Post button name. Array or string supported. |
+| post\_mode | string | save | Form action. Save, Update, Auto. |
+| post\_success\_message | string |  | Set a system message for successful post. |
+| post\_redirect\_url | string | FORM\_REQUEST | Redirect url for post. |
+| post\_data | string |  | Callback data in the event. |
+| no\_unique | bool | false | Set true if current table have no primary column. |
+| post\_mapping | string |  | Specify which table and column relationships in an array format. |
+| post\_function |  |  | Specify custom post functions. Can have multiple functions declared using array. |
+| post\_debug | bool | false | Set true for debug mode. |
 {% endtab %}
 {% endtabs %}
 
+### Return Values
 
+\(string\)
 
+### **Examples**
 
+```php
+echo openform('testform', 'post');
+```
 

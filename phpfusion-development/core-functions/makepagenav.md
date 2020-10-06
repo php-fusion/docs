@@ -49,11 +49,3 @@ echo makepagenav($rowstart, $limit, $total_rows);
 */
 ```
 
-{% hint style="info" %}
-See also [dbcount\(\)](../database-functions/dbcount.md).
-
-See also [dbquery\(](../database-functions/dbquery.md)\).
-
-See also [isnum\(\)](isnum.md).
-{% endhint %}
-

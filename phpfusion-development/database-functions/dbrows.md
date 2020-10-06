@@ -25,7 +25,3 @@ echo $rows;
 // The number of rows in the table
 ```
 
-{% hint style="info" %}
-See also [dbquery\(\)](dbquery.md).
-{% endhint %}
-

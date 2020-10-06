@@ -2,7 +2,7 @@
 description: >-
   Replace offensive words with the defined replacement word. The list of
   offensive words and the replacement word are both defined in the Security
-  Settings page.
+  Settings.
 ---
 
 # censorwords\(\)

@@ -26,7 +26,3 @@ echo closemodal();
 echo '<button type="button" id="modal_testing">Open modal</button>';
 ```
 
-{% hint style="info" %}
-See also [openmodal\(\)](openmodal.md).
-{% endhint %}
-

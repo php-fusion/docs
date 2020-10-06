@@ -10,7 +10,7 @@ showbanners\( \[ int $display \] \) : string
 
 ### Parameters <a id="parameters"></a>
 
-$display \(int\) \(Optional\) Possible values 1, 2. If empty it shows banner 1. Default value: null
+$display \(int\) \(Optional\) Possible value: 1, 2. If empty it shows banner 1. Default value: null
 
 ### Return Values
 

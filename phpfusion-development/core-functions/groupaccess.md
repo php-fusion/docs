@@ -26,7 +26,3 @@ $result = dbquery("SELECT item, access
 ");
 ```
 
-{% hint style="info" %}
-See also [dbquery\(\)](../database-functions/dbquery.md).
-{% endhint %}
-

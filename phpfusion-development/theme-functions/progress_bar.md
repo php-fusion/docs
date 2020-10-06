@@ -6,7 +6,7 @@ description: Display a progress bar.
 
 Versions: `9`
 
-progress\_bar\( int\|array $num \[, string\|array $title, array $options \] \) : string
+progress\_bar\( mixed $num \[, string\|array $title, array $options \] \) : string
 
 ### Parameters <a id="parameters"></a>
 

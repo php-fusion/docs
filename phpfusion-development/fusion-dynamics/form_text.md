@@ -1,71 +1,86 @@
 ---
-description: 'Displays a text, password, or number input field.'
+description: Generates a text input.
 ---
 
-# form\_text
+# form\_text\(\)
 
-| Parameter | Description |
-| :--- | :--- |
-| title |  |
-| input\_id | Default $input\_name |
-| type | Default "text". |
-| required | Default FALSE. |
-| label\_icon |  |
-| feedback\_icon |  |
-| safemode | Default FALSE. |
-| regex |  |
-| regex\_error\_text |  |
-| callback\_check | Default FALSE. |
-| placeholder |  |
-| deactivate | Default FALSE. |
-| width |  |
-| inner\_width |  |
-| class |  |
-| inner\_class |  |
-| inline | Default FALSE. |
-| min\_length | Default 1. |
-| max\_length | Default 200. |
-| number\_min | Default 0. |
-| number\_max | Default 0. |
-| number\_step | Default 1. |
-| icon |  |
-| autocomplete\_off | Default FALSE. |
-| tip |  |
-| ext\_tip |  |
-| error\_text |  |
-| delimiter |  |
-| stacked |  |
-| group\_size |  |
-| password\_strength |  |
-| data |  |
-| append\_html |  |
-| censor\_words | Default TRUE. |
-| min |  |
-| max |  |
-| step |  |
-| error\_class |  |
-| options\_data | array., |
-| password\_toggle |  |
-| **Append**  |  |
-| append\_id | Default "p-{input\_id}-append" |
-| append\_button | Default FALSE. |
-| append\_button\_name | Default "p\_submit-{input\_id}\_append" |
-| append\_button\_id | Default "p\_submit\_{input\_id}\_append" |
-| append\_button\_data | array |
-| append\_value |  |
-| append\_form\_value |  |
-| append\_size |  |
-| append\_class | Default "btn-default" |
-| append\_type | Default "submit" |
-| **Prepend** |  |
-| prepend\_id | Default "p-{input\_id}-prepend" |
-| prepend\_button | Default FALSE. |
-| prepend\_button\_name | Default "p\_submit-{input\_id}\_prepend" |
-| prepend\_button\_id | Default "p\_submit\_{input\_id}\_prepend" |
-| prepend\_button\_data | array |
-| prepend\_value |  |
-| prepend\_form\_value |  |
-| prepend\_size |  |
-| prepend\_class | Default "btn-default" |
-| prepend\_type | Default "submit" |
+Versions: `9`
+
+form\_text\( string $input\_name \[, string $label, string $input\_value, array $options \] \) : string
+
+### Parameters <a id="parameters"></a>
+
+$input\_name \(string\) \(Required\) Name of the input, by default it's also used as the ID for the input.
+
+$label \(string\) \(Optional\) Input label. Default value: ''
+
+$input\_value \(string\) \(Optional\) The value to be displayed. Default value: ''
+
+$options \(array\) \(Optional\) Default value: \[\]
+
+| Name | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| type | string | text | Possible value: text, number, password, email, url, color, date, datetime, datetime-local, month, range, search, tel, time, week. |
+| required | bool | false | Whether this field is required during form submission. |
+| label\_icon | string | '' |  |
+| feedback\_icon | string | '' |  |
+| safemode | bool | false |  |
+| regex | string | '' |  |
+| regex\_error\_text | string | '' |  |
+| callback\_check | bool | false |  |
+| input\_id | string | $input\_name |  |
+| placeholder | string | '' | A placeholder for the field. |
+| deactivate | bool | false | Disable the input and set it as readonly. |
+| width | string | '' | Accepts px or % values. |
+| inner\_width | string | '' | Accepts px or % values. |
+| class | string | '' |  |
+| inner\_class | string | '' |  |
+| inline | bool | false |  |
+| min\_length | int | 1 |  |
+| max\_length | int | 200 |  |
+| number\_min | int | 0 |  |
+| number\_max | int | 0 |  |
+| number\_step | int | 1 |  |
+| icon | string | '' |  |
+| autocomplete\_off | bool | false |  |
+| tip | string | '' | Displays a tip by the label. |
+| ext\_tip | string | '' | Displays a tip at the bottom of the input. |
+| append\_button | bool | false |  |
+| append\_value | string | '' |  |
+| append\_form\_value | string | '' |  |
+| append\_size | string | '' |  |
+| append\_class | string | btn-default |  |
+| append\_type | string | submit |  |
+| append\_id | string | p-{input\_id}-append |  |
+| append\_button\_name | string | p-submit-{input\_id}-append |  |
+| append\_button\_id | string | {input\_id}-append-btn |  |
+| prepend\_button | bool | false |  |
+| prepend\_value | string | '' |  |
+| prepend\_form\_value | string | '' |  |
+| prepend\_size | string | '' |  |
+| prepend\_class | string | btn-default |  |
+| prepend\_type | string | submit |  |
+| prepend\_id | string | p-{input\_id}-prepend |  |
+| prepend\_button\_name | string | p-submit-{input\_id}-prepend |  |
+| prepend\_button\_id | string | {input\_id}-prepend-btn |  |
+| error\_text | string | '' |  |
+| delimiter | string | , |  |
+| stacked | string | '' |  |
+| group\_size | string | '' | Possible value: sm, md, lg |
+| password\_strength | bool | false |  |
+| data | array | \[\] |  |
+| append\_html | string | '' |  |
+| censor\_words | bool | true |  |
+| password\_toggle | bool | true |  |
+| descript | bool | true |  |
+
+### Return Values
+
+\(string\)
+
+### **Examples**
+
+```php
+echo form_text('text_field', 'Text Field');
+```
 

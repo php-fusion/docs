@@ -6,7 +6,7 @@ description: User profile link.
 
 Versions: `9`
 
-profile\_link\($user\_id, $user\_name, $user\_status \[, string $class, bool $display\_link \] \) : string
+profile\_link\( int $user\_id, string $user\_name, int $user\_status \[, string $class, bool $display\_link \] \) : string
 
 ### Parameters <a id="parameters"></a>
 
@@ -31,8 +31,4 @@ $userdata = fusion_get_userdata();
 echo profile_link($userdata['user_id'], $userdata['user_name'], $userdata['user_status']);
 // <a href='profile.php?lookup=1' class='profile-link'>admin</a>
 ```
-
-{% hint style="info" %}
-See also [fusion\_get\_userdata\(\)](fusion_get_userdata.md).
-{% endhint %}
 

@@ -28,7 +28,3 @@ if ($result) {
 // The name of the second user
 ```
 
-{% hint style="info" %}
-See also [dbquery\(\)](dbquery.md).
-{% endhint %}
-

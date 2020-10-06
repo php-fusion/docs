@@ -6,7 +6,7 @@ description: Gets array of all access levels and user groups.
 
 Versions: `9`
 
-fusion\_get\_groups\( void \) : a
+fusion\_get\_groups\( void \) : array
 
 ### Parameters <a id="parameters"></a>
 

@@ -33,7 +33,7 @@ $rowstart = isset($_GET['rowstart']) && isnum($_GET['rowstart']) && ($_GET['rows
 echo infinite_scroll(BASEDIR.'scroll.php', $rowstart, $total_rows);
 ```
 
-scroll.php
+**scroll.php**
 
 ```php
 <?php
@@ -51,12 +51,4 @@ while ($data = dbarray($result)) {
     //
 }
 ```
-
-{% hint style="info" %}
-See also [dbcount\(\)](../database-functions/dbcount.md).
-
-See also [dbquery\(\)](../database-functions/dbquery.md).
-
-See also [isnum\(\)](isnum.md).
-{% endhint %}
 
