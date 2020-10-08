@@ -8,7 +8,7 @@ Versions: `9`
 
 isnum\( mixed $value \[, bool $decimal, bool $negative \] \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $value \(mixed\) \(Required\) The value to be checked.
 
@@ -16,11 +16,11 @@ $decimal \(bool\) \(Optional\) Decimals. Default value: false
 
 $negative \(bool\) \(Optional\) Negative numbers. Default value: false
 
-### Return Values
+## Return Values
 
 \(bool\) True if the value is a number.
 
-### Examples
+## Examples
 
 ```php
 $value = 'abc123';

@@ -8,15 +8,15 @@ Versions: `9`
 
 stripslash\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) The input string.
 
-### Return Values
+## Return Values
 
-\(string\) String with backslashes stripped off \(\' becomes ' and so on\), double backslashes \(\\\) are made into a single backslash \(\\).
+\(string\) String with backslashes stripped off \(\' becomes ' and so on\), double backslashes \(\\) are made into a single backslash \(\\).
 
-### Examples
+## Examples
 
 ```php
 $text = 'Is your name O\'reilly?';

@@ -8,15 +8,15 @@ Versions: `9`
 
 cleanurl\( string $url \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $url \(string\) \(Required\) URL.
 
-### Return Values
+## Return Values
 
 \(string\) $url clean and ready for use XHTML strict and without any dangerous code.
 
-### Examples
+## Examples
 
 ```php
 $url = 'http://example.com/?this=that&that=this<&tagg>';

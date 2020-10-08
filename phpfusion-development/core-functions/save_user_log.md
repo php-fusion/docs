@@ -8,7 +8,7 @@ Versions: `9`
 
 save\_user\_log\( int $user\_id, string $column\_name, string $new\_value, string $old\_value \) : void
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $user\_id \(int\) \(Required\) User ID.
 
@@ -18,11 +18,11 @@ $new\_value \(string\) \(Required\) New value.
 
 $old\_value \(string\) \(Required\) Old value.
 
-### Return Values
+## Return Values
 
 No value is returned.
 
-### Examples
+## Examples
 
 ```php
 $userdata = fusion_get_userdata();

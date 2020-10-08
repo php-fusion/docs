@@ -8,7 +8,7 @@ Versions: `9`
 
 column\_exists\( string $table, string $column \[, bool $add\_prefix \] \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $table \(string\) \(Required\) Table name.
 
@@ -16,11 +16,11 @@ $column \(string\) \(Required\) Column name.
 
 $add\_prefix \(bool\) \(Optional\) Delimiter. Default value: true
 
-### Return Values
+## Return Values
 
 \(bool\)
 
-### Examples
+## Examples
 
 ```php
 if (column_exists(DB_USERS, 'user_name')) {

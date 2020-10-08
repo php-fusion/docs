@@ -8,15 +8,15 @@ Versions: `9`
 
 fusion\_get\_enabled\_languages\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $languages = fusion_get_enabled_languages();

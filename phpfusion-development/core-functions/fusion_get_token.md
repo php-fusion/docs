@@ -8,17 +8,17 @@ Versions: `9`
 
 fusion\_get\_token\( string $form\_id \[, int $max\_tokens \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $form\_id \(string\) \(Required\) Form ID.
 
 $max\_tokens \(int\) \(Optional\) Max tokens. Default value: 5
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo fusion_get_token('fusionform', 5);

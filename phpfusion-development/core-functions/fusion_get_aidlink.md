@@ -8,15 +8,15 @@ Versions: `9`
 
 fusion\_get\_aidlink\( void \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo fusion_get_aidlink();

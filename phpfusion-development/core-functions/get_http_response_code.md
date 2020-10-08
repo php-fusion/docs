@@ -8,15 +8,15 @@ Versions: `9`
 
 get\_http\_response\_code\( string $url \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $url \(string\) \(Required\) URL.
 
-### Return Values
+## Return Values
 
 \(bool\|string\)
 
-### Examples
+## Examples
 
 ```php
 $url = 'https://www.google.com/';

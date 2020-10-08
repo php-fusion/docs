@@ -8,7 +8,7 @@ Versions: `9`
 
 alert\( string $title \[, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $title \(string\) \(Required\) Text inside the alert.
 
@@ -19,11 +19,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | class | string | alert-danger | CSS class. |
 | dismiss | bool | false | Enable dismissal of an alert. |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo alert('This is a danger alert!');

@@ -8,15 +8,15 @@ Versions: `9`
 
 user\_blacklisted\( int $user\_id \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $user\_id \(id\) \(Required\) User ID.
 
-### Return Values
+## Return Values
 
 \(bool\) True if the user is blacklisted.
 
-### Examples
+## Examples
 
 ```php
 $user_id = 3;

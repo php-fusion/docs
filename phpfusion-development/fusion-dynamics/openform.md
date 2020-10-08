@@ -10,7 +10,7 @@ Versions: `9`
 
 openform\( string $form\_name, string $method \[, string $action\_url, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $form\_name \(string\) \(Required\) Form ID.
 
@@ -27,7 +27,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 | form\_id | string | $form\_name |  |
 | class | string | '' | CSS class properties. |
 | enctype | bool | false | Set true for allowing multipart. |
-| max\_tokens | int | $settings\['form\_tokens'\] |   |
+| max\_tokens | int | $settings\['form\_tokens'\] |  |
 | inline | bool | false | Set true for making form inline. |
 | on\_submit | string | '' | Adds javascript function on form submit. |
 | honeypot | bool | true | Enables honeypots to counter botting. |
@@ -57,11 +57,11 @@ Support feature is currently under development.
 {% endtab %}
 {% endtabs %}
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo openform('testform', 'post');

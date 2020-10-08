@@ -8,17 +8,17 @@ Versions: `9`
 
 modalfooter\( string $content \[, bool $dismiss \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $content \(string\) \(Required\) Footer content.
 
 $dismiss \(bool\) \(Optional\) Enable dismissal of modal. Default value: false
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo openmodal('test_modal', 'Title', ['button_id' => 'modal_testing']);

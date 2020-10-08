@@ -8,15 +8,15 @@ Versions: `9`
 
 getuserstatus\( int $userstatus \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $userstatus \(int\) \(Required\) Status code 0 - 8.
 
-### Return Values
+## Return Values
 
 \(string\|null\) The name of the given user status, null if does not exist.
 
-### Examples
+## Examples
 
 ```php
 echo getuserstatus(5);

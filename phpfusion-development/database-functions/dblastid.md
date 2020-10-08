@@ -8,15 +8,15 @@ Versions: `9`
 
 dbnextid\( void \) : int
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(int\)
 
-### Examples
+## Examples
 
 ```php
 echo dblastid();

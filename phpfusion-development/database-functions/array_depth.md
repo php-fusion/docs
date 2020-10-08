@@ -8,15 +8,15 @@ Versions: `9`
 
 array\_depth\( array $array \) : int
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $array \(array\) \(Required\) Results from [dbquery\_tree\(\)](dbquery_tree.md).
 
-### Return Values
+## Return Values
 
 \(int\)
 
-### Examples
+## Examples
 
 ```php
 $array = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

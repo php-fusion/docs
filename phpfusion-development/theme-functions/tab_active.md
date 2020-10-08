@@ -8,7 +8,7 @@ Versions: `9`
 
 tab\_active\( array $array, int $default\_active \[, string $getname \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $array \(array\) \(Required\) Multidimension array consisting of keys title, id, icon.
 
@@ -16,11 +16,11 @@ $default\_active \(int\) \(Required\) 0 if link\_mode is false, $\_GET if link\_
 
 $getname \(string\) \(Optional\) Set getname and turn tabs into link that listens to getname. Default value: null
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

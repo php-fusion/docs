@@ -8,7 +8,7 @@ Versions: `9`
 
 opentabbody\( string $tab\_title, string $tab\_id \[, string $link\_active\_arrkey, bool $link, string $key \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $tab\_title \(string\) \(Required\) Deprecated, for compatibility only.
 
@@ -20,11 +20,11 @@ $link \(bool\) \(Optional\) Deprecated, for compatibility only. False for jquery
 
 $key \(string\) \(Optional\) Set getname and turn tabs into link that listens to getname. Default value: section
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

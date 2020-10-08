@@ -8,7 +8,7 @@ Versions: `9`
 
 progress\_bar\( mixed $num \[, string\|array $title, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $num \(int\) \(Required\) Max of 100 or array of numbers.
 
@@ -26,11 +26,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | hide\_info | bool | false | Set to true to hide the information in the progress bar rendering. |
 | progress\_class | string | '' | Custom progress bar class with your own custom class. |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo progress_bar(64);

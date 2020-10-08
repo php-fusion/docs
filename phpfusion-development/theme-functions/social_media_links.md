@@ -8,7 +8,7 @@ Versions: `9`
 
 social\_media\_links\( string $url \[, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $url \(string\) \(Required\) The URL to share.
 
@@ -25,11 +25,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | telegram | bool | true | Enable Telegram sharing. |
 | linkedin | bool | true | Enable Linkedin sharing. |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo social_media_links('http://example.com/');

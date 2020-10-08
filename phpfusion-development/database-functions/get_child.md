@@ -8,7 +8,7 @@ Versions: `9`
 
 get\_child\( array $index, int $parent\_id \[, array $children \] \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $index \(array\) \(Required\) Results from [dbquery\_tree\(\)](dbquery_tree.md).
 
@@ -16,11 +16,11 @@ $parent\_id \(int\) \(Required\) Parent ID.
 
 $children \(array\) \(Optional\) Default value: \[\]
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $index = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

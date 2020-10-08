@@ -8,17 +8,17 @@ Versions: `9`
 
 preg\_check\( string $expression, mixed $value \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $expression \(string\) \(Required\) The expression to search for.
 
 $value \(mixed\) \(Required\) The input string.
 
-### Return Values
+## Return Values
 
 \(bool\) False when value is an array.
 
-### Examples
+## Examples
 
 ```php
 $value = 'abc123';

@@ -8,17 +8,17 @@ Versions: `9`
 
 sort\_tree\( array $result, string $key \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $result \(array\) \(Required\) [dbtree\_index\(\)](dbtree_index.md) result.
 
 $key \(string\) \(Required\) Key.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $result = dbtree_index(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

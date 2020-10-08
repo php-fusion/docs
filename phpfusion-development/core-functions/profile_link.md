@@ -8,7 +8,7 @@ Versions: `9`
 
 profile\_link\( int $user\_id, string $user\_name, int $user\_status \[, string $class, bool $display\_link \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $user\_id \(int\) \(Required\)
 
@@ -20,11 +20,11 @@ $class \(string\) \(Optional\) CSS class for the profile link. Default value: pr
 
 $display\_link \(bool\) \(Optional\) Allow clicking on the name, otherwise display only the name. Default value: true
 
-### Return Values
+## Return Values
 
 \(string\) Link to the user's account along with the user name correctly depending on the user's status.
 
-### Examples
+## Examples
 
 ```php
 $userdata = fusion_get_userdata();

@@ -8,15 +8,15 @@ Versions: `9`
 
 closemodal\( void \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo openmodal('test_modal', 'Title', ['button_id' => 'modal_testing']);

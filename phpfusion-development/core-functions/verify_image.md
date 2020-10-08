@@ -8,15 +8,15 @@ Versions: `9`
 
 verify\_image\( string $file \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $file \(string\) \(Required\) Path to image.
 
-### Return Values
+## Return Values
 
 \(bool\) True or false, depending on whether the image is safe or not.
 
-### Examples
+## Examples
 
 ```php
 $file = IMAGES.'php-fusion-logo.png';

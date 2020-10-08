@@ -8,7 +8,7 @@ Versions: `9`
 
 label\( string $label \[, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $label \(string\) \(Required\) Text inside the label.
 
@@ -19,11 +19,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | class | string | label-default | CSS class. |
 | icon | string | '' | Icon CSS class. Eg. fa fa-beer. |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo label('Default');

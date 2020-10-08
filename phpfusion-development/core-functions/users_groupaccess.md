@@ -8,15 +8,15 @@ Versions: `9`
 
 users\_groupaccess\( int $group\_id \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $group\_id \(int\) \(Required\) The ID of the group.
 
-### Return Values
+## Return Values
 
 \(bool\) True if the user has access.
 
-### Examples
+## Examples
 
 ```php
 $id = 1;

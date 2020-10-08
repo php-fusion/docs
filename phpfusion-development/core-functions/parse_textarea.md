@@ -8,7 +8,7 @@ Versions: `9`
 
 parse\_textarea\( string $value \[, bool $parse\_smileys, bool $parse\_bbcode, bool $decode, string $default\_image\_folder, bool $add\_line\_breaks, bool $descript \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $value \(string\) \(Required\) String with unparsed text.
 
@@ -24,11 +24,11 @@ $add\_line\_breaks \(bool\) \(Optional\) Allows nl2br\(\). Default value: false
 
 $descript \(bool\) \(Optional\) Sanitize text. Default value: true
 
-### Return Values
+## Return Values
 
 \(string\) Parsed string.
 
-### Examples
+## Examples
 
 ```php
 $value = 'Text :D [url]http://example.com/[/url]';

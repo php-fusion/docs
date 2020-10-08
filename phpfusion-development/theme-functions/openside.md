@@ -10,7 +10,7 @@ Versions: `9`
 
 openside \( string $title \[, string $class, mixed $... \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $title \(string\) \(Required\) Panel title.
 
@@ -18,11 +18,11 @@ $class \(string\) \(optional\) CSS class. Default value: ''
 
 $... \(mixed\) \(optional\) Zero or more parameters to be passed. You can add your own parameters to be used in the theme.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 function openside($title = FALSE, $class = '') {

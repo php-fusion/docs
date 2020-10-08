@@ -8,15 +8,15 @@ Versions: `9`
 
 multilang\_column\( string $column \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $column \(string\) \(Required\)
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery("

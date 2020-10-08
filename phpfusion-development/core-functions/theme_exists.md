@@ -8,15 +8,15 @@ Versions: `9`
 
 theme\_exists\( string $theme \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $theme \(string\) \(Required\) The theme folder you want to check.
 
-### Return Values
+## Return Values
 
 \(bool\) False if the theme does not exist and true if it does.
 
-### Examples
+## Examples
 
 ```php
 if (!theme_exists('my_theme')) {

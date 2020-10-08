@@ -8,15 +8,15 @@ Versions: `9`
 
 cache\_smileys\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\) Array of all smileys.
 
-### Examples
+## Examples
 
 ```php
 foreach (cache_smileys() as $smiley) {

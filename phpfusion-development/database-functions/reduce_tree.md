@@ -10,17 +10,17 @@ Versions: `9`
 
 reduce\_tree\( array $result, string $id\_col \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $result \(array\) \(Required\) Results from [dbquery\_tree\_full\(\)](dbquery_tree_full.md) or [dbquery\_tree\(\)](dbquery_tree.md).
 
 $id\_col \(string\) \(Required\) ID column.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

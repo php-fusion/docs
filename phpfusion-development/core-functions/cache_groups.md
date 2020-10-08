@@ -8,15 +8,15 @@ Versions: `9`
 
 cache\_groups\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\) Array of all user groups.
 
-### Examples
+## Examples
 
 ```php
 foreach (cache_groups() as $group) {

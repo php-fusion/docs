@@ -8,7 +8,7 @@ Versions: `9`
 
 make\_page\_breadcrumbs\( array $tree\_index, array $tree\_full, string $id\_col, string $title\_col \[, string $getname, string $key \] \) : void
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $tree\_index \(array\) \(Required\) tree\_index\(dbquery\_tree\_full\(DB\_NEWS\_CATS, 'news\_cat\_id', 'news\_cat\_parent'\)\).
 
@@ -22,11 +22,11 @@ $getname \(string\) \(Optional\) The name of the $\_GET parameter. Default value
 
 $key \(string\) \(Optional\) Key for breadcrumb instance. Default value: default
 
-### Return Values
+## Return Values
 
 No value is returned.
 
-### Examples
+## Examples
 
 ```php
 $tree_index = tree_index(dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent'));

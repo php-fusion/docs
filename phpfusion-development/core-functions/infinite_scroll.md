@@ -8,7 +8,7 @@ Versions: `9`
 
 infinite\_scroll\( string $scroll\_url, int $rowstart, int $count \[, string $getname, string $http\_query \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $scroll\_url \(string\) \(Required\) The ajax script that loads the content.
 
@@ -20,11 +20,11 @@ $getname \(string\) \(Optional\) The name of the $\_GET parameter that contains 
 
 $http\_query \(string\) \(Optional\) Additional http query. Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\) Infinite scroll.
 
-### Examples
+## Examples
 
 ```php
 $total_rows = dbcount("(download_id)", DB_DOWNLOADS);

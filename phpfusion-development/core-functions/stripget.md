@@ -8,15 +8,15 @@ Versions: `9`
 
 stripget\( string $check\_url \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $check\_url \(string\) \(Required\) String or array to be stripped.
 
-### Return Values
+## Return Values
 
 \(bool\) True if the URL is not secure.
 
-### Examples
+## Examples
 
 ```php
 if (stripget($_GET)) {

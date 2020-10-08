@@ -8,15 +8,15 @@ Versions: `9`
 
 string\_to\_color\_code\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) Any string.
 
-### Return Values
+## Return Values
 
 \(string\) HEX color code.
 
-### Examples
+## Examples
 
 ```php
 echo string_to_color_code('String');

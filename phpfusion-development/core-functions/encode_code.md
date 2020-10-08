@@ -8,15 +8,15 @@ Versions: `9`
 
 encode\_code\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) String with code.
 
-### Return Values
+## Return Values
 
 \(string\) Encoded and formatted code.
 
-### Examples
+## Examples
 
 ```php
 $text = '<code><!DOCTYPE html>

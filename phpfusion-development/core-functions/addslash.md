@@ -8,15 +8,15 @@ Versions: `9`
 
 stripslash\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) Text to which slashes should be added.
 
-### Return Values
+## Return Values
 
 \(string\) String with the correct number of slashes.
 
-### Examples
+## Examples
 
 ```php
 $text = "Is your name O'reilly?";

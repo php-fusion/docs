@@ -8,7 +8,7 @@ Versions: `9`
 
 showsublinks\( \[ string $sep, string $class, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $sep \(string\) \(Optional\) Separator between links. Default value: ''
 
@@ -19,8 +19,8 @@ $options \(array\) \(Optional\) Default value: \[\]
 | Name | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | id | string | DefaultMenu | ID of the menu. |
-| container | bool | false | Show menu in &lt;div class="container"&gt;..&lt;/div&gt;.  |
-| container\_fluid | bool | false | Show menu in &lt;div class="container-fluid"&gt;..&lt;/div&gt;.  |
+| container | bool | false | Show menu in &lt;div class="container"&gt;..&lt;/div&gt;. |
+| container\_fluid | bool | false | Show menu in &lt;div class="container-fluid"&gt;..&lt;/div&gt;. |
 | responsive | bool | true | Disable responsiveness. |
 | navbar\_class | string | navbar-default | Already pre filled with value from $class. |
 | nav\_class | string | nav navbar-nav primary | &lt;ul&gt; CSS class. |
@@ -43,11 +43,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | html\_content | string | '' |  |
 | html\_post\_content | string | '' |  |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo showsublinks();

@@ -8,15 +8,15 @@ Versions: `9`
 
 fieldgenerator\( string $db \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $db \(string\) \(Required\) Table name.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $fields = fieldgenerator(DB_NEWS_CATS);

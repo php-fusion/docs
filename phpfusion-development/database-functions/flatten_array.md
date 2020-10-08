@@ -8,15 +8,15 @@ Versions: `9`
 
 flatten\_array\( array $array \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $array \(array\) \(Required\) Multidimensional array.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $array[] = [

@@ -8,15 +8,15 @@ Versions: `9`
 
 fusion\_get\_username\( int $user\_id \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $user\_id \(int\) \(Required\) User ID.
 
-### Return Values
+## Return Values
 
 \(string\) Username.
 
-### Examples
+## Examples
 
 ```php
 echo fusion_get_username(1);

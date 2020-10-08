@@ -8,15 +8,15 @@ Versions: `9`
 
 opencollapse\( string $id \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $id \(string\) \(Required\) Unique accordion ID.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $collapse_id = 'test-group';

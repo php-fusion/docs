@@ -8,17 +8,17 @@ Versions: `9`
 
 trimlink\( string $text, int $length \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) String to trim.
 
 $length \(int\) \(Required\) Max length of the string.
 
-### Return Values
+## Return Values
 
 \(string\) String trimmed to the given length.
 
-### Examples
+## Examples
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

@@ -8,7 +8,7 @@ Versions: `9`
 
 openmodal\( string $id, string $title \[, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $id \(string\) \(Required\) Unique modal ID.
 
@@ -24,11 +24,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | static | bool | false | Shows the modal when initialized. |
 | hidden | bool | false | Force a modal to be hidden at default, you will need to add a jquery trigger $\('\#your\_modal\_id'\).modal\('show'\); manually. |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo openmodal('test_modal', 'Title', ['button_id' => 'modal_testing']);

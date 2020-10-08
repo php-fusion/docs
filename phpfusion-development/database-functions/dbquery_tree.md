@@ -8,7 +8,7 @@ Versions: `9`
 
 dbquery\_tree\( string $db, string $id\_col, string $cat\_col \[, bool $filter, string $query\_replace \] \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $db \(string\) \(Required\) Table name.
 
@@ -20,11 +20,11 @@ $filter \(string\) \(Optional\) Replace conditional structure. Default value: nu
 
 $query\_replace \(string\) \(Optional\) Replace the entire query structure. Default value: null
 
-### Return Values
+## Return Values
 
 \(array\) Returns cat-id relationships.
 
-### Examples
+## Examples
 
 ```php
 $data = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

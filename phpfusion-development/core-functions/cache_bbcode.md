@@ -8,15 +8,15 @@ Versions: `9`
 
 cache\_bbcode\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\) Array of all BBCodes.
 
-### Examples
+## Examples
 
 ```php
 foreach (cache_bbcode() as $bbcode) {

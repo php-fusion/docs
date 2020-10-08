@@ -8,17 +8,17 @@ Versions: `9`
 
 dbresult\( mixed $result, int $row \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $result \(string\) \(Required\) The query resource that is being evaluated. This result comes from a call to [dbquery\(\)](dbquery.md).
 
 $row \(int\) \(Required\) The row number from the result that's being retrieved. Row numbers start at 0.
 
-### Return Values
+## Return Values
 
 \(string\|bool\) The contents of one column from a MySQL result set or false on failure.
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery("SELECT user_name FROM ".DB_USERS);

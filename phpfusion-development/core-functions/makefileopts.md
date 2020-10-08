@@ -8,17 +8,17 @@ Versions: `9`
 
 makefileopts\( array $options \[, string $selected \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $options \(array\) \(Required\) Options.
 
 $selected \(string\) \(Optional\) The item in the options that you want to select by default. Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\) Array as a list of options for a select.
 
-### Examples
+## Examples
 
 ```php
 echo '<select>';

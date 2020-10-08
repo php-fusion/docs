@@ -8,7 +8,7 @@ Versions: `9`
 
 print\_p\( mixed $data \[, bool $modal, bool $print \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $data \(mixed\) \(Required\) The expression to be printed.
 
@@ -16,11 +16,11 @@ $modal \(bool\) \(Optional\) Dump info in the modal. Default value: false
 
 $print \(bool\) \(Optional\) Dump info in &lt;pre&gt; tag. Default value: true
 
-### Return Values
+## Return Values
 
 \(string\) The value of the variable.
 
-### Examples
+## Examples
 
 ```php
 $data = [

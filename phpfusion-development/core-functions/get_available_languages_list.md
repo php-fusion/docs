@@ -8,15 +8,15 @@ Versions: `9`
 
 get\_available\_languages\_list\( \[ string $selected\_language \]\) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $selected\_language \(string\) \(Optional\) Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo get_available_languages_list();

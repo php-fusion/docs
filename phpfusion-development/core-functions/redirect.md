@@ -8,7 +8,7 @@ Versions: `9`
 
 redirect\( string $location \[, bool $delay, bool $script, int $code \] \) : void
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $location \(string\) \(Required\) Destination URL
 
@@ -18,11 +18,11 @@ $script \(bool\) \(Optional\) Set true if you want to redirect via javascript. D
 
 $code \(int\) \(Optional\) HTTP status code to send. Default value: 200
 
-### Return Values
+## Return Values
 
 No value is returned.
 
-### Examples
+## Examples
 
 ```php
 redirect(BASEDIR.'page.php');

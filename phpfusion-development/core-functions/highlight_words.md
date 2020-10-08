@@ -8,17 +8,17 @@ Versions: `9`
 
 highlight\_words\( array $words, string $subject \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $words \(array\) \(Required\) The words to highlight.
 
 $subject \(string\) \(Required\) Text that contains a word \(s\) that should be highlighted.
 
-### Return Values
+## Return Values
 
 \(string\) Words highlighted in the string.
 
-### Examples
+## Examples
 
 ```php
 $words = ['lemon', 'banana'];

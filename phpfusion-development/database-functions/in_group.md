@@ -8,7 +8,7 @@ Versions: `9`
 
 in\_group\( string $column\_name, string $value \[, string $delim \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $column\_name \(string\) \(Required\)
 
@@ -16,11 +16,11 @@ $value \(string\) \(Required\)
 
 $delim \(string\) \(Optional\) Delimiter. Default value: ,
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery("SELECT news_cat_id, news_cat_name, news_cat_language

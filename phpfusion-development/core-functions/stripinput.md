@@ -8,15 +8,15 @@ Versions: `9`
 
 stripinput\( mixed $text \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(mixed\) \(Required\) String or array to be stripped.
 
-### Return Values
+## Return Values
 
 \(mixed\) The given string decoded as non HTML text.
 
-### Examples
+## Examples
 
 ```php
 $text = '<a href="www.example.com"><strong>Here is a site</strong></a>';

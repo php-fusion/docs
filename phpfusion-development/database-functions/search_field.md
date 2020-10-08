@@ -8,17 +8,17 @@ Versions: `9`
 
 search\_field\( array $columns, string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $columns \(array\) \(Required\)
 
 $test \(string\) \(Required\)
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 search_field(['admin_title', 'admin_link'], 'ac c d ghi')

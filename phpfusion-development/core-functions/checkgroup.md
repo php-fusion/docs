@@ -8,15 +8,15 @@ Versions: `9`
 
 checkgroup\( int $group \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $group \(int\) \(Required\) The group number you want to check for the user.
 
-### Return Values
+## Return Values
 
 \(bool\) True if the user is in the group.
 
-### Examples
+## Examples
 
 ```php
 $group = -101;

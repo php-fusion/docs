@@ -8,15 +8,15 @@ Versions: `9`
 
 showrendertime\( \[ bool $queries \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $queries \(bool\) \(Optional\) The number of queries used on the current page. Default value: true
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo showrendertime();

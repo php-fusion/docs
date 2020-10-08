@@ -8,15 +8,15 @@ Versions: `9`
 
 groupaccess\( string $field \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $field \(string\) \(Required\) MySQL field from which you want to check access.
 
-### Return Values
+## Return Values
 
 \(string\) The part of WHERE clause, always returns a condition.
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery("SELECT item, access

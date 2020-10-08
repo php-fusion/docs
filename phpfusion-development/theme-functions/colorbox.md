@@ -8,7 +8,7 @@ Versions: `9`
 
 colorbox\( string $img\_path, string $img\_title \[, bool $responsive, string $class, bool $as\_text \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $img\_path \(string\) \(Required\) The path to image.
 
@@ -20,11 +20,11 @@ $class \(string\) \(Optional\) CSS class. Default value: ''
 
 $as\_text \(bool\) \(Optional\) Show clickable text instead image. Default value: false
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo colorbox(IMAGES.'php-fusion-logo.png', 'Logo');

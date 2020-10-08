@@ -8,15 +8,15 @@ Versions: `9`
 
 timer\( \[ int $time \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $time \(int\) \(Optional\) Timestamp or if empty it use time\(\). Default value: null
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo timer(1050149787);

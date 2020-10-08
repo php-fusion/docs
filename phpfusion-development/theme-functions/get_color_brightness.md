@@ -8,15 +8,15 @@ Versions: `9`
 
 get\_color\_brightness\( string $hex \) : float
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $hex \(string\) \(Required\) HEX color code.
 
-### Return Values
+## Return Values
 
 \(string\) Color brightness.
 
-### Examples
+## Examples
 
 ```php
 $text = 'String';

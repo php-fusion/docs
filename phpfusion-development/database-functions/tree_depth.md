@@ -8,7 +8,7 @@ Versions: `9`
 
 tree\_depth\( array $data, string $field, string $match \[, int $depth \] \) : int
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $data \(array\) \(Required\) Results from [dbtree\(\)](dbtree.md).
 
@@ -18,11 +18,11 @@ $match \(string\) \(Required\)
 
 $depth \(int\) \(Optional\) Default value: 1
 
-### Return Values
+## Return Values
 
 \(int\)
 
-### Examples
+## Examples
 
 ```php
 $data = dbtree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

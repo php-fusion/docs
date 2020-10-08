@@ -8,15 +8,15 @@ Versions: `9`
 
 multilang\_table\( string $rights \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $rights \(string\) \(Required\) Multilang rights.
 
-### Return Values
+## Return Values
 
 \(bool\)
 
-### Examples
+## Examples
 
 ```php
 if (multilang_table('AR')) {

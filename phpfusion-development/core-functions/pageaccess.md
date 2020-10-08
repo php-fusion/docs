@@ -10,17 +10,17 @@ Versions: `9`
 
 pageAccess\( string $rights \[, bool $debug \] \) : void
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $rights \(string\) \(Required\) Rights you want to check for the administrator.
 
 $debug \(bool\) \(Optional\) For debugging purposes. Default value: false
 
-### Return Values
+## Return Values
 
 No value is returned.
 
-### Examples
+## Examples
 
 ```php
 // Paste the code after maincore.php

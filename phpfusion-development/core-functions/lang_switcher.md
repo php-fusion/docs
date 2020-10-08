@@ -8,15 +8,15 @@ Versions: `9`
 
 lang\_switcher\( \[ bool $icon \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $icon \(bool\) \(Optional\) Default value: true
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 lang_switcher();

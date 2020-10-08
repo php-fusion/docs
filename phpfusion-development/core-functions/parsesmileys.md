@@ -8,15 +8,15 @@ Versions: `9`
 
 parsesmileys\( string $message \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
-$message  \(string\) \(Required\) A string that should have parsed smileys.
+$message \(string\) \(Required\) A string that should have parsed smileys.
 
-### Return Values
+## Return Values
 
 \(string\) String with parsed smiley codes as smiley images ready for display.
 
-### Examples
+## Examples
 
 ```php
 $message = "Here is a text :) with some smiley's in it :D.";

@@ -8,15 +8,15 @@ Versions: `9`
 
 showbanners\( \[ int $display \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $display \(int\) \(Optional\) Possible value: 1, 2. If empty it shows banner 1. Default value: null
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo showbanners();

@@ -1,92 +1,40 @@
 ---
-description: format_word - returns a grammatical number word
+description: Returns a grammatical number word.
 ---
 
-# format\_word
+# format\_word\(\)
 
-`(Version 9)` `(Version 10)`
+Versions: `9`
 
-## Description
+format\_word\( int $count, string $words \[, array $options \] \) : string
 
-> format\_word \( int`$number` , string`$nouns` \[, array `$options` \] \) : string
+## Parameters <a id="parameters"></a>
 
-**format\_word\(\)** returns a grammatical number word string from the $noun used as arguments for the callback.
+$count \(int\) \(Required\)
 
-### **Parameters**
+$words \(string\) \(Required\) A string consisting of singular and plural delimited by a \| symbol.
 
-`number`
+$options \(array\) \(Optional\) Default value: \[\]
 
-A number
+| Name | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| add\_count | bool | true | Show number. |
+| html | bool | false | Encase result with html\_template, {%count%} {%result%} tags are used for placeholders for result replacements. |
+| html\_template | string | &lt;span class='fusion\_count'&gt;{%count%}&lt;/span&gt; &lt;span class='fusion\_word'&gt;{%result%}&lt;/span&gt; | HTML template to be used for output. |
+| language | string | LANGUAGE | Current language. |
 
-`nouns`
+## Return Values
 
-A string consisting of singular and plural delimited by a **`|`** symbol.
+\(string\)
 
-### Return Values
-
-Return a string of words with a correct grammatical word.
-
-### $options - Parameters
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Key</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Default Values</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">add_count</td>
-      <td style="text-align:left">show integer</td>
-      <td style="text-align:left">true</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">html</td>
-      <td style="text-align:left">encase result with html_template, <code>{%count%}</code>  <code>{%result%}</code> tags
-        are used for placeholders for result replacements.</td>
-      <td style="text-align:left">IMAGES</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">html_template</td>
-      <td style="text-align:left">HTML template to be used for output</td>
-      <td style="text-align:left">
-        <p>&lt;/span&gt;</p>
-        <p>&lt;/span&gt;</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">language</td>
-      <td style="text-align:left">current display language</td>
-      <td style="text-align:left"><b><code>LANGUAGE</code></b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">format_num</td>
-      <td style="text-align:left">executes <b><code>format_num</code></b> before parsing results</td>
-      <td style="text-align:left">TRUE</td>
-    </tr>
-  </tbody>
-</table>
-
-### Examples \#1 - counting a noun
+## Examples
 
 ```php
-$array = array(
-"Apple", "Orange"
-);
+$array = [
+    'Apple', 'Orange'
+];
 $count = count($array);
-echo format_word($count, "fruit|fruits"); // Returns "2 fruits"
-```
-
-### Example \#2 - generate a sentence dynamically
-
-```php
-$array = array(
-"Sam", "Peter", "Mary"
-);
-$count = count($array);
-echo format_sentence($array)." ".format_word($count, "is|are")." going to the party.";
+echo format_word($count, 'fruit|fruits');
+// 2 fruits
 ```
 

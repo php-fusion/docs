@@ -10,15 +10,15 @@ Versions: `9`
 
 getusergroups\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\) Array of all access levels and user groups.
 
-### Examples
+## Examples
 
 ```php
 foreach (getusergroups() as $group) {

@@ -8,7 +8,7 @@ Versions: `9`
 
 opencollapsebody\( string $title, string $unique\_id, string $grouping\_id \[, bool $active, string $class \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $title \(string\) \(Required\) Panel title.
 
@@ -20,11 +20,11 @@ $active \(bool\) \(Optional\) Panel state. Default value: false
 
 $class \(string\) \(Optional\) Panel CSS class. Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $collapse_id = 'test-group';

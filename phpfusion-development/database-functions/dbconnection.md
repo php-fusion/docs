@@ -8,15 +8,15 @@ Versions: `9`
 
 dbconnection\( void \) : AbstractDatabaseDriver
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(AbstractDatabaseDriver\)
 
-### Examples
+## Examples
 
 ```php
 if (dbconnection()) {

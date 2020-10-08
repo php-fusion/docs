@@ -8,7 +8,7 @@ Versions: `9`
 
 makepagenav\( int $rowstart, int $count, int $total \[, int $range, string $link, string $getname, bool $button \] \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $rowstart \(int\) \(Required\) The number of the first listed item.
 
@@ -24,11 +24,11 @@ $getname \(string\) \(Optional\) The name of the $\_GET parameter that contains 
 
 $button \(bool\) \(Optional\) Displays as button. Default value: false
 
-### Return Values
+## Return Values
 
 \(string\|bool\) HTML navigation. False if $count is invalid.
 
-### Examples
+## Examples
 
 ```php
 $limit = 15;

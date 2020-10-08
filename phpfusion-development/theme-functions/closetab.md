@@ -8,15 +8,15 @@ Versions: `9`
 
 opentabbody\( \[ array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $options \(array\) \(Optional\) Options: tab\_nav =&gt; false Default value: \[\]
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

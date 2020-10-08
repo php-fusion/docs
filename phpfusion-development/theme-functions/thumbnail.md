@@ -8,7 +8,7 @@ Versions: `9`
 
 thumbnail\( string $src, string $size \[, bool $url, bool $colorbox, bool $responsive, string $class \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $src \(string\) \(Required\) The path to image.
 
@@ -22,11 +22,11 @@ $responsive \(bool\) \(Optional\) Add img-responsive class. Default value: true
 
 $class \(string\) \(Optional\) CSS class. Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo thumbnail(IMAGES.'php-fusion-logo.png', '100px');

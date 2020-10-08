@@ -8,7 +8,7 @@ Versions: `9`
 
 display\_ratings\( int $total\_sum, int $total\_votes \[, string $link, string $class, int $mode \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $total\_sum \(int\) \(Required\) Total number of ratings.
 
@@ -20,11 +20,11 @@ $class \(string\) \(Optional\) CSS class for the link. Default value: null
 
 $mode \(int\) \(Optional\) Show 2 out of 10 or 2/10 rating. Possible value: 1, 2. Default value: 1
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo display_ratings(100, 60);

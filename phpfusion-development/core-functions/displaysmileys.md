@@ -10,17 +10,17 @@ Versions: `9`
 
 displaysmileys\( string $textarea \[, string $form \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $textarea \(string\) \(Required\) The id of the textarea.
 
 $form \(string\) \(Optional\) The form id in which the textarea is located. Default value: inputform
 
-### Return Values
+## Return Values
 
 \(string\) Option for users to insert smileys in a post by displaying the smiley's button.
 
-### Examples
+## Examples
 
 ```php
 echo openform('testform', 'post');

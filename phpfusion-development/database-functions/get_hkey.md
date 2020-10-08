@@ -8,7 +8,7 @@ Versions: `9`
 
 get\_hkey\( string $db, string $id\_col, string $cat\_col, int $current\_id \) : int
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $db \(string\) \(Required\) Table name.
 
@@ -18,11 +18,11 @@ $cat\_col \(string\) \(Required\) Category column.
 
 $current\_id \(string\) \(Required\) The current id of the item.
 
-### Return Values
+## Return Values
 
 \(int\)
 
-### Examples
+## Examples
 
 ```php
 $root = get_hkey(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent', 1);

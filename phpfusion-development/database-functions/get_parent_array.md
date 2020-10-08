@@ -8,17 +8,17 @@ Versions: `9`
 
 get\_parent\_array\( array $data, int $child\_id \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $data \(array\) \(Required\) Results from [dbquery\_tree\_full\(\)](dbquery_tree_full.md).
 
 $child\_id \(int\) \(Required\) Child ID.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $index = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

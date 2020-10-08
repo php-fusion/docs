@@ -8,15 +8,15 @@ Versions: `9`
 
 dbnextid\( string $table \) : int
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $table \(string\) \(Required\) Database table.
 
-### Return Values
+## Return Values
 
 \(int\)
 
-### Examples
+## Examples
 
 ```php
 echo dbnextid(DB_TABLE);

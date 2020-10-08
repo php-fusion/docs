@@ -10,10 +10,9 @@ form\_fileinput\( string $input\_name \[, string $label, string $input\_value, a
 
 The Dynamics Form Fileinput initializes a Jquery based fileinput component wrapper and adds a preset file\_sanitizer file validation and upload handling. The Fileinput is based on [Kartik Bootstrap Fileinput](http://plugins.krajee.com/file-input) plugin for Bootstrap, and is currently one of the more popular fileinput plugin there is available on opensource as it can handle an unprecendented customization configuration layer on a single fileinput widget.
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
-$input\_name \(string\) \(Required\) Name of the input, by
- default it's also used as the ID for the input.
+$input\_name \(string\) \(Required\) Name of the input, by default it's also used as the ID for the input.
 
 $label \(string\) \(Optional\) Input label. Default value: ''
 
@@ -310,11 +309,11 @@ $options \(array\) \(Optional\) Default value: \[\]
   </tbody>
 </table>
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo form_fileinput('upload_field', 'Upload Field');

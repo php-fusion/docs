@@ -8,17 +8,17 @@ Versions: `9`
 
 valid\_language\( string $lang \[, bool $file\_check \] \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $lang \(string\) \(Required\) The name of the language.
 
 $file\_check \(bool\) \(Optional\) Intended to be used when enabling languages in Admin Panel. Default value: false
 
-### Return Values
+## Return Values
 
 \(bool\)
 
-### Examples
+## Examples
 
 ```php
 if (valid_language('English')) {

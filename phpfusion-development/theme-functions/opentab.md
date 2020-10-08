@@ -8,7 +8,7 @@ Versions: `9`
 
 opentab\( array $tab\_title, string $link\_active\_arrkey, string $id \[, bool $link, string $class, string $getname, array $cleanup\_GET, bool $remember \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $tab\_title \(array\) \(Required\) Multidimension array consisting of keys title, id, icon.
 
@@ -26,11 +26,11 @@ $cleanup\_GET \(array\) \(Optional\) The request key that needs to be deleted. D
 
 $remember \(bool\) \(Optional\) Set to true to automatically remember tab using cookie. Default value: false
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

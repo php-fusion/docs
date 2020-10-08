@@ -8,15 +8,15 @@ Versions: `9`
 
 stripfilename\( string $filename \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $filename \(string\) \(Required\) Filename you want to strip. Remember to remove the file extension before parsing it through this function.
 
-### Return Values
+## Return Values
 
 \(string\) The filename stripped and ready for use.
 
-### Examples
+## Examples
 
 ```php
 $filename = 'I am-Ã… test file!!!??.jpg';

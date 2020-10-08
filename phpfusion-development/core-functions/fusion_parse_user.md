@@ -10,17 +10,17 @@ Versions: `9`
 
 fusion\_parse\_user\( string $user\_name \[, string $tooltip \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $user\_name \(string\) \(Required\) @Nick.
 
 $tooltip \(string\) \(Optional\) Additional info \(`$userdata['user_lastvisit']-120 < TIME ? 'Online' : 'Offline'`\). Default value: ''
 
-### Return Values
+## Return Values
 
 \(string\) Tooltip with info.
 
-### Examples
+## Examples
 
 ```php
 $user_name = '@Nick';

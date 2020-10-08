@@ -8,15 +8,15 @@ Versions: `9`
 
 fusion\_get\_settings\( \[ string $key \] \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $key \(string\) \(Optional\) The key of one setting. Default value: null
 
-### Return Values
+## Return Values
 
 \(array\|string\) Associative array of settings or one setting by key.
 
-### Examples
+## Examples
 
 ```php
 $settings = fusion_get_settings();

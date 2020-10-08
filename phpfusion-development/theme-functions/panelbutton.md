@@ -8,17 +8,17 @@ Versions: `9`
 
 panelbutton\( string $state, string $bname \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $state \(string\) \(Required\) Panel state. Possible value: on, off
 
 $bname \(string\) \(Required\) Button name.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 function openside($title = FALSE, $class = '', $state = 'on') {

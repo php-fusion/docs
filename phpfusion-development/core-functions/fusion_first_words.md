@@ -8,19 +8,19 @@ Versions: `9`
 
 fusion\_first\_words\( string $text, int $limit \[, string $suffix \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) String to trim.
 
 $limit \(int\) \(Required\) The number of words.
 
-$suffix \(string\) \(Optional\) If $text is longer than $limit, $suffix will be appended. Default value: &hellip;
+$suffix \(string\) \(Optional\) If $text is longer than $limit, $suffix will be appended. Default value: …
 
-### Return Values
+## Return Values
 
 \(string\) String trimmed to the given length.
 
-### Examples
+## Examples
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

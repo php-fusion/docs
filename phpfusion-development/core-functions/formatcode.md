@@ -8,15 +8,15 @@ Versions: `9`
 
 formatcode\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) The text you want to format.
 
-### Return Values
+## Return Values
 
 \(string\) Formatted code.
 
-### Examples
+## Examples
 
 ```php
 $text = '   Indent goes here.';

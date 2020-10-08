@@ -8,7 +8,7 @@ Versions: `9`
 
 dbconnect\( string $db\_host, string $db\_user, string $db\_pass, string $db\_name \[, int $db\_port, bool $halt\_on\_error \] \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $db\_host \(string\) \(Required\) The MySQL server.
 
@@ -22,11 +22,11 @@ $db\_port \(int\) \(Optional\) The TCP/IP port on which the MySQL server is list
 
 $halt\_on\_error \(bool\) \(Optional\) If it is true, the script will halt in case of error. Default value: false
 
-### Return Values
+## Return Values
 
 \(array\) Returns a MySQL link identifier on success, or "Unable to establish connection to MySQL" on failure.
 
-### Examples
+## Examples
 
 ```php
 // Establish mySQL database connection

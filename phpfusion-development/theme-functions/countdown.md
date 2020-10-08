@@ -8,15 +8,15 @@ Versions: `9`
 
 countdown\( int $time \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $time \(int\) \(Required\) Timestamp.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo countdown(1602164052);

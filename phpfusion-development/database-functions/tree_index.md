@@ -8,15 +8,15 @@ Versions: `9`
 
 tree\_index\( array $data \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $data \(array\) \(Required\) Array generated from [dbquery\_tree\_full\(\)](dbquery_tree_full.md).
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $data = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

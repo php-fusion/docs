@@ -8,15 +8,15 @@ Versions: `9`
 
 jsminify\( string $code \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $code \(string\) \(Required\) Unminified code.
 
-### Return Values
+## Return Values
 
 \(string\) Minified code.
 
-### Examples
+## Examples
 
 ```php
 echo jsminify('

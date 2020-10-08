@@ -8,17 +8,17 @@ Versions: `9`
 
 parse\_imageDir\( string $data \[, string $prefix\_ \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $data \(string\) \(Required\) String to parse.
 
 $prefix\_ \(string\) \(Optional\) Image folder. Default value: IMAGES
 
-### Return Values
+## Return Values
 
 \(string\) Parsed string.
 
-### Examples
+## Examples
 
 ```php
 $data = 'Text <img src="images/img.png" alt="img">';

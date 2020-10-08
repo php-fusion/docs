@@ -8,15 +8,15 @@ Versions: `9`
 
 lorem\_ipsum\( int $length \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $length \(int\) \(Required\) String length.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo lorem_ipsum(100);

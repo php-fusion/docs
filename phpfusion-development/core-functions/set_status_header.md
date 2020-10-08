@@ -8,15 +8,15 @@ Versions: `9`
 
 set\_status\_header\( int $code \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $code \(int\) \(Required\) Status header code.
 
-### Return Values
+## Return Values
 
 \(bool\)
 
-### Examples
+## Examples
 
 ```php
 set_status_header(200);

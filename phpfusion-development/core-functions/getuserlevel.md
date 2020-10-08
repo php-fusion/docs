@@ -8,15 +8,15 @@ Versions: `9`
 
 getuserlevel\( int $userlevel \) : mixed
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $userlevel \(int\) \(Required\) Level code.
 
-### Return Values
+## Return Values
 
 \(string\|null\) The name of the given user level, null if does not exist.
 
-### Examples
+## Examples
 
 ```php
 echo getuserlevel(-102);

@@ -8,15 +8,15 @@ Versions: `9`
 
 phpentities\( string $text \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $text \(string\) \(Required\) The input string.
 
-### Return Values
+## Return Values
 
 \(string\) Encoded string.
 
-### Examples
+## Examples
 
 ```php
 $text = "A 'quote' is <b>bold</b>";

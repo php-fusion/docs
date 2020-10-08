@@ -8,15 +8,15 @@ Versions: `9`
 
 dbarray\( mixed $result \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $result \(string\) \(Required\) The query resource that is being evaluated. This result comes from a call to [dbquery\(\)](dbquery.md).
 
-### Return Values
+## Return Values
 
 \(array\) Returns an associative array of strings that corresponds to the fetched row.
 
-### Examples
+## Examples
 
 ```php
 $result = dbquery("SELECT * FROM ".DB_TABLE);

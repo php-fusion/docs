@@ -8,15 +8,15 @@ Versions: `9`
 
 opencollapse\( void \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 $collapse_id = 'test-group';

@@ -10,7 +10,7 @@ Versions: `9`
 
 checkusergroup\( int $group, int $user\_level, string $user\_groups \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $group \(int\) \(Required\) The group number you want to check for the user.
 
@@ -18,11 +18,11 @@ $user\_level \(int\) \(Required\) User level.
 
 $user\_groups \(string\) \(Required\) Assigned groups to the user.
 
-### Return Values
+## Return Values
 
 \(bool\) True if the user has access.
 
-### Examples
+## Examples
 
 ```php
 $page_access = USER_LEVEL_MEMBER;

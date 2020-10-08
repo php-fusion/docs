@@ -8,15 +8,15 @@ Versions: `9`
 
 showlogo\( \[ string $class \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $class \(string\) \(Optional\) CSS class. Default value: logo
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo showlogo();

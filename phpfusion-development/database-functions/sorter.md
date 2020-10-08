@@ -8,7 +8,7 @@ Versions: `9`
 
 sorter\( array $array, string $key \[, string $sort \] \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $array \(array\) \(Required\)
 
@@ -16,11 +16,11 @@ $key \(string\) \(Required\) Key.
 
 $sort \(string\) \(Optional\) Default value: ASC
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $array = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

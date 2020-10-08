@@ -8,15 +8,15 @@ Versions: `9`
 
 check\_admin\_pass\( string $password \) : bool
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $password \(string\) \(Required\) Password.
 
-### Return Values
+## Return Values
 
 \(bool\) This function will return true if the password matches the user's admin password or if the admin's cookie or session is set and is valid.
 
-### Examples
+## Examples
 
 ```php
 if (check_admin_pass('SECRET_PASSWORD')) {

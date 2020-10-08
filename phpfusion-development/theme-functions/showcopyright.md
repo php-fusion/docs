@@ -10,17 +10,17 @@ Versions: `9`
 
 showcopyright\( \[ string $class, bool $nobreak \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 $class \(string\) \(Optional\) The "class" attribute of the link. Default value: ''
 
 $nobreak \(bool\) \(Optional\) If true &lt;br&gt; tag will be removed between copyright and AGPL license. Default value: false
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo showcopyright();

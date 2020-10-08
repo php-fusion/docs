@@ -8,15 +8,15 @@ Versions: `9`
 
 fusion\_get\_language\_switch\( void \) : array
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
 No parameters.
 
-### Return Values
+## Return Values
 
 \(array\)
 
-### Examples
+## Examples
 
 ```php
 $language_switch = fusion_get_language_switch();

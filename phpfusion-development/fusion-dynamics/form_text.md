@@ -8,10 +8,9 @@ Versions: `9`
 
 form\_text\( string $input\_name \[, string $label, string $input\_value, array $options \] \) : string
 
-### Parameters <a id="parameters"></a>
+## Parameters <a id="parameters"></a>
 
-$input\_name \(string\) \(Required\) Name of the input, by
- default it's also used as the ID for the input.
+$input\_name \(string\) \(Required\) Name of the input, by default it's also used as the ID for the input.
 
 $label \(string\) \(Optional\) Input label. Default value: ''
 
@@ -75,11 +74,11 @@ $options \(array\) \(Optional\) Default value: \[\]
 | password\_toggle | bool | true |  |
 | descript | bool | true |  |
 
-### Return Values
+## Return Values
 
 \(string\)
 
-### Examples
+## Examples
 
 ```php
 echo form_text('text_field', 'Text Field');
