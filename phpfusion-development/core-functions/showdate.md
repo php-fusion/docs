@@ -20,7 +20,7 @@ $options \(array\) \(Optional\) Possible values tz\_override.
 
 \(string\) String formatted according to the given format string. Month and weekday names and other language dependent strings respect the current locale set.
 
-### **Examples**
+### Examples
 
 ```php
 echo showdate('shortdate', time());

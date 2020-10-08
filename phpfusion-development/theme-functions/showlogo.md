@@ -16,7 +16,7 @@ $class \(string\) \(Optional\) CSS class. Default value: logo
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showlogo();

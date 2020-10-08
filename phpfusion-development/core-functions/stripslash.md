@@ -16,7 +16,7 @@ $text \(string\) \(Required\) The input string.
 
 \(string\) String with backslashes stripped off \(\' becomes ' and so on\), double backslashes \(\\\) are made into a single backslash \(\\).
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'Is your name O\'reilly?';

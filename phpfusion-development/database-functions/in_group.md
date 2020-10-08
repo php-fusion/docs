@@ -18,9 +18,9 @@ $delim \(string\) \(Optional\) Delimiter. Default value: ,
 
 ### Return Values
 
-\(string\) 
+\(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT news_cat_id, news_cat_name, news_cat_language

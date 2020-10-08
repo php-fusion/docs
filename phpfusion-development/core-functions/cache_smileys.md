@@ -16,7 +16,7 @@ No parameters.
 
 \(array\) Array of all smileys.
 
-### **Examples**
+### Examples
 
 ```php
 foreach (cache_smileys() as $smiley) {

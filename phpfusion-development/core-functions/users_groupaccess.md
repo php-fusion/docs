@@ -16,7 +16,7 @@ $group\_id \(int\) \(Required\) The ID of the group.
 
 \(bool\) True if the user has access.
 
-### **Examples**
+### Examples
 
 ```php
 $id = 1;

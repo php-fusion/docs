@@ -24,7 +24,7 @@ $as\_text \(bool\) \(Optional\) Show clickable text instead image. Default value
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo colorbox(IMAGES.'php-fusion-logo.png', 'Logo');

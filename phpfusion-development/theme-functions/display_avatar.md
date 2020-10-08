@@ -10,7 +10,8 @@ display\_avatar\( array $userdata, string $size \[, string $class, bool $link, s
 
 ### Parameters <a id="parameters"></a>
 
-$userdata \(array\) \(Required\) User data with user\_id, user\_name, user\_avatar, user\_status
+$userdata \(array\) \(Required\) User data with user\_id, user\_name
+, user\_avatar, user\_status
 
 $size \(string\) \(Required\) A size for CSS max-width and max-height.
 
@@ -26,7 +27,7 @@ $custom\_avatar \(string\) \(Optional\) The path to own default avatar. Default 
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $userdata = fusion_get_userdata();

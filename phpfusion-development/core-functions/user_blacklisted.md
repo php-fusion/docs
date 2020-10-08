@@ -16,7 +16,7 @@ $user\_id \(id\) \(Required\) User ID.
 
 \(bool\) True if the user is blacklisted.
 
-### **Examples**
+### Examples
 
 ```php
 $user_id = 3;

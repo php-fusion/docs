@@ -22,7 +22,7 @@ $current\_id \(string\) \(Required\) The current id of the item.
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 $root = get_hkey(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent', 1);

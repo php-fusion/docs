@@ -20,7 +20,7 @@ $descript \(bool\) \(Optional\) Sanitize text. Default value: true
 
 \(string\) Parsed string.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'This is [b]bold[/b] and this is [i]italic[/i]';

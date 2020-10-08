@@ -16,7 +16,7 @@ No parameters.
 
 \(array\) Array of all BBCodes.
 
-### **Examples**
+### Examples
 
 ```php
 foreach (cache_bbcode() as $bbcode) {

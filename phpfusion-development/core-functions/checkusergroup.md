@@ -22,7 +22,7 @@ $user\_groups \(string\) \(Required\) Assigned groups to the user.
 
 \(bool\) True if the user has access.
 
-### **Examples**
+### Examples
 
 ```php
 $page_access = USER_LEVEL_MEMBER;

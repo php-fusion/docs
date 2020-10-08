@@ -28,7 +28,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo openmodal('test_modal', 'Title', ['button_id' => 'modal_testing']);

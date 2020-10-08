@@ -16,7 +16,7 @@ $field \(string\) \(Required\) MySQL field from which you want to check access.
 
 \(string\) The part of WHERE clause, always returns a condition.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT item, access

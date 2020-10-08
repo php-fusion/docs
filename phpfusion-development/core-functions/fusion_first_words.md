@@ -20,7 +20,7 @@ $suffix \(string\) \(Optional\) If $text is longer than $limit, $suffix will be 
 
 \(string\) String trimmed to the given length.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

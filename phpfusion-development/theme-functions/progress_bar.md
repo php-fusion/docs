@@ -30,7 +30,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo progress_bar(64);

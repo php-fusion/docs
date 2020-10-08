@@ -22,7 +22,7 @@ $cat\_value \(string\) \(Optional\) Category value. Default value: null
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $data = dbtree_index(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

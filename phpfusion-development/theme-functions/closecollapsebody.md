@@ -16,7 +16,7 @@ No parameters.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $collapse_id = 'test-group';

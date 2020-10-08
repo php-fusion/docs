@@ -18,7 +18,7 @@ $parameters \(array\) \(Optional\) Parameter identifier. The statement template 
 
 \(string\|bool\) The result of query or false on error.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT * FROM ".DB_TABLE." WHERE 1=1");

@@ -18,7 +18,7 @@ $key \(string\) \(Optional\) The key of one column. Default value: null
 
 \(array\|string\) Associative array of all data or one column by key.
 
-### **Examples**
+### Examples
 
 ```php
 $pm_settings = user_pm_settings(1);

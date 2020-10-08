@@ -20,7 +20,7 @@ $children \(array\) \(Optional\) Default value: \[\]
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $index = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

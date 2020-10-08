@@ -16,7 +16,7 @@ $lang \(string\) \(Required\) The name of the language.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 define_site_language('Slovak');

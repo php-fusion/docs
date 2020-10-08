@@ -16,7 +16,7 @@ No parameters.
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $language_switch = fusion_get_language_switch();

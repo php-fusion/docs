@@ -16,7 +16,7 @@ $result \(string\) \(Required\) The query resource that is being evaluated. This
 
 \(array\) Returns an associative array of strings that corresponds to the fetched row.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT * FROM ".DB_TABLE);

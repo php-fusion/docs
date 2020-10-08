@@ -14,9 +14,9 @@ $column \(string\) \(Required\)
 
 ### Return Values
 
-\(string\) 
+\(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("

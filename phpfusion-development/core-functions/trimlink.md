@@ -18,7 +18,7 @@ $length \(int\) \(Required\) Max length of the string.
 
 \(string\) String trimmed to the given length.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

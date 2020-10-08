@@ -18,13 +18,13 @@ $sort \(bool\) \(Optional\) False if you don't want to sort the result. Default 
 
 $type \(string\) \(Optional\) Possible value: files, folders. Default value: files
 
-$ext\_filter \(string\) \(Optional\) File extensions separated by "\|", only when $type is 'files'. Default value: '''
+$ext\_filter \(string\) \(Optional\) File extensions separated by "\|", only when $type is 'files'. Default value: ''
 
 ### Return Values
 
 \(array\) Array of all items.
 
-### **Examples**
+### Examples
 
 ```php
 $infusions = makefilelist(INFUSIONS, FALSE, TRUE, 'folders');

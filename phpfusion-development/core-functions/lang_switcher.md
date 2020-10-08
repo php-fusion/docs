@@ -16,7 +16,7 @@ $icon \(bool\) \(Optional\) Default value: true
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 lang_switcher();

@@ -1,7 +1,7 @@
 ---
 description: >-
   Show the PHP-Fusion copyright with a link to the official PHP-Fusion support
-  site and the AGPL license.
+  site, and the AGPL license.
 ---
 
 # showcopyright\(\)
@@ -20,7 +20,7 @@ $nobreak \(bool\) \(Optional\) If true &lt;br&gt; tag will be removed between co
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showcopyright();

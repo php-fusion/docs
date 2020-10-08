@@ -22,7 +22,7 @@ $code \(int\) \(Optional\) HTTP status code to send. Default value: 200
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 redirect(BASEDIR.'page.php');

@@ -16,7 +16,7 @@ $side \(string\) \(Required\) Possible value: left, right, upper, aupper, lower,
 
 \(bool\)
 
-### **Examples**
+### Examples
 
 ```php
 if (check_panel_status('left')) {

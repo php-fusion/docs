@@ -24,7 +24,7 @@ $filter \(string\) \(Optional\) Replace conditional structure. Default value: nu
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $data = dbtree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

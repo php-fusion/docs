@@ -16,7 +16,7 @@ $array \(array\) \(Required\) Results from [dbquery\_tree\(\)](dbquery_tree.md).
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 $array = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

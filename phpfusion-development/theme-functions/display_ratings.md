@@ -16,7 +16,7 @@ $total\_votes \(int\) \(Required\) Total number of votes.
 
 $link \(string\) \(Optional\) Make item clickable. Default value: null
 
-$class \(string\) \(Optional\) CSS class for link. Default value: null
+$class \(string\) \(Optional\) CSS class for the link. Default value: null
 
 $mode \(int\) \(Optional\) Show 2 out of 10 or 2/10 rating. Possible value: 1, 2. Default value: 1
 
@@ -24,7 +24,7 @@ $mode \(int\) \(Optional\) Show 2 out of 10 or 2/10 rating. Possible value: 1, 2
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo display_ratings(100, 60);

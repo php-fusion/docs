@@ -16,7 +16,7 @@ $options \(array\) \(Optional\) Options: tab\_nav =&gt; false Default value: \[\
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

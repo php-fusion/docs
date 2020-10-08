@@ -20,7 +20,7 @@ $dir \(bool\) \(Optional\) True if it is the size of a directory. Default value:
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo parsebytesize(52428800);

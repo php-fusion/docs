@@ -16,7 +16,7 @@ $hex \(string\) \(Required\) HEX color code.
 
 \(string\) Color brightness.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'String';

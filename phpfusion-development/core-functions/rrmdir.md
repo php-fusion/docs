@@ -16,7 +16,7 @@ $dir \(string\) \(Required\) Path to the folder.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 rrmdir(IMAGES.'articles');

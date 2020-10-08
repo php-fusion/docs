@@ -16,7 +16,7 @@ No parameters.
 
 \(AbstractDatabaseDriver\)
 
-### **Examples**
+### Examples
 
 ```php
 if (dbconnection()) {

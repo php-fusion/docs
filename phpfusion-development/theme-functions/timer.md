@@ -16,7 +16,7 @@ $time \(int\) \(Optional\) Timestamp or if empty it use time\(\). Default value:
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo timer(1050149787);

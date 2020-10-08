@@ -1,5 +1,5 @@
 ---
-description: Sort tree associative array.
+description: Sort tree an associative array.
 ---
 
 # sorter\(\)
@@ -20,7 +20,7 @@ $sort \(string\) \(Optional\) Default value: ASC
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $array = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

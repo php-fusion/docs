@@ -16,7 +16,7 @@ No parameters.
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 echo days_current_month();

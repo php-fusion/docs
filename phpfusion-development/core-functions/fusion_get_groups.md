@@ -16,7 +16,7 @@ No parameters.
 
 \(array\) Array of all access levels and user groups.
 
-### **Examples**
+### Examples
 
 ```php
 foreach (fusion_get_groups() as $key => $group_name) {

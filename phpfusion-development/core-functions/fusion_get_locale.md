@@ -18,7 +18,7 @@ $include\_file \(string\|array\) \(Optional\) The full path of the file which to
 
 \(array\|string\) Associative array of locales or one locale by key.
 
-### **Examples**
+### Examples
 
 ```php
 $locale = fusion_get_locale();

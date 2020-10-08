@@ -34,10 +34,10 @@ $options \(array\) \(Optional\) Default value: \[\]
 {% endtab %}
 
 {% tab title="Version 10" %}
-In Version 10, the function is further extended to allow more enhanced options features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust. 
+In Version 10, the function is further extended to allow more enhanced options features to handle post and sanitization. This enhancement allows code to be more simplified and be more robust.
 
 {% hint style="warning" %}
-Support feature is currently under development. 
+Support feature is currently under development.
 {% endhint %}
 
 | Name | Type | Default | Description |
@@ -61,7 +61,7 @@ Support feature is currently under development.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo openform('testform', 'post');

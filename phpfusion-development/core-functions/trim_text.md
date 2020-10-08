@@ -18,7 +18,7 @@ $length \(int\) \(Optional\) The number of characters. Default value: 300
 
 \(string\) Trimmed text.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'The big brown fox jumped over the lazy dog';

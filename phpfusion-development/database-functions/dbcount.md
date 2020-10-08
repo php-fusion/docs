@@ -22,7 +22,7 @@ $parameters \(array\) \(Optional\) Parameter identifier. The statement template 
 
 \(int\) The number of rows in the table.
 
-### **Examples**
+### Examples
 
 ```php
 echo dbcount("(field1)", DB_TABLE, "field1='this'");

@@ -16,7 +16,7 @@ $filename \(string\) \(Required\) Filename you want to strip. Remember to remove
 
 \(string\) The filename stripped and ready for use.
 
-### **Examples**
+### Examples
 
 ```php
 $filename = 'I am-Ã… test file!!!??.jpg';

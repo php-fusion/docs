@@ -24,7 +24,7 @@ $http\_query \(string\) \(Optional\) Additional http query. Default value: ''
 
 \(string\) Infinite scroll.
 
-### **Examples**
+### Examples
 
 ```php
 $total_rows = dbcount("(download_id)", DB_DOWNLOADS);
@@ -43,7 +43,7 @@ $limit = 15;
 $rowstart = isset($_GET['rowstart']) ? $_GET['rowstart'] : 0;
 
 $result = dbquery("SELECT *
-    FROM ".DB_DOWNLOADS." 
+    FROM ".DB_DOWNLOADS."
     ORDER BY download_datestamp DESC LIMIT $rowstart, $limit
 ");
 

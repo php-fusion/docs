@@ -20,7 +20,7 @@ $depth \(int\) \(Optional\) Default value: null
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $index = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

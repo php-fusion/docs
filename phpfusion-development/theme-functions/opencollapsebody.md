@@ -24,7 +24,7 @@ $class \(string\) \(Optional\) Panel CSS class. Default value: ''
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $collapse_id = 'test-group';

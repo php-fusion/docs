@@ -1,5 +1,5 @@
 ---
-description: Fetch username by id.
+description: Fetch user name by ID.
 ---
 
 # fusion\_get\_username\(\)
@@ -16,7 +16,7 @@ $user\_id \(int\) \(Required\) User ID.
 
 \(string\) Username.
 
-### **Examples**
+### Examples
 
 ```php
 echo fusion_get_username(1);

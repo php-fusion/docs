@@ -20,7 +20,7 @@ $value\_to\_match \(string\) \(Optional\) Default value: null
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 $data = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

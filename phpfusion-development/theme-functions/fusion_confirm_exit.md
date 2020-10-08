@@ -16,7 +16,7 @@ No parameters.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 fusion_confirm_exit()

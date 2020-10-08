@@ -24,7 +24,7 @@ $key \(string\) \(Optional\) Set getname and turn tabs into link that listens to
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

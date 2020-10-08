@@ -1,6 +1,6 @@
 ---
 description: >-
-  Closes a an open side panel which is using the openside function. The function
+  Closes an open side panel which is using the openside function. The function
   is defined in the theme.php and is different from theme to theme.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-openside \( void \) : string
+closeside\( void \) : string
 
 ### Parameters <a id="parameters"></a>
 
@@ -18,7 +18,7 @@ No parameters.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 function closeside() {

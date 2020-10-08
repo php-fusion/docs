@@ -20,7 +20,7 @@ $negative \(bool\) \(Optional\) Negative numbers. Default value: false
 
 \(bool\) True if the value is a number.
 
-### **Examples**
+### Examples
 
 ```php
 $value = 'abc123';

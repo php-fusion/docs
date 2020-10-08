@@ -20,7 +20,7 @@ $form \(string\) \(Optional\) The form id in which the textarea is located. Defa
 
 \(string\) Option for users to insert smileys in a post by displaying the smiley's button.
 
-### **Examples**
+### Examples
 
 ```php
 echo openform('testform', 'post');

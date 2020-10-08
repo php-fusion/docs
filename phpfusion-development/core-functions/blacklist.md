@@ -16,7 +16,7 @@ $field \(string\) \(Required\) User ID field.
 
 \(string\) It can return an empty condition if the user\_blacklist field is not installed.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT user_id, user_name

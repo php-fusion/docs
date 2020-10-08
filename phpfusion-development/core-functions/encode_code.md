@@ -16,7 +16,7 @@ $text \(string\) \(Required\) String with code.
 
 \(string\) Encoded and formatted code.
 
-### **Examples**
+### Examples
 
 ```php
 $text = '<code><!DOCTYPE html>

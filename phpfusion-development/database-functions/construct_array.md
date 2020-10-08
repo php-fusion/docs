@@ -1,5 +1,5 @@
 ---
-description: Short hand to explode strings to array by using commas.
+description: Shorthand to explode strings to array by using commas.
 ---
 
 # construct\_array\(\)
@@ -18,9 +18,9 @@ $delimiter \(string\) \(Optional\) Default value: ,
 
 ### Return Values
 
-\(array\) 
+\(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $array = construct_array('a,b,c,d');

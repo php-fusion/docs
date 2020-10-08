@@ -16,7 +16,7 @@ $userlevel \(int\) \(Required\) Level code.
 
 \(string\|null\) The name of the given user level, null if does not exist.
 
-### **Examples**
+### Examples
 
 ```php
 echo getuserlevel(-102);

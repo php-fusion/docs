@@ -16,7 +16,7 @@ $table\_id \(string\) \(Required\) The ID of the table.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 fusion_sort_table('test_table');

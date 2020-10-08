@@ -16,7 +16,7 @@ $db \(string\) \(Required\) Table name.
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $fields = fieldgenerator(DB_NEWS_CATS);

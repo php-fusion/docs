@@ -32,9 +32,9 @@ $mode \(string\) \(Optional\) Possible value: save, update, delete. Default valu
 
 ### Return Values
 
-\(mixed\) 
+\(mixed\)
 
-### **Examples**
+### Examples
 
 ```php
 dbquery_order(DB_PHOTOS, $data['photo_order'], 'photo_order', $data['photo_id'], 'photo_id', NULL, NULL, FALSE, '', 'update');

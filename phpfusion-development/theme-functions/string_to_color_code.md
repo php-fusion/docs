@@ -16,7 +16,7 @@ $text \(string\) \(Required\) Any string.
 
 \(string\) HEX color code.
 
-### **Examples**
+### Examples
 
 ```php
 echo string_to_color_code('String');

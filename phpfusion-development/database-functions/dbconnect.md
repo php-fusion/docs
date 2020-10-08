@@ -26,7 +26,7 @@ $halt\_on\_error \(bool\) \(Optional\) If it is true, the script will halt in ca
 
 \(array\) Returns a MySQL link identifier on success, or "Unable to establish connection to MySQL" on failure.
 
-### **Examples**
+### Examples
 
 ```php
 // Establish mySQL database connection

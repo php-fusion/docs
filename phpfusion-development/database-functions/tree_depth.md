@@ -22,7 +22,7 @@ $depth \(int\) \(Optional\) Default value: 1
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 $data = dbtree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

@@ -18,7 +18,7 @@ $row \(int\) \(Required\) The row number from the result that's being retrieved.
 
 \(string\|bool\) The contents of one column from a MySQL result set or false on failure.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT user_name FROM ".DB_USERS);

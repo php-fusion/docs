@@ -18,7 +18,7 @@ $dismiss \(bool\) \(Optional\) Enable dismissal of modal. Default value: false
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo openmodal('test_modal', 'Title', ['button_id' => 'modal_testing']);

@@ -16,7 +16,7 @@ $url \(string\) \(Required\) URL.
 
 \(string\) $url clean and ready for use XHTML strict and without any dangerous code.
 
-### **Examples**
+### Examples
 
 ```php
 $url = 'http://example.com/?this=that&that=this<&tagg>';

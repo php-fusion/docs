@@ -16,7 +16,7 @@ $result \(string\) \(Required\) The query resource that is being evaluated. This
 
 \(int\) The number of rows in a result set or false on failure.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT * FROM ".DB_TABLE);

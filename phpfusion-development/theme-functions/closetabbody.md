@@ -16,7 +16,7 @@ No parameters.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

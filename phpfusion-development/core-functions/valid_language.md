@@ -18,7 +18,7 @@ $file\_check \(bool\) \(Optional\) Intended to be used when enabling languages i
 
 \(bool\)
 
-### **Examples**
+### Examples
 
 ```php
 if (valid_language('English')) {

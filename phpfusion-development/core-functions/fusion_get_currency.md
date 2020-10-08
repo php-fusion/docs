@@ -18,7 +18,7 @@ $description \(bool\) \(Optional\) Set to false for just symbol. Default value: 
 
 \(array\|string\) Array of currencies or string with one currency.
 
-### **Examples**
+### Examples
 
 ```php
 $currency = fusion_get_currency();

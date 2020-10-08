@@ -20,7 +20,7 @@ $id\_col \(string\) \(Required\) ID column.
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

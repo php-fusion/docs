@@ -20,7 +20,7 @@ $flags \(int\) \(optional\) Default value: null
 
 \(int\) Number of written bytes.
 
-### **Examples**
+### Examples
 
 ```php
 $data = 'data...';

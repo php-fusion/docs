@@ -27,9 +27,10 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 ### Return Values
 
-\(int\|false\) If an error happens, it returns false. Otherwise, if $mode is save and the primary key column is incremented automatically, this function returns the last inserted id. In other cases it always returns 0.
+\(int\|false\) If an error happens, it returns false.
+ Otherwise, if $mode is save, and the primary key column is incremented automatically, this function returns the last inserted id. In other cases it always returns 0.
 
-### **Examples**
+### Examples
 
 ```php
 $inputdata = [

@@ -16,7 +16,7 @@ $code \(int\) \(Required\) Status header code.
 
 \(bool\)
 
-### **Examples**
+### Examples
 
 ```php
 set_status_header(200);

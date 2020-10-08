@@ -16,7 +16,7 @@ $group \(int\) \(Required\) The group number you want to check for the user.
 
 \(bool\) True if the user is in the group.
 
-### **Examples**
+### Examples
 
 ```php
 $group = -101;

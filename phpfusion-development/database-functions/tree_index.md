@@ -16,7 +16,7 @@ $data \(array\) \(Required\) Array generated from [dbquery\_tree\_full\(\)](dbqu
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $data = dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');
@@ -31,7 +31,6 @@ Array
             [2] => 3
             ....
         )
-
 )
 */
 ```

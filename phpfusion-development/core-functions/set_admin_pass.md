@@ -1,5 +1,5 @@
 ---
-description: Set password of the currently logged in administrator.
+description: Set password of the currently logged in an administrator.
 ---
 
 # set\_admin\_pass\(\)
@@ -18,7 +18,7 @@ $password \(string\) \(Required\) Any password.
 
 \(bool\) True if a password is set.
 
-### **Examples**
+### Examples
 
 ```php
 set_admin_pass('SECRET_PASSWORD');

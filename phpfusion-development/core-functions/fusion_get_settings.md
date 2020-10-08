@@ -16,7 +16,7 @@ $key \(string\) \(Optional\) The key of one setting. Default value: null
 
 \(array\|string\) Associative array of settings or one setting by key.
 
-### **Examples**
+### Examples
 
 ```php
 $settings = fusion_get_settings();

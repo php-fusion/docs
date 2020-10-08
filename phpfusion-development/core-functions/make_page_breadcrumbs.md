@@ -26,7 +26,7 @@ $key \(string\) \(Optional\) Key for breadcrumb instance. Default value: default
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 $tree_index = tree_index(dbquery_tree_full(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent'));

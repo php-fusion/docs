@@ -18,9 +18,9 @@ $add\_prefix \(bool\) \(Optional\) Delimiter. Default value: true
 
 ### Return Values
 
-\(bool\) 
+\(bool\)
 
-### **Examples**
+### Examples
 
 ```php
 if (column_exists(DB_USERS, 'user_name')) {

@@ -18,7 +18,7 @@ $selected \(string\) \(Optional\) The item in the options that you want to selec
 
 \(string\) Array as a list of options for a select.
 
-### **Examples**
+### Examples
 
 ```php
 echo '<select>';

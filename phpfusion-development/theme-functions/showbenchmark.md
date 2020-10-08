@@ -18,7 +18,7 @@ $performance\_threshold \(string\) \(Optional\) Results that are slower than thi
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showBenchmark();

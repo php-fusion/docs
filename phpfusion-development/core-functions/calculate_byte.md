@@ -16,7 +16,7 @@ $total\_bit \(int\) \(Required\) Number of bytes.
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 echo calculate_byte(15728640);

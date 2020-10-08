@@ -18,7 +18,7 @@ $child\_id \(int\) \(Required\) Child ID.
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 $index = dbquery_tree(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

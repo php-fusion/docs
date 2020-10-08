@@ -16,7 +16,7 @@ No parameters.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showprivacypolicy();

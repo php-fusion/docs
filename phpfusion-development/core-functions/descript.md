@@ -1,5 +1,5 @@
 ---
-description: Sanitize text and remove potentially dangerous HTML and JavaScript.
+description: Sanitize text and remove a potentially dangerous HTML and JavaScript.
 ---
 
 # descript\(\)
@@ -20,7 +20,7 @@ $strip\_scripts \(bool\) \(Optional\) Removes &lt;script&gt; tags. Default value
 
 \(string\) Sanitized and safe string.
 
-### **Examples**
+### Examples
 
 ```php
 $text = 'Text <a href="javascript:function()">click</a> <i onload=xss></i> <script>javascript code</script>';

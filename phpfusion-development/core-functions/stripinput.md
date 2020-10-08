@@ -16,7 +16,7 @@ $text \(mixed\) \(Required\) String or array to be stripped.
 
 \(mixed\) The given string decoded as non HTML text.
 
-### **Examples**
+### Examples
 
 ```php
 $text = '<a href="www.example.com"><strong>Here is a site</strong></a>';

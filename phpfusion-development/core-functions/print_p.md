@@ -20,7 +20,7 @@ $print \(bool\) \(Optional\) Dump info in &lt;pre&gt; tag. Default value: true
 
 \(string\) The value of the variable.
 
-### **Examples**
+### Examples
 
 ```php
 $data = [

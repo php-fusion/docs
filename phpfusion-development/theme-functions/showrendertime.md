@@ -16,7 +16,7 @@ $queries \(bool\) \(Optional\) The number of queries used on the current page. D
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showrendertime();

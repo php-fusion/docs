@@ -16,7 +16,7 @@ $theme\_folder \(string\) \(Required\) The name of the theme folder.
 
 \(array\|false\) Associative array of settings or false if is empty.
 
-### **Examples**
+### Examples
 
 ```php
 $theme_settings = get_theme_settings('my_theme');

@@ -16,7 +16,7 @@ $table \(string\) \(Required\) Database table.
 
 \(int\)
 
-### **Examples**
+### Examples
 
 ```php
 echo dbnextid(DB_TABLE);

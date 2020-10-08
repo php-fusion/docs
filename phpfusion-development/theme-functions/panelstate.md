@@ -20,7 +20,7 @@ $element \(string\) \(Optional\) Element name. Default value: div
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 function openside($title = FALSE, $class = '', $state = 'on') {
@@ -32,7 +32,7 @@ function openside($title = FALSE, $class = '', $state = 'on') {
         echo $title;
         echo '<div class="pull-right">'.panelbutton($state, $boxname).'</div>';
     echo '</div>';
-    
+
     echo panelstate($state, $boxname);
 
     echo '<div class="panel-body">';

@@ -16,7 +16,7 @@ $theme \(string\) \(Required\) The theme folder you want to set.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 set_theme('my_theme');

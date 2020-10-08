@@ -16,7 +16,7 @@ $code \(string\) \(Required\) Unminified code.
 
 \(string\) Minified code.
 
-### **Examples**
+### Examples
 
 ```php
 echo jsminify('

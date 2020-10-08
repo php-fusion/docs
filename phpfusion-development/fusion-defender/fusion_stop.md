@@ -16,7 +16,7 @@ PHPFusion uses a `FUSION_NULL` constant to indicate there is a impending error t
 
 When validation fails in a particular subset of inputs, other functions built into deep sensing of the declaration of `FUSION_NULL` constant will stop its intended function execution. This is particularly useful when developers intend to stop something from happening should such constant is being declared.
 
-Declares FUSION\_NULL in the PHPFusion system. Some of the important components that is built to sense `FUSION_NULL` are:
+Declares FUSION\_NULL in the PHP-Fusion system. Some important components that is built to sense `FUSION_NULL` are:
 
 * dbquery\_insert
 * fusion\_safe

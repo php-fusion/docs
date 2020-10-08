@@ -18,7 +18,7 @@ $prefix\_ \(string\) \(Optional\) Image folder. Default value: IMAGES
 
 \(string\) Parsed string.
 
-### **Examples**
+### Examples
 
 ```php
 $data = 'Text <img src="images/img.png" alt="img">';

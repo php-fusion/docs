@@ -23,7 +23,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo label('Default');

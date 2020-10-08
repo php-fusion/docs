@@ -20,7 +20,7 @@ $debug \(bool\) \(Optional\) For debugging purposes. Default value: false
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 // Paste the code after maincore.php

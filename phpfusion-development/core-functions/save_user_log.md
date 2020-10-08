@@ -22,7 +22,7 @@ $old\_value \(string\) \(Required\) Old value.
 
 No value is returned.
 
-### **Examples**
+### Examples
 
 ```php
 $userdata = fusion_get_userdata();

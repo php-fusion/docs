@@ -26,7 +26,7 @@ $class \(string\) \(Optional\) CSS class. Default value: ''
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo thumbnail(IMAGES.'php-fusion-logo.png', '100px');

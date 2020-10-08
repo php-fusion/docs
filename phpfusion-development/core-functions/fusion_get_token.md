@@ -18,7 +18,7 @@ $max\_tokens \(int\) \(Optional\) Max tokens. Default value: 5
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo fusion_get_token('fusionform', 5);

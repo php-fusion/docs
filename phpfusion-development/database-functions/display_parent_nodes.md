@@ -22,7 +22,7 @@ $id \(int\) \(Required\)
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 //

@@ -16,7 +16,7 @@ $id \(string\) \(Required\) Unique accordion ID.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $collapse_id = 'test-group';

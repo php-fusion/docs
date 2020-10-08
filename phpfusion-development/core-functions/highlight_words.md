@@ -18,7 +18,7 @@ $subject \(string\) \(Required\) Text that contains a word \(s\) that should be 
 
 \(string\) Words highlighted in the string.
 
-### **Examples**
+### Examples
 
 ```php
 $words = ['lemon', 'banana'];

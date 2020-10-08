@@ -22,7 +22,7 @@ $... \(mixed\) \(optional\) Zero or more parameters to be passed. You can add yo
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 function openside($title = FALSE, $class = '') {
@@ -31,7 +31,7 @@ function openside($title = FALSE, $class = '') {
     echo '<div class="panel-heading">';
     echo $title;
     echo '</div>';
-    
+
     echo '<div class="panel-body">';
 }
 ```

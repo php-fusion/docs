@@ -1,5 +1,5 @@
 ---
-description: Display the sitebanner you specify through the Banner Management.
+description: Display the site banner you specify through the Banner Management.
 ---
 
 # showbanners\(\)
@@ -16,7 +16,7 @@ $display \(int\) \(Optional\) Possible value: 1, 2. If empty it shows banner 1. 
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showbanners();

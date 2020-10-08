@@ -16,9 +16,9 @@ $test \(string\) \(Required\)
 
 ### Return Values
 
-\(string\) 
+\(string\)
 
-### **Examples**
+### Examples
 
 ```php
 search_field(['admin_title', 'admin_link'], 'ac c d ghi')

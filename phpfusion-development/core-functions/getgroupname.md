@@ -20,7 +20,7 @@ $return\_icon \(bool\) \(Optional\) If true, icon will be returned next to name.
 
 \(string\|null\) The name or icon or description of the given group, null if does not exist.
 
-### **Examples**
+### Examples
 
 ```php
 echo getgroupname(1, false, true);

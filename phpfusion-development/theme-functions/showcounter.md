@@ -18,7 +18,7 @@ No parameters.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo showcounter();

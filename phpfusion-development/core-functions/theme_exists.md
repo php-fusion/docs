@@ -16,7 +16,7 @@ $theme \(string\) \(Required\) The theme folder you want to check.
 
 \(bool\) False if the theme does not exist and true if it does.
 
-### **Examples**
+### Examples
 
 ```php
 if (!theme_exists('my_theme')) {

@@ -16,7 +16,7 @@ $time \(int\) \(Required\) Timestamp.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo countdown(1602164052);

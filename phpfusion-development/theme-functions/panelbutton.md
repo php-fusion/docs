@@ -1,5 +1,5 @@
 ---
-description: Show the collapse or expand button for panels which are collapsible.
+description: Show the collapse or expand a button for panels which are collapsible.
 ---
 
 # panelbutton\(\)
@@ -18,7 +18,7 @@ $bname \(string\) \(Required\) Button name.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 function openside($title = FALSE, $class = '', $state = 'on') {
@@ -30,7 +30,7 @@ function openside($title = FALSE, $class = '', $state = 'on') {
         echo $title;
         echo '<div class="pull-right">'.panelbutton($state, $boxname).'</div>';
     echo '</div>';
-    
+
     echo panelstate($state, $boxname);
 
     echo '<div class="panel-body">';

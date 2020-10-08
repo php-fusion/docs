@@ -24,7 +24,7 @@ $display\_link \(bool\) \(Optional\) Allow clicking on the name, otherwise displ
 
 \(string\) Link to the user's account along with the user name correctly depending on the user's status.
 
-### **Examples**
+### Examples
 
 ```php
 $userdata = fusion_get_userdata();

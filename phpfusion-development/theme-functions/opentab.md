@@ -20,7 +20,7 @@ $link \(bool\) \(Optional\) False for jquery, true for php \(will reload page\).
 
 $class \(string\) \(Optional\) CSS class for the nav. Default value: ''
 
-$getname \(string\) \(Optional\) Set getname and turn tabs into link that listens to getname. Default value: section
+$getname \(string\) \(Optional\) Set getname and turn tabs into the link that listens to getname. Default value: section
 
 $cleanup\_GET \(array\) \(Optional\) The request key that needs to be deleted. Default value: \[\]
 
@@ -30,7 +30,7 @@ $remember \(bool\) \(Optional\) Set to true to automatically remember tab using 
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 $tab_title['title'][] = 'Tab 1';

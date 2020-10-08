@@ -28,7 +28,7 @@ $button \(bool\) \(Optional\) Displays as button. Default value: false
 
 \(string\|bool\) HTML navigation. False if $count is invalid.
 
-### **Examples**
+### Examples
 
 ```php
 $limit = 15;
@@ -36,7 +36,7 @@ $total_rows = dbcount("(download_id)", DB_DOWNLOADS);
 $rowstart = isset($_GET['rowstart']) && isnum($_GET['rowstart']) && ($_GET['rowstart'] <= $total_rows) ? $_GET['rowstart'] : 0;
 
 $result = dbquery("SELECT *
-    FROM ".DB_DOWNLOADS." 
+    FROM ".DB_DOWNLOADS."
     ORDER BY download_datestamp DESC LIMIT $rowstart, $limit
 ");
 

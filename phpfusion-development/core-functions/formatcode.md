@@ -16,7 +16,7 @@ $text \(string\) \(Required\) The text you want to format.
 
 \(string\) Formatted code.
 
-### **Examples**
+### Examples
 
 ```php
 $text = '   Indent goes here.';

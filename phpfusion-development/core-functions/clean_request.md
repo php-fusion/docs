@@ -20,7 +20,7 @@ $keep\_filtered \(bool\) \(Optional\) True to keep filter, false to remove filte
 
 \(string\) Request URI.
 
-### **Examples**
+### Examples
 
 ```php
 // Original URI http://example.com/test.php?test=123

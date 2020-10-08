@@ -16,7 +16,7 @@ $message  \(string\) \(Required\) A string that should have parsed smileys.
 
 \(string\) String with parsed smiley codes as smiley images ready for display.
 
-### **Examples**
+### Examples
 
 ```php
 $message = "Here is a text :) with some smiley's in it :D.";

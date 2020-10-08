@@ -14,9 +14,9 @@ $file \(string\) \(Required\) Path to image.
 
 ### Return Values
 
-\(bool\) True or false depending if the image is safe or not.
+\(bool\) True or false, depending on whether the image is safe or not.
 
-### **Examples**
+### Examples
 
 ```php
 $file = IMAGES.'php-fusion-logo.png';

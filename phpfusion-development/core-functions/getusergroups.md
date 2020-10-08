@@ -16,9 +16,9 @@ No parameters.
 
 ### Return Values
 
-\(array\) Array of all acess levels and user groups.
+\(array\) Array of all access levels and user groups.
 
-### **Examples**
+### Examples
 
 ```php
 foreach (getusergroups() as $group) {

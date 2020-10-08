@@ -14,9 +14,9 @@ $rights \(string\) \(Required\) Multilang rights.
 
 ### Return Values
 
-\(bool\) 
+\(bool\)
 
-### **Examples**
+### Examples
 
 ```php
 if (multilang_table('AR')) {

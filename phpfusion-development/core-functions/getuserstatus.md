@@ -16,7 +16,7 @@ $userstatus \(int\) \(Required\) Status code 0 - 8.
 
 \(string\|null\) The name of the given user status, null if does not exist.
 
-### **Examples**
+### Examples
 
 ```php
 echo getuserstatus(5);

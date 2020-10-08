@@ -29,7 +29,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo social_media_links('http://example.com/');

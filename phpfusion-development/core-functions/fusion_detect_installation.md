@@ -16,7 +16,7 @@ No parameters.
 
 \(string\) If the system is installed return the config file path.
 
-### **Examples**
+### Examples
 
 ```php
 fusion_detect_installation();

@@ -16,7 +16,7 @@ $length \(int\) \(Optional\) The length of the string. Default value: 6
 
 \(string\) Generated string.
 
-### **Examples**
+### Examples
 
 ```php
 echo random_string(10);

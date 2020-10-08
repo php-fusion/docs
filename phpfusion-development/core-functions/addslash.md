@@ -16,7 +16,7 @@ $text \(string\) \(Required\) Text to which slashes should be added.
 
 \(string\) String with the correct number of slashes.
 
-### **Examples**
+### Examples
 
 ```php
 $text = "Is your name O'reilly?";

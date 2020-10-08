@@ -14,9 +14,9 @@ $result \(string\) \(Required\) The query resource that is being evaluated. This
 
 ### Return Values
 
-\(array\) Returns an numerical array of strings that corresponds to the fetched row.
+\(array\) Returns a numerical array of strings that corresponds to the fetched row.
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbquery("SELECT * FROM ".DB_TABLE);

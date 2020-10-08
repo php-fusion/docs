@@ -14,9 +14,9 @@ $array \(array\) \(Required\) Multidimensional array.
 
 ### Return Values
 
-\(array\) 
+\(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $array[] = [

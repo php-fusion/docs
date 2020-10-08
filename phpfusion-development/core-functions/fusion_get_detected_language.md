@@ -16,7 +16,7 @@ No parameters.
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $languages = fusion_get_detected_language();

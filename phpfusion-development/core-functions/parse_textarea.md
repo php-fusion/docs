@@ -28,7 +28,7 @@ $descript \(bool\) \(Optional\) Sanitize text. Default value: true
 
 \(string\) Parsed string.
 
-### **Examples**
+### Examples
 
 ```php
 $value = 'Text :D [url]http://example.com/[/url]';

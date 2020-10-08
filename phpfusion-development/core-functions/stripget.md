@@ -16,7 +16,7 @@ $check\_url \(string\) \(Required\) String or array to be stripped.
 
 \(bool\) True if the URL is not secure.
 
-### **Examples**
+### Examples
 
 ```php
 if (stripget($_GET)) {

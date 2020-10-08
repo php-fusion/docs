@@ -12,7 +12,8 @@ The Dynamics Form Fileinput initializes a Jquery based fileinput component wrapp
 
 ### Parameters <a id="parameters"></a>
 
-$input\_name \(string\) \(Required\) Name of the input, by default it's also used as the ID for the input.
+$input\_name \(string\) \(Required\) Name of the input, by
+ default it's also used as the ID for the input.
 
 $label \(string\) \(Optional\) Input label. Default value: ''
 
@@ -313,7 +314,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo form_fileinput('upload_field', 'Upload Field');

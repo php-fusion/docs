@@ -16,7 +16,7 @@ $text \(string\) \(Required\) The input string.
 
 \(string\) Encoded string.
 
-### **Examples**
+### Examples
 
 ```php
 $text = "A 'quote' is <b>bold</b>";

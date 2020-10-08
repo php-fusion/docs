@@ -16,7 +16,7 @@ No parameters.
 
 \(array\) Array of all user groups.
 
-### **Examples**
+### Examples
 
 ```php
 foreach (cache_groups() as $group) {

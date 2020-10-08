@@ -18,7 +18,7 @@ $key \(string\) \(Required\) Key.
 
 \(array\)
 
-### **Examples**
+### Examples
 
 ```php
 $result = dbtree_index(DB_NEWS_CATS, 'news_cat_id', 'news_cat_parent');

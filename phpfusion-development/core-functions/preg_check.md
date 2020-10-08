@@ -18,7 +18,7 @@ $value \(mixed\) \(Required\) The input string.
 
 \(bool\) False when value is an array.
 
-### **Examples**
+### Examples
 
 ```php
 $value = 'abc123';

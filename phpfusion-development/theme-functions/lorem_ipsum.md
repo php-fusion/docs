@@ -16,7 +16,7 @@ $length \(int\) \(Required\) String length.
 
 \(string\)
 
-### **Examples**
+### Examples
 
 ```php
 echo lorem_ipsum(100);
