@@ -6,11 +6,11 @@ description: Check multilang tables.
 
 Versions: `9`
 
-multilang\_table\( string $table \) : bool
+multilang\_table\( string $rights \) : bool
 
 ### Parameters <a id="parameters"></a>
 
-$table \(string\) \(Required\) Multilang rights.
+$rights \(string\) \(Required\) Multilang rights.
 
 ### Return Values
 
