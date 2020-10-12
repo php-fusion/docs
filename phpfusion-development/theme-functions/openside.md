@@ -8,7 +8,7 @@ description: >-
 
 Versions: `9`
 
-openside \( string $title \[, string $class, mixed $... \] \) : string
+openside\( string $title \[, string $class, mixed $... \] \) : string
 
 ## Parameters <a id="parameters"></a>
 
