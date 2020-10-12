@@ -91,7 +91,6 @@
 * [Database functions](phpfusion-development/database-functions/README.md)
   * [array\_depth\(\)](phpfusion-development/database-functions/array_depth.md)
   * [column\_exists\(\)](phpfusion-development/database-functions/column_exists.md)
-  * [construct\_array\(\)](phpfusion-development/database-functions/construct_array.md)
   * [db\_exists\(\)](phpfusion-development/database-functions/db_exists.md)
   * [dbarray\(\)](phpfusion-development/database-functions/dbarray.md)
   * [dbarraynum\(\)](phpfusion-development/database-functions/dbarraynum.md)
