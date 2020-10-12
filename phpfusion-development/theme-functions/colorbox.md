@@ -30,3 +30,7 @@ $as\_text \(bool\) \(Optional\) Show clickable text instead image. Default value
 echo colorbox(IMAGES.'php-fusion-logo.png', 'Logo');
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

@@ -23,3 +23,7 @@ echo timer(1050149787);
 // <abbr class='atooltip' data-toggle='tooltip' data-placement='top' title='April 12 2003 14:16:27'>17 years ago</abbr>
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

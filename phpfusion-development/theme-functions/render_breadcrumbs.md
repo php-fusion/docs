@@ -22,3 +22,7 @@ $key \(string\) \(Optional\) Default value: default
 echo render_breadcrumbs();
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

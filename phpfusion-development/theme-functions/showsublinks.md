@@ -53,3 +53,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 echo showsublinks();
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

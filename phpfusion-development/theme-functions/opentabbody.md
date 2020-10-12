@@ -50,3 +50,7 @@ echo closetabbody();
 echo closetab();
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

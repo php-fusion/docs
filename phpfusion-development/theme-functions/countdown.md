@@ -23,3 +23,7 @@ echo countdown(1602164052);
 // <abbr class='atooltip' data-toggle='tooltip' data-placement='top' title='~October 08 2020'>3 days</abbr>
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

@@ -38,3 +38,7 @@ echo closemodal();
 echo '<button type="button" id="modal_testing">Open modal</button>';
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

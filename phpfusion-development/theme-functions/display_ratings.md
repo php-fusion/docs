@@ -31,3 +31,7 @@ echo display_ratings(100, 60);
 // 1.67 out of 60 ratings
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

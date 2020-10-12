@@ -33,3 +33,7 @@ echo closecollapsebody();
 echo closecollapse();
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

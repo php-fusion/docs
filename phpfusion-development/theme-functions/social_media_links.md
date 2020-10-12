@@ -35,3 +35,7 @@ $options \(array\) \(Optional\) Default value: \[\]
 echo social_media_links('http://example.com/');
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

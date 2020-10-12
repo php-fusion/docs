@@ -32,3 +32,7 @@ $class \(string\) \(Optional\) CSS class. Default value: ''
 echo thumbnail(IMAGES.'php-fusion-logo.png', '100px');
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

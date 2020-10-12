@@ -46,3 +46,7 @@ echo progress_bar(64);
 echo progress_bar([64, 55], ['Progress 1', 'Progress 2']);
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

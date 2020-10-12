@@ -23,3 +23,7 @@ echo showlogo();
 // <div class='logo'><a href='home.php' title='PHP-Fusion 9'><img src='images/php-fusion-logo.png' alt='Logo'></a></div>
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

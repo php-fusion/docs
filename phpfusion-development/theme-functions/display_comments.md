@@ -29,3 +29,7 @@ echo display_comments(100);
 // 100 comments
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

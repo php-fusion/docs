@@ -22,3 +22,7 @@ No value is returned.
 fusion_confirm_exit()
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

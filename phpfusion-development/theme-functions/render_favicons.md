@@ -26,3 +26,7 @@ echo render_favicons();
 This function is used in layout.php so basically there is no need to call this function manually.
 {% endhint %}
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

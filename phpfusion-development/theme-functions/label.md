@@ -30,3 +30,7 @@ echo label('Default');
 // <span class='label label-default'>Default</span>
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

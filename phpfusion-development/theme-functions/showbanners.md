@@ -25,3 +25,7 @@ echo showbanners(2);
 // Banner 2 content
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

@@ -33,3 +33,7 @@ $userdata = fusion_get_userdata();
 echo display_avatar($userdata, '40px');
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

@@ -24,3 +24,7 @@ if (check_panel_status('left')) {
 }
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

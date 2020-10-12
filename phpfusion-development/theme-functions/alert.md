@@ -30,3 +30,7 @@ echo alert('This is a danger alert!');
 // <div class='alert alert-danger'>This is a danger alert!</div>
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

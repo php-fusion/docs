@@ -23,3 +23,7 @@ echo days_current_month();
 // 31
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

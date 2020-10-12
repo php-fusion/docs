@@ -22,3 +22,7 @@ $tooltip \(string\) \(Required\) The tooltip content.
 This is callback function for [fusion\_parse\_user\(\)](../core-functions/fusion_parse_user.md).
 {% endhint %}
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+

@@ -23,3 +23,7 @@ echo lorem_ipsum(100);
 // Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam felis nunc, in dignissim...
 ```
 
+{% hint style="success" %}
+This function can be overridden in your theme.
+{% endhint %}
+
