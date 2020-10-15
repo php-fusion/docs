@@ -23,7 +23,3 @@ $theme_settings = get_theme_settings('my_theme');
 echo $theme_settings['facebook_url'];
 ```
 
-{% hint style="success" %}
-This function can be overridden in your theme.
-{% endhint %}
-
