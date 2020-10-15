@@ -12,7 +12,7 @@ uncompressIPv6\( string $ip \[, int $count \] \) : string
 
 $ip \(string\) \(Required\) IPv6 address to convert.
 
-$count \(int\) \(Optional\) This parameter shows how many : are in the full length version. Note: IPv6 address has 7 of them, but the mixed \(IPv6 and IPv4\) address has only 5. Default value: 7
+$count \(int\) \(Optional\) This parameter shows how many : are in the full length version. Note: IPv6 address has 7 of them, but the mixed \(IPv6 and IPv4\) address has only 5. Default value: 7
 
 ## Return Values
 

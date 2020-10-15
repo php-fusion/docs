@@ -22,7 +22,7 @@ $atts \(string\) \(Optional\) Custom attributes of the image. Default value: ''
 
 ## Return Values
 
-\(string\) The path of the image if the first argument is given, but others not. Otherwise &lt;img&gt; tag.
+\(string\) The path of the image if the first argument is given, but others not. Otherwise &lt;img&gt; tag.
 
 ## Examples
 
