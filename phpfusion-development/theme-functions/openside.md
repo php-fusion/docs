@@ -8,15 +8,15 @@ description: >-
 
 Versions: `9`
 
-openside\( string $title \[, string $class, mixed $... \] \) : string
+openside\( \[ string $title, string $class, mixed $... \] \) : string
 
 ## Parameters <a id="parameters"></a>
 
-$title \(string\) \(Required\) Panel title.
+$title \(string\) \(Optional\) Panel title. Default value: null
 
-$class \(string\) \(optional\) CSS class. Default value: ''
+$class \(string\) \(Optional\) CSS class. Default value: ''
 
-$... \(mixed\) \(optional\) Zero or more parameters to be passed. You can add your own parameters to be used in the theme.
+$... \(mixed\) \(Optional\) Zero or more parameters to be passed. You can add your own parameters to be used in the theme.
 
 ## Return Values
 
@@ -25,7 +25,7 @@ $... \(mixed\) \(optional\) Zero or more parameters to be passed. You can add yo
 ## Examples
 
 ```php
-function openside($title = FALSE, $class = '') {
+function openside($title = NULL, $class = '') {
     echo '<div class="panel panel-default '.$class.'">';
 
     echo '<div class="panel-heading">';
