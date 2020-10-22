@@ -30,7 +30,7 @@ if (isset($_POST['submit_for'])) {
 
     if (iGUEST) {
         $_CAPTCHA_IS_VALID = FALSE;
-        include INCLUDES.'captchas/'.fusion_get_settings('captcha').'/captcha_check.php';
+        include INCLUDES.'captchas/'.$settings['captcha'].'/captcha_check.php';
         if (!$_CAPTCHA_IS_VALID) {
             fusion_stop();
         }

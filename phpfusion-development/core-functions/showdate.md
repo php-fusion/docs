@@ -14,7 +14,7 @@ $format \(string\) \(Required\) Possible value: shortdate, longdate, forumdate, 
 
 $val \(int\) \(Required\) Unix timestamp.
 
-$options \(array\) \(Optional\) Possible values tz\_override.
+$options \(array\) \(Optional\) Possible values tz\_override. Default value: \[\]
 
 ## Return Values
 
