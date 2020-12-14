@@ -6,7 +6,7 @@ description: Get the last inserted auto_increment id.
 
 Versions: `9`
 
-dbnextid\( void \) : int
+dblastid\( void \) : int
 
 ## Parameters <a id="parameters"></a>
 
@@ -19,6 +19,7 @@ No parameters.
 ## Examples
 
 ```php
+dbquery("");
 echo dblastid();
 ```
 
