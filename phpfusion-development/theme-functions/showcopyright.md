@@ -24,6 +24,6 @@ $nobreak \(bool\) \(Optional\) If true &lt;br&gt; tag will be removed between co
 
 ```php
 echo showcopyright();
-// Powered by <a href='https://www.phpfusion.com'>PHP-Fusion</a> Copyright &copy; 2020 PHP-Fusion Inc<br />Released as free software without warranties under <a href='https://www.gnu.org/licenses/agpl-3.0.html' target='_blank'>GNU Affero GPL</a> v3.
+// Powered by <a href='https://www.phpfusion.com'>PHP-Fusion</a> Copyright &copy; 2020 PHP Fusion Inc<br />Released as free software without warranties under <a href='https://www.gnu.org/licenses/agpl-3.0.html' target='_blank'>GNU Affero GPL</a> v3.
 ```
 
