@@ -1,7 +1,7 @@
 ---
 description: >-
   In this tutorial, we will be making a custom inventory database for real
-  estate listing that you can install into PHP-Fusion 9.
+  estate listing that you can install into PHPFusion 9.
 ---
 
 # Real Estate Listing Addon Tutorial
@@ -10,7 +10,7 @@ description: >-
 
 ### **In this tutorial, we will be discovering**
 
-_\*\*_1. The basic of form handling in version 9 2. The basic of SQL query in version 9 3. Using PHP-Fusion utility functions such as theme and infusion components to assist you with development of this web application. 4. Basic concepts of MVCT. 5. The basics of locale in version 9 6. The basic SDK to follow to make your work into a custom infusion application package. 7. Coding it clean with proper coding standard
+_\*\*_1. The basic of form handling in version 9 2. The basic of SQL query in version 9 3. Using PHPFusion utility functions such as theme and infusion components to assist you with development of this web application. 4. Basic concepts of MVCT. 5. The basics of locale in version 9 6. The basic SDK to follow to make your work into a custom infusion application package. 7. Coding it clean with proper coding standard
 
 ## **Lets get started.**
 

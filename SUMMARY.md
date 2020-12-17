@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 
-## PHP-Fusion Development <a id="phpfusion-development"></a>
+## PHPFusion Development <a id="phpfusion-development"></a>
 
 * [Core functions](phpfusion-development/core-functions/README.md)
   * [addslash\(\)](phpfusion-development/core-functions/addslash.md)

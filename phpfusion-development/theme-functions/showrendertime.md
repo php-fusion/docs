@@ -1,5 +1,5 @@
 ---
-description: Show PHP-Fusion Performance.
+description: Show PHPFusion Performance.
 ---
 
 # showrendertime\(\)

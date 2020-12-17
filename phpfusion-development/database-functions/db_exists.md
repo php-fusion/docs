@@ -10,7 +10,7 @@ db\_exists\( string $table \) : bool
 
 ## Parameters <a id="parameters"></a>
 
-$table \(string\) \(Required\) Table name. However, you can pass the table name with or without a prefix this function only check the prefixed tables of the PHP-Fusion.
+$table \(string\) \(Required\) Table name. However, you can pass the table name with or without a prefix this function only check the prefixed tables of the PHPFusion.
 
 ## Return Values
 

@@ -1,5 +1,5 @@
 ---
-description: Some basic tutorials for PHP-Fusion 9
+description: Some basic tutorials for PHPFusion 9
 ---
 
 # Tutorials
