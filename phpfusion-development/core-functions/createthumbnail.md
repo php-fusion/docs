@@ -29,8 +29,8 @@ $new\_h \(int\) \(Required\) Maximum height for thumbnail image.
 ```php
 require_once INCLUDES.'photo_functions_include.php';
 
-$origfile = IMAGES.'php-fusion-icon.png';
-$thumbfile = IMAGES.'php-fusion-icon_thumb.png';
+$origfile = IMAGES.'phpfusion-icon.png';
+$thumbfile = IMAGES.'phpfusion-icon_thumb.png';
 createthumbnail(3, $origfile, $thumbfile, 100, 100);
 ```
 

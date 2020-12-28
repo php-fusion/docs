@@ -20,7 +20,7 @@ $class \(string\) \(Optional\) CSS class. Default value: logo
 
 ```php
 echo showlogo();
-// <div class='logo'><a href='home.php' title='PHPFusion'><img src='images/php-fusion-logo.png' alt='Logo'></a></div>
+// <div class='logo'><a href='home.php' title='PHPFusion'><img src='images/phpfusion-icon.png' alt='Logo'></a></div>
 ```
 
 {% hint style="success" %}

@@ -23,7 +23,7 @@ $image \(string\) \(Required\) The image inside the directory you want to check 
 ```php
 require_once INCLUDES.'photo_functions_include.php';
 
-echo image_exists(IMAGES, 'php-fusion-icon.png');
-// php-fusion-icon_1.png
+echo image_exists(IMAGES, 'phpfusion-icon.png');
+// phpfusion-icon_1.png
 ```
 

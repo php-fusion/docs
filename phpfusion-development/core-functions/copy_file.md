@@ -23,6 +23,6 @@ $destination \(string\) \(Required\) Destination folder.
 ```php
 require_once INCLUDES.'photo_functions_include.php';
 
-copy_file(IMAGES.'php-fusion-logo.png', IMAGES.'avatars/');
+copy_file(IMAGES.'phpfusion-icon.png', IMAGES.'avatars/');
 ```
 

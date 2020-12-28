@@ -29,7 +29,7 @@ $class \(string\) \(Optional\) CSS class. Default value: ''
 ## Examples
 
 ```php
-echo thumbnail(IMAGES.'php-fusion-logo.png', '100px');
+echo thumbnail(IMAGES.'phpfusion-icon.png', '100px');
 ```
 
 {% hint style="success" %}

@@ -27,7 +27,7 @@ $as\_text \(bool\) \(Optional\) Show clickable text instead image. Default value
 ## Examples
 
 ```php
-echo colorbox(IMAGES.'php-fusion-logo.png', 'Logo');
+echo colorbox(IMAGES.'phpfusion-icon.png', 'Logo');
 ```
 
 {% hint style="success" %}

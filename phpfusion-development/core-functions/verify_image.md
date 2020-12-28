@@ -19,7 +19,7 @@ $file \(string\) \(Required\) Path to image.
 ## Examples
 
 ```php
-$file = IMAGES.'php-fusion-logo.png';
+$file = IMAGES.'phpfusion-icon.png';
 if (verify_image($file)) {
     echo 'The image is safe.';
 } else {

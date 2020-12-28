@@ -21,7 +21,7 @@ $imagePath \(string\) \(Required\) Path to the image.
 ```php
 require_once INCLUDES.'photo_functions_include.php';
 
-$imagePath = IMAGES.'php-fusion-logo.png';
+$imagePath = IMAGES.'phpfusion-icon.png';
 exif($imagePath);
 /*
 Array
@@ -29,7 +29,7 @@ Array
     [width] => 295
     [height] => 99
     [mime] => image/png
-    [channels] => 
+    [channels] =>
     [bits] => 8
     [make] => No information available
     [model] => No information available
